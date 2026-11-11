@@ -338,7 +338,11 @@ def run(dry_run: bool = False, force_window: bool = False) -> None:
     env = read_env()
     sender, pw = env.get("GMAIL_ADDRESS"), env.get("GMAIL_APP_PASSWORD")
     if not (sender and pw):
-        log("No Gmail credentials in mailer/.env. Open the app and tick 'Remember on this computer'.")
+        if IN_CLOUD:
+            log("No Gmail login found. Add the GMAIL_ADDRESS and GMAIL_APP_PASSWORD secrets in the repo's "
+                "Settings > Secrets and variables > Actions > Secrets tab.")
+            sys.exit(1)  # show a red cross in GitHub so the problem is visible
+        log("No Gmail login saved. Open the app, go to Settings and press Test and save.")
         return
     sender_name = env.get("SENDER_NAME", "")
     h1, m1, h2, m2 = st["send_window"]
