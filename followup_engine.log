@@ -38,3 +38,14 @@
 2026-11-11 07:07:47  Sent (manual) FIRST EMAIL to Prof. Marinka Zitnik <marinka@hms.harvard.edu>
 2026-11-11 21:19:26  No Gmail credentials in mailer/.env. Open the app and tick 'Remember on this computer'.
 2026-11-11 21:35:02  No Gmail login found. Add the GMAIL_ADDRESS and GMAIL_APP_PASSWORD secrets in the repo's Settings > Secrets and variables > Actions > Secrets tab.
+2026-11-11 21:40:19  [DRY RUN] would send FIRST EMAIL to Prof. Andrew Ferguson <andrewferguson@uchicago.edu> (Wed 10:10 America/Chicago)
+2026-11-11 21:40:19  [DRY RUN] would send FIRST EMAIL to Prof. Diwakar Shukla <diwakar@illinois.edu> (Wed 10:10 America/Chicago)
+2026-11-11 21:40:19  [DRY RUN] would send FIRST EMAIL to Prof. Jun Song <songj@illinois.edu> (Wed 10:10 America/Chicago)
+2026-11-11 21:40:19  [DRY RUN] would send FIRST EMAIL to Prof. Jimeng Sun <jimeng@illinois.edu> (Wed 10:10 America/Chicago)
+2026-11-11 21:40:19  [DRY RUN] would send FIRST EMAIL to Prof. Su-In Lee <suinlee@cs.washington.edu> (Wed 08:10 America/Los_Angeles)
+2026-11-11 21:40:20  [DRY RUN] would send FIRST EMAIL to Prof. Yuan Luo <yuan.luo@northwestern.edu> (Wed 10:10 America/Chicago)
+2026-11-11 21:40:20  [DRY RUN] would send FIRST EMAIL to Prof. Ying Ding <ying.ding@ischool.utexas.edu> (Wed 10:10 America/Chicago)
+2026-11-11 21:40:20  [DRY RUN] would send FIRST EMAIL to Prof. Anshul Kundaje <akundaje@stanford.edu> (Wed 08:10 America/Los_Angeles)
+2026-11-11 21:40:24  [DRY RUN] would send FIRST EMAIL to Antares Labs <noaman@antareslabs.ai> (Wed 10:10 America/Chicago)
+2026-11-11 21:40:24  [DRY RUN] would send FIRST EMAIL to definity <roy@definity.ai> (Wed 10:10 America/Chicago)
+2026-11-11 21:40:26  Run done. Would send 10.
