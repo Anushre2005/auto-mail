@@ -1,0 +1,39 @@
+name: Email autopilot
+
+# Every 30 minutes on weekdays, 13:00-18:30 UTC (= 6:30 PM - midnight India time = US mornings).
+# The engine only sends to people whose own clock says 8:00-10:30 AM, so the extra runs are harmless.
+on:
+  schedule:
+    - cron: "0,30 13-18 * * 1-5"
+  workflow_dispatch: {}
+
+concurrency:
+  group: autopilot
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Send what's due
+        run: python followup_engine.py run
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          SENDER_NAME: ${{ secrets.SENDER_NAME }}
+      - name: Save the queue
+        if: always()
+        run: |
+          git config user.name "email-autopilot"
+          git config user.email "email-autopilot@users.noreply.github.com"
+          python cloud_sync.py

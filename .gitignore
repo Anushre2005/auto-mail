@@ -1,0 +1,10 @@
+# Only the autopilot's code and queue go to GitHub. Never your password (.env) or resume.
+/*
+!/.gitignore
+!/.github/
+!/followup_engine.py
+!/email_core.py
+!/cloud_sync.py
+!/sequences.json
+!/sent_log.csv
+!/followup_engine.log
