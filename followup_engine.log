@@ -37,3 +37,4 @@
 2026-11-11 06:40:25  Paused: nothing sent. Unpause in the app's Auto follow-ups tab.
 2026-11-11 07:07:47  Sent (manual) FIRST EMAIL to Prof. Marinka Zitnik <marinka@hms.harvard.edu>
 2026-11-11 21:19:26  No Gmail credentials in mailer/.env. Open the app and tick 'Remember on this computer'.
+2026-11-11 21:35:02  No Gmail login found. Add the GMAIL_ADDRESS and GMAIL_APP_PASSWORD secrets in the repo's Settings > Secrets and variables > Actions > Secrets tab.
