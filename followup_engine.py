@@ -332,7 +332,7 @@ def send_now(data: dict, seq: dict, text: str | None = None) -> str:
 def run(dry_run: bool = False, force_window: bool = False) -> None:
     data = load()
     st = data["settings"]
-    if st.get("paused"):
+    if st.get("paused") and not dry_run:  # a check-only run still reads replies while paused
         log("Paused: nothing sent. Unpause in the app's Auto follow-ups tab.")
         return
     env = read_env()

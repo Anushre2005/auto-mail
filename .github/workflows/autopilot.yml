@@ -5,7 +5,13 @@ name: Email autopilot
 on:
   schedule:
     - cron: "0,30 13-18 * * 1-5"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "check = log in and look for replies, send nothing; send = send what's due"
+        type: choice
+        options: [check, send]
+        default: check
 
 concurrency:
   group: autopilot
@@ -26,7 +32,7 @@ jobs:
         with:
           python-version: "3.11"
       - name: Send what's due
-        run: python followup_engine.py run
+        run: python followup_engine.py run ${{ inputs.mode == 'check' && '--dry-run' || '' }}
         env:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
