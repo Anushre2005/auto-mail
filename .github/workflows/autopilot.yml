@@ -1,10 +1,12 @@
 name: Email autopilot
 
-# Every 30 minutes on weekdays, 13:00-18:30 UTC (= 6:30 PM - midnight India time = US mornings).
-# The engine only sends to people whose own clock says 8:00-10:30 AM, so the extra runs are harmless.
+# Every 30 minutes on weekdays, at the times when it's morning for someone on the list.
+# The engine only emails people whose own clock says 8-10 AM (India: 8-11 AM), so extra runs are harmless.
 on:
   schedule:
-    - cron: "0,30 13-18 * * 1-5"
+    - cron: "0,30 2-5 * * 1-5"    # India mornings   (8:00-11:00 AM IST)
+    - cron: "0,30 7-9 * * 1-5"    # Europe mornings
+    - cron: "0,30 12-18 * * 1-5"  # US mornings, East to West coast
   workflow_dispatch:
     inputs:
       mode:

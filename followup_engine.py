@@ -38,14 +38,30 @@ GENERIC_LOCALPARTS = {"hello", "hi", "hey", "info", "contact", "support", "caree
 EXACT_MATCH_DOMAINS = ("gmail.com", "outlook.com", "yahoo.com", "hotmail.com", ".edu")
 DEFAULTS = {
     "interval_days": 2,          # days between steps
-    "send_window": [8, 0, 10, 30],  # local start h, m, end h, m
+    "send_window": [8, 0, 10, 0],  # default: 8:00-10:00 AM their time (see SEND_WINDOWS for exceptions)
     "max_per_run": 12,
     "max_per_day": 25,
     "max_new_per_day": 10,      # brand-new first emails per day (follow-ups not counted)
     "paused": False,
 }
 
+# When an email may go out, in the person's own time: from 8:00 AM until the deadline for their region.
+DEFAULT_WINDOW = (8, 0, 10, 0)          # USA, Europe and everywhere else: before 10 AM
+SEND_WINDOWS = {
+    "Asia/Kolkata": (8, 0, 11, 0),      # India: before 11 AM
+}
+
+
+def window_for(tz: str) -> tuple:
+    return SEND_WINDOWS.get(tz, DEFAULT_WINDOW)
+
+
 CITY_TZ = [  # keyword in company/city text -> time zone
+    ("india", "Asia/Kolkata"), ("mumbai", "Asia/Kolkata"), ("bengaluru", "Asia/Kolkata"), ("bangalore", "Asia/Kolkata"),
+    ("delhi", "Asia/Kolkata"), ("hyderabad", "Asia/Kolkata"), ("pune", "Asia/Kolkata"), ("chennai", "Asia/Kolkata"),
+    ("kolkata", "Asia/Kolkata"), ("gurgaon", "Asia/Kolkata"), ("gurugram", "Asia/Kolkata"), ("noida", "Asia/Kolkata"),
+    ("iit", "Asia/Kolkata"), ("iisc", "Asia/Kolkata"),
+    ("london", "Europe/London"), ("berlin", "Europe/Berlin"), ("paris", "Europe/Paris"), ("amsterdam", "Europe/Amsterdam"),
     ("seattle", "America/Los_Angeles"), ("las vegas", "America/Los_Angeles"), ("stanford", "America/Los_Angeles"), ("washington.edu", "America/Los_Angeles"),
     ("utexas", "America/Chicago"),("san francisco", "America/Los_Angeles"), ("los angeles", "America/Los_Angeles"),
     ("denver", "America/Denver"), ("boulder", "America/Denver"),
@@ -77,6 +93,8 @@ def read_env() -> dict:
 
 def guess_tz(text: str) -> str:
     t = text.lower()
+    if re.search(r"@[\w.-]+\.in(?![\w.])", t):  # an Indian email address (.in, .co.in, .ac.in)
+        return "Asia/Kolkata"
     for kw, tz in CITY_TZ:
         if kw in t:
             return tz
@@ -345,7 +363,6 @@ def run(dry_run: bool = False, force_window: bool = False) -> None:
         log("No Gmail login saved. Open the app, go to Settings and press Test and save.")
         return
     sender_name = env.get("SENDER_NAME", "")
-    h1, m1, h2, m2 = st["send_window"]
     gm = Gmail(sender, pw)
     smtp = None
     sent_now = 0
@@ -374,6 +391,7 @@ def run(dry_run: bool = False, force_window: bool = False) -> None:
                 seq["status"] = "finished"
                 continue
             now_local = datetime.now(ZoneInfo(seq["tz"]))
+            h1, m1, h2, m2 = window_for(seq["tz"])
             in_window = now_local.weekday() < 5 and (h1, m1) <= (now_local.hour, now_local.minute) < (h2, m2)
             if now_local.date() < due or not (in_window or force_window):
                 continue
@@ -402,6 +420,9 @@ def run(dry_run: bool = False, force_window: bool = False) -> None:
                 smtp = core.connect(sender, pw)
             else:
                 time.sleep(random.randint(40, 90))
+                later = datetime.now(ZoneInfo(seq["tz"]))  # the wait may have pushed us past their deadline
+                if not force_window and (later.hour, later.minute) >= (h2, m2):
+                    continue
             try:
                 smtp.send_message(msg)
             except Exception:
@@ -430,7 +451,7 @@ def next_send_ist(seq: dict, settings: dict) -> datetime | None:
     if due is None:
         return None
     tz = ZoneInfo(seq["tz"])
-    h1, m1, h2, m2 = settings["send_window"]
+    h1, m1, h2, m2 = window_for(seq["tz"])
     now_local = datetime.now(tz)
     start = datetime(due.year, due.month, due.day, h1, m1, tzinfo=tz)
     end = datetime(due.year, due.month, due.day, h2, m2, tzinfo=tz)
