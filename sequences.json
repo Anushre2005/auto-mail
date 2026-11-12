@@ -21,18 +21,24 @@
       "first_name": "Prof. Ferguson",
       "to": "andrewferguson@uchicago.edu",
       "subject": "Remote research internship: ML for protein and molecular design",
-      "first_sent": null,
+      "first_sent": "2026-11-12",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179449799282.2011.7312265885811723615@gmail.com>",
       "steps": [
         "Dear Prof. Ferguson,\n\nYour lab's use of machine learning with molecular simulation, from protein folding to computational design of vaccine immunogens against HIV and hepatitis C, shows how ML can do real design work in biology. That's the direction I want to go.\n\nI'm a final-year Computer Engineering student in Mumbai (Hons. in Data Science & AI, CGPA 9.1) and an AI/Data intern at HTL. I build ML systems end to end in Python (scikit-learn, XGBoost, Hugging Face Transformers), along with data pipelines and analysis tools, and I placed 1st Runner-Up at the CreAItion 1.0 AI Hackathon (2026). Alongside my studies, I also have freelance experience and have built a few real-world projects and tools, so I'm comfortable working independently and delivering results.\n\nI'd be grateful for a remote research internship under you or one of your students. I could help with model training, data pipelines or analysis code, starting with a small task.\n\nWould you be open to a short conversation at a convenient time? My resume is attached.\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
         "Dear {first},\n\nI'm following up on my email about a remote research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear {first},\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-12",
+          "to": "andrewferguson@uchicago.edu",
+          "sent_at_ist": "2026-11-12T21:09:53+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4
     },
@@ -44,18 +50,24 @@
       "first_name": "Prof. Shukla",
       "to": "diwakar@illinois.edu",
       "subject": "Remote research internship: AI models of protein dynamics",
-      "first_sent": null,
+      "first_sent": "2026-11-12",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179449799359.2011.16304455016160955889@gmail.com>",
       "steps": [
         "Dear Prof. Shukla,\n\nI read about your group's recent AI model that offers a faster way to explore how proteins move, and about your AI-guided design work. Combining simulation with machine learning to understand protein dynamics is exactly what I'd like to learn and contribute to.\n\nI'm a final-year Computer Engineering student in Mumbai (Hons. in Data Science & AI, CGPA 9.1) and an AI/Data intern at HTL. I'm strong in Python, ML (scikit-learn, XGBoost, Hugging Face Transformers) and building data pipelines and tools. Alongside my studies, I also have freelance experience and have built a few real-world projects and tools, so I'm comfortable working independently and delivering results.\n\nI'd be grateful for a remote research internship in your group. I could help with ML model development, analysis of simulation data, or tooling, starting with any small task.\n\nWould you be open to a short conversation at a time that suits you? My resume is attached.\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
         "Dear {first},\n\nI'm following up on my email about a remote research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear {first},\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-12",
+          "to": "diwakar@illinois.edu",
+          "sent_at_ist": "2026-11-12T21:10:35+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4
     },
@@ -67,18 +79,24 @@
       "first_name": "Prof. Song",
       "to": "songj@illinois.edu",
       "subject": "Remote research internship: ML and computational genomics",
-      "first_sent": null,
+      "first_sent": "2026-11-12",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179449803587.2011.13743380815189360676@gmail.com>",
       "steps": [
         "Dear Prof. Song,\n\nYour group's computational genomics work caught my attention, especially using tensor decomposition on tissue samples to study disease, and predicting genome-wide MeCP2 binding from sequence features. It's a great example of mathematical modelling extracting real biology from genomic data.\n\nI'm a final-year Computer Engineering student in Mumbai (Hons. in Data Science & AI, CGPA 9.1) and an AI/Data intern at HTL. I work with Python, statistical modelling, machine learning (scikit-learn, XGBoost, SHAP) and data pipelines. Alongside my studies, I also have freelance experience and have built a few real-world projects and tools, so I'm comfortable working independently and delivering results.\n\nI'd be grateful for a remote research internship in your group. I could help with data processing, implementing and benchmarking models, or analysis tools, starting with a small task.\n\nWould you be open to a brief conversation at your convenience? My resume is attached.\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
         "Dear {first},\n\nI'm following up on my email about a remote research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear {first},\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-12",
+          "to": "songj@illinois.edu",
+          "sent_at_ist": "2026-11-12T21:11:21+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4
     },
@@ -90,18 +108,24 @@
       "first_name": "Prof. Sun",
       "to": "jimeng@illinois.edu",
       "subject": "Remote research internship: LLMs for clinical trials (TrialMind / PyHealth)",
-      "first_sent": null,
+      "first_sent": "2026-11-12",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179449808160.2011.15660951498007600585@gmail.com>",
       "steps": [
         "Dear Prof. Sun,\n\nYour lab's work on clinical trials with LLMs, from TrialGPT's patient-trial matching to TrialMind's evidence synthesis and the new TrialPanorama benchmark, is the research area I'm most excited about. I've been working on a project auditing labels in the TrialBench clinical-trial datasets, which made me appreciate how much the quality of trial data matters.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my internship at HTL I build LLM tools end to end, including PreQue AI, a Claude-powered app with semantic search and a feedback loop that learns from corrections. I'm comfortable with Python, scikit-learn, XGBoost, Hugging Face Transformers and RAG pipelines.\n\nI'd love to contribute to your group remotely. Following the advice on your lab page, I'd be glad to start by contributing to PyHealth, and I'm happy to take on any well-defined task on trial data or LLM evaluation.\n\nWould you be open to a short conversation at a time that suits you?\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
         "Dear {first},\n\nI'm following up on my email about a remote research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear {first},\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-12",
+          "to": "jimeng@illinois.edu",
+          "sent_at_ist": "2026-11-12T21:12:28+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4
     },
@@ -165,18 +189,24 @@
       "first_name": "Prof. Luo",
       "to": "yuan.luo@northwestern.edu",
       "subject": "Remote research internship: clinical NLP and multimodal ML",
-      "first_sent": null,
+      "first_sent": "2026-11-12",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179449814930.2011.11983484899564184797@gmail.com>",
       "steps": [
         "Dear Prof. Luo,\n\nYour lab's work on clinical natural language processing and multimodal machine learning, and your focus on evaluating AI for fairness and transparency, is exactly the kind of applied research I'd like to be part of.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my HTL internship I build NLP and LLM tools end to end, including PreQue AI, a Claude-powered app that extracts information from unstructured forms using semantic search and a feedback loop that learns from corrections. I work with Python, scikit-learn, XGBoost, SHAP and Hugging Face Transformers.\n\nI'd love to contribute to your lab remotely, whether on data processing, model development or evaluation. I'm happy to start with a small, well-defined task.\n\nWould you be open to a short conversation at your convenience?\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
         "Dear {first},\n\nI'm following up on my email about a remote research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear {first},\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-12",
+          "to": "yuan.luo@northwestern.edu",
+          "sent_at_ist": "2026-11-12T21:13:58+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4
     },
@@ -188,18 +218,24 @@
       "first_name": "Prof. Ding",
       "to": "ying.ding@ischool.utexas.edu",
       "subject": "Remote research internship: reliable LLMs and agentic AI in healthcare",
-      "first_sent": null,
+      "first_sent": "2026-11-12",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179449823831.2011.10759220859136371670@gmail.com>",
       "steps": [
         "Dear Prof. Ding,\n\nYour AI Health Lab's work on LLM hallucination and uncertainty quantification for agentic AI in healthcare stood out to me. Making agents trustworthy enough for medicine is one of the most important problems in the field right now.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my HTL internship I build LLM tools end to end, including PreQue AI, a Claude-powered app with semantic search and a feedback loop that learns from corrections. I've also built RAG pipelines and multi-agent systems, and I care a lot about evaluation and explainability.\n\nI'd love to contribute to your lab remotely, for example on evaluation pipelines, uncertainty experiments or clinical-text tooling. I'm happy to start with a small, well-defined task.\n\nWould you be open to a short conversation at a time that suits you?\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
         "Dear {first},\n\nI'm following up on my email about a remote research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear {first},\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-12",
+          "to": "ying.ding@ischool.utexas.edu",
+          "sent_at_ist": "2026-11-12T21:14:38+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4
     },
@@ -1204,19 +1240,25 @@
       "domain": "antareslabs.ai",
       "to": "noaman@antareslabs.ai",
       "subject": "Idea for Antares Labs: a lease-abstraction prototype",
-      "first_sent": null,
+      "first_sent": "2026-11-12",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "Noaman Ahmad",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179449828167.2011.5230285947492233801@gmail.com>",
       "steps": [
         "Hi Noaman,\n\nCongratulations on the launch. \"AI built inside the business, not bolted on top\" is exactly how I think about AI tools.\n\nI'm Anushree, a computer engineering student in Mumbai (honours in Data Science & AI) who builds AI tools for real users. I've done freelance projects, and during my internship at HTL I built PreQue AI, a Claude-powered app that automates pre-qualification forms, with semantic search over a vector store and a feedback loop that learns from corrections.\n\nWhile reading about Antares Labs, one idea came to mind: a small proof of concept for one client workflow, like lease abstraction. It's the kind of thing I could prototype in a few days.\n\nI'd love to hear what you're working on and whether a small, fixed-scope project could be useful to you. Would you be open to a 15-minute call in the next couple of weeks?\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar\n\nP.S. I also wrote to your team inbox on 9 November and wanted to reach you directly as well.",
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-12",
+          "to": "noaman@antareslabs.ai",
+          "sent_at_ist": "2026-11-12T21:15:25+05:30"
+        }
+      ],
       "status": "active"
     },
     {
@@ -1229,19 +1271,25 @@
       "domain": "definity.ai",
       "to": "roy@definity.ai",
       "subject": "Idea for definity: a Spark failure-explainer agent",
-      "first_sent": null,
+      "first_sent": "2026-11-12",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "Roy Daniel",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179449832528.2011.11125985375575435119@gmail.com>",
       "steps": [
         "Hi Roy,\n\nAgentic data engineering for Spark and the lakehouse is a real need. Pipelines break in ways that take engineers hours to trace.\n\nI'm Anushree, a computer engineering student in Mumbai (honours in Data Science & AI) who builds AI tools for real users. I've done freelance projects, and during my internship at HTL I built PreQue AI, a Claude-powered app that automates pre-qualification forms, with semantic search over a vector store and a feedback loop that learns from corrections.\n\nWhile reading about definity, one idea came to mind: a demo agent that explains a failed Spark job from its logs. It's the kind of thing I could prototype in a few days.\n\nI'd love to hear what you're working on and whether a small, fixed-scope project could be useful to you. Would you be open to a 15-minute call in the next couple of weeks?\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar\n\nP.S. I also wrote to your team inbox on 9 November and wanted to reach you directly as well.",
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-12",
+          "to": "roy@definity.ai",
+          "sent_at_ist": "2026-11-12T21:16:51+05:30"
+        }
+      ],
       "status": "active"
     },
     {
@@ -1254,19 +1302,25 @@
       "domain": "stitchstudio.ai",
       "to": "karan@stitchstudio.ai",
       "subject": "Idea for Stitch Studio: explainable underwriting scoring",
-      "first_sent": null,
+      "first_sent": "2026-11-12",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "Karan Mishra",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179449841192.2011.2654200875935576058@gmail.com>",
       "steps": [
         "Hi Karan,\n\nDeploying governed AI agents in underwriting and claims is hard to do well, and the governance part is what most agent platforms skip.\n\nI'm Anushree, a computer engineering student in Mumbai (honours in Data Science & AI) who builds AI tools for real users. I've done freelance projects, and during my internship at HTL I built PreQue AI, a Claude-powered app that automates pre-qualification forms, with semantic search over a vector store and a feedback loop that learns from corrections.\n\nWhile reading about Stitch Studio, one idea came to mind: an explainable risk-scoring prototype for one underwriting step. It's the kind of thing I could prototype in a few days.\n\nI'd love to hear what you're working on and whether a small, fixed-scope project could be useful to you. Would you be open to a 15-minute call in the next couple of weeks?\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar\n\nP.S. I also wrote to your team inbox on 9 November and wanted to reach you directly as well.",
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-12",
+          "to": "karan@stitchstudio.ai",
+          "sent_at_ist": "2026-11-12T21:18:08+05:30"
+        }
+      ],
       "status": "active"
     },
     {
@@ -1279,19 +1333,25 @@
       "domain": "tavernresearch.com",
       "to": "matt@tavernresearch.com",
       "subject": "Idea for Tavern Research: LLM survey-response clustering",
-      "first_sent": null,
+      "first_sent": "2026-11-12",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "Matt Lackey",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179449848850.2011.11842023703758963352@gmail.com>",
       "steps": [
         "Hi Matt,\n\nTavern's mix of polling, message testing and AI-assisted creative is a smart use of AI, because fast iteration on messaging is where LLMs shine.\n\nI'm Anushree, a computer engineering student in Mumbai (honours in Data Science & AI) who builds AI tools for real users. I've done freelance projects, and during my internship at HTL I built PreQue AI, a Claude-powered app that automates pre-qualification forms, with semantic search over a vector store and a feedback loop that learns from corrections.\n\nWhile reading about Tavern Research, one idea came to mind: a small tool that clusters and summarises open-ended survey responses with an LLM. It's the kind of thing I could prototype in a few days.\n\nI'd love to hear what you're working on and whether a small, fixed-scope project could be useful to you. Would you be open to a 15-minute call in the next couple of weeks?\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar\n\nP.S. I also wrote to your team inbox on 9 November and wanted to reach you directly as well.",
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-12",
+          "to": "matt@tavernresearch.com",
+          "sent_at_ist": "2026-11-12T21:19:05+05:30"
+        }
+      ],
       "status": "active"
     },
     {
