@@ -275,13 +275,19 @@
       "suggested_person": "",
       "person_email": "",
       "person_first": "",
-      "message_id": null,
+      "message_id": "<6af12700.f8dad03a.cb5f1.6cbb@mx.google.com>",
       "steps": [
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-13",
+          "to": "julian.berman@quantumrise.com",
+          "sent_at_ist": "2026-11-13T20:28:38+05:30"
+        }
+      ],
       "status": "active"
     },
     {
@@ -319,13 +325,19 @@
       "suggested_person": "",
       "person_email": "",
       "person_first": "",
-      "message_id": null,
+      "message_id": "<6af12769.f8dad03a.cb5f1.75bf@mx.google.com>",
       "steps": [
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-13",
+          "to": "harsh@thankly.ai",
+          "sent_at_ist": "2026-11-13T20:29:52+05:30"
+        }
+      ],
       "status": "active"
     },
     {
@@ -363,7 +375,7 @@
       "suggested_person": "",
       "person_email": "",
       "person_first": "",
-      "message_id": null,
+      "message_id": "<6af127f6.f8dad03a.cb5f1.81b9@mx.google.com>",
       "steps": [
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
@@ -1024,12 +1036,18 @@
       "suggested_person": "",
       "person_email": "",
       "person_first": "",
-      "message_id": null,
+      "message_id": "<6af14348.0aec5527.304924.ab9e@mx.google.com>",
       "steps": [
         "Dear {first},\n\nI'm following up on my email about a remote research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear {first},\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-13",
+          "to": "zhao5@illinois.edu",
+          "sent_at_ist": "2026-11-13T20:31:37+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4
     },
@@ -1051,7 +1069,13 @@
         "Dear {first},\n\nI'm following up on my email about a remote research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear {first},\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-13",
+          "to": "melkebir@illinois.edu",
+          "sent_at_ist": "2026-11-13T20:32:21+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4
     },
@@ -1364,19 +1388,25 @@
       "domain": "helloaviary.ai",
       "to": "babraham@helloaviary.ai",
       "subject": "Idea for AviaryAI: voice-agent evals",
-      "first_sent": null,
+      "first_sent": "2026-11-13",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "Blesson Abraham",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179458214285.2013.8474272885484934192@gmail.com>",
       "steps": [
         "Hi Blesson,\n\nRunning outbound voice agents for banks and credit unions on a private LLM is a thoughtful approach for an industry where data can't leave the building.\n\nI'm Anushree, a computer engineering student in Mumbai (honours in Data Science & AI) who builds AI tools for real users. I've done freelance projects, and during my internship at HTL I built PreQue AI, a Claude-powered app that automates pre-qualification forms, with semantic search over a vector store and a feedback loop that learns from corrections.\n\nWhile reading about AviaryAI, one idea came to mind: an evaluation set for one voice-agent conversation flow. It's the kind of thing I could prototype in a few days.\n\nI'd love to hear what you're working on and whether a small, fixed-scope project could be useful to you. Would you be open to a 15-minute call in the next couple of weeks?\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar\n\nP.S. I also wrote to your team inbox on 9 November and wanted to reach you directly as well.",
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-13",
+          "to": "babraham@helloaviary.ai",
+          "sent_at_ist": "2026-11-13T20:33:33+05:30"
+        }
+      ],
       "status": "active"
     },
     {
@@ -1389,19 +1419,25 @@
       "domain": "xenia.team",
       "to": "kh@xenia.team",
       "subject": "Idea for Xenia: voice-to-checklist inspections",
-      "first_sent": null,
+      "first_sent": "2026-11-13",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "Kumeil Hosain",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179458221380.2013.10141578603160166181@gmail.com>",
       "steps": [
         "Hi Kumeil,\n\nUsing AI on video, voice and photos to help frontline teams stay compliant goes well beyond the checklists most operations tools stop at.\n\nI'm Anushree, a computer engineering student in Mumbai (honours in Data Science & AI) who builds AI tools for real users. I've done freelance projects, and during my internship at HTL I built PreQue AI, a Claude-powered app that automates pre-qualification forms, with semantic search over a vector store and a feedback loop that learns from corrections.\n\nWhile reading about Xenia, one idea came to mind: a prototype that turns photo or voice inspection notes into a structured checklist. It's the kind of thing I could prototype in a few days.\n\nI'd love to hear what you're working on and whether a small, fixed-scope project could be useful to you. Would you be open to a 15-minute call in the next couple of weeks?\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar\n\nP.S. I also wrote to your team inbox on 9 November and wanted to reach you directly as well.",
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-13",
+          "to": "kh@xenia.team",
+          "sent_at_ist": "2026-11-13T20:34:16+05:30"
+        }
+      ],
       "status": "active"
     },
     {
@@ -1464,19 +1500,25 @@
       "domain": "loman.ai",
       "to": "christian@loman.ai",
       "subject": "Idea for Loman AI: a phone-agent eval set",
-      "first_sent": null,
+      "first_sent": "2026-11-13",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "Christian Wiens",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179458225656.2013.7228297097292882623@gmail.com>",
       "steps": [
         "Hi Christian,\n\nAn AI phone agent that answers restaurant calls during the dinner rush solves a very real problem. Missed calls are missed orders.\n\nI'm Anushree, a computer engineering student in Mumbai (honours in Data Science & AI) who builds AI tools for real users. I've done freelance projects, and during my internship at HTL I built PreQue AI, a Claude-powered app that automates pre-qualification forms, with semantic search over a vector store and a feedback loop that learns from corrections.\n\nWhile reading about Loman AI, one idea came to mind: an evaluation set of tricky restaurant calls for your phone agent. It's the kind of thing I could prototype in a few days.\n\nI'd love to hear what you're working on and whether a small, fixed-scope project could be useful to you. Would you be open to a 15-minute call in the next couple of weeks?\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar\n\nP.S. I also wrote to your team inbox on 9 November and wanted to reach you directly as well.",
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-13",
+          "to": "christian@loman.ai",
+          "sent_at_ist": "2026-11-13T20:35:27+05:30"
+        }
+      ],
       "status": "active"
     },
     {
@@ -1514,19 +1556,25 @@
       "domain": "rapidcanvas.ai",
       "to": "rahul@rapidcanvas.ai",
       "subject": "Idea for RapidCanvas: help on a client build",
-      "first_sent": null,
+      "first_sent": "2026-11-13",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "Rahul Pangam",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179458232729.2013.12446399225341821579@gmail.com>",
       "steps": [
         "Hi Rahul,\n\nCongratulations on the Series B. Building enterprise AI apps together with in-house experts is a model that clearly works.\n\nI'm Anushree, a computer engineering student in Mumbai (honours in Data Science & AI) who builds AI tools for real users. I've done freelance projects, and during my internship at HTL I built PreQue AI, a Claude-powered app that automates pre-qualification forms, with semantic search over a vector store and a feedback loop that learns from corrections.\n\nWhile reading about RapidCanvas, one idea came to mind: a small, scoped piece of one of your client builds. It's the kind of thing I could prototype in a few days.\n\nI'd love to hear what you're working on and whether a small, fixed-scope project could be useful to you. Would you be open to a 15-minute call in the next couple of weeks?\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar\n\nP.S. I also wrote to your team inbox on 9 November and wanted to reach you directly as well.",
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-13",
+          "to": "rahul@rapidcanvas.ai",
+          "sent_at_ist": "2026-11-13T20:36:22+05:30"
+        }
+      ],
       "status": "active"
     },
     {
@@ -1539,19 +1587,25 @@
       "domain": "skribe.ai",
       "to": "tom@skribe.ai",
       "subject": "Idea for Skribe.ai: deposition search and summaries",
-      "first_sent": null,
+      "first_sent": "2026-11-13",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "Tom Irby",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179458238290.2013.2802124900049801878@gmail.com>",
       "steps": [
         "Hi Tom,\n\nBringing AI to depositions is a great fit for LLMs. Lawyers need accurate, searchable records, fast.\n\nI'm Anushree, a computer engineering student in Mumbai (honours in Data Science & AI) who builds AI tools for real users. I've done freelance projects, and during my internship at HTL I built PreQue AI, a Claude-powered app that automates pre-qualification forms, with semantic search over a vector store and a feedback loop that learns from corrections.\n\nWhile reading about Skribe.ai, one idea came to mind: a prototype that searches and summarises a deposition transcript. It's the kind of thing I could prototype in a few days.\n\nI'd love to hear what you're working on and whether a small, fixed-scope project could be useful to you. Would you be open to a 15-minute call in the next couple of weeks?\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar\n\nP.S. I also wrote to your team inbox on 9 November and wanted to reach you directly as well.",
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-13",
+          "to": "tom@skribe.ai",
+          "sent_at_ist": "2026-11-13T20:37:09+05:30"
+        }
+      ],
       "status": "active"
     },
     {
@@ -1564,19 +1618,25 @@
       "domain": "contextqa.com",
       "to": "deep@contextqa.com",
       "subject": "Idea for ContextQA: user-story-to-test generation",
-      "first_sent": null,
+      "first_sent": "2026-11-13",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "Deep Barot",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179458242955.2013.3277357681351537614@gmail.com>",
       "steps": [
         "Hi Deep,\n\nAI-driven test automation matters more every month, as teams ship more AI-written code that still has to be verified.\n\nI'm Anushree, a computer engineering student in Mumbai (honours in Data Science & AI) who builds AI tools for real users. I've done freelance projects, and during my internship at HTL I built PreQue AI, a Claude-powered app that automates pre-qualification forms, with semantic search over a vector store and a feedback loop that learns from corrections.\n\nWhile reading about ContextQA, one idea came to mind: a prototype that generates test cases from a user story. It's the kind of thing I could prototype in a few days.\n\nI'd love to hear what you're working on and whether a small, fixed-scope project could be useful to you. Would you be open to a 15-minute call in the next couple of weeks?\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar\n\nP.S. I also wrote to your team inbox on 9 November and wanted to reach you directly as well.",
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-13",
+          "to": "deep@contextqa.com",
+          "sent_at_ist": "2026-11-13T20:38:05+05:30"
+        }
+      ],
       "status": "active"
     },
     {
@@ -1664,19 +1724,25 @@
       "domain": "northslope.com",
       "to": "bward@northslope.com",
       "subject": "Idea for Northslope: help on a client build",
-      "first_sent": null,
+      "first_sent": "2026-11-13",
       "tz": "America/Denver",
       "generic_inbox": false,
       "suggested_person": "Bill Ward",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179458248519.2013.7288688196318566324@gmail.com>",
       "steps": [
         "Hi Bill,\n\nCongratulations on the Series A. Building mission-specific AI apps on Palantir is a focused niche, and it sounds like a fun place to build.\n\nI'm Anushree, a computer engineering student in Mumbai (honours in Data Science & AI) who builds AI tools for real users. I've done freelance projects, and during my internship at HTL I built PreQue AI, a Claude-powered app that automates pre-qualification forms, with semantic search over a vector store and a feedback loop that learns from corrections.\n\nWhile reading about Northslope, one idea came to mind: a small, scoped piece of one of your client builds. It's the kind of thing I could prototype in a few days.\n\nI'd love to hear what you're working on and whether a small, fixed-scope project could be useful to you. Would you be open to a 15-minute call in the next couple of weeks?\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar\n\nP.S. I also wrote to your team inbox on 9 November and wanted to reach you directly as well.",
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-13",
+          "to": "bward@northslope.com",
+          "sent_at_ist": "2026-11-13T20:39:16+05:30"
+        }
+      ],
       "status": "active"
     },
     {
@@ -2239,19 +2305,25 @@
       "domain": "atolio.com",
       "to": "david@atolio.com",
       "subject": "Idea for Atolio: permission-aware retrieval evals",
-      "first_sent": null,
+      "first_sent": "2026-11-13",
       "tz": "America/Denver",
       "generic_inbox": false,
       "suggested_person": "David Lanstein",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179458255668.2013.14683950772454391187@gmail.com>",
       "steps": [
         "Hi David,\n\nPermission-aware enterprise AI search is close to the RAG and vector-search work I do, and the permissions part is what most teams get wrong.\n\nI'm Anushree, a computer engineering student in Mumbai (honours in Data Science & AI) who builds AI tools for real users. I've done freelance projects, and during my internship at HTL I built PreQue AI, a Claude-powered app that automates pre-qualification forms, with semantic search over a vector store and a feedback loop that learns from corrections.\n\nWhile reading about Atolio, one idea came to mind: a retrieval-quality evaluation for permission-filtered search. It's the kind of thing I could prototype in a few days.\n\nI'd love to hear what you're working on and whether a small, fixed-scope project could be useful to you. Would you be open to a 15-minute call in the next couple of weeks?\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar",
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-13",
+          "to": "david@atolio.com",
+          "sent_at_ist": "2026-11-13T20:40:09+05:30"
+        }
+      ],
       "status": "active"
     },
     {
