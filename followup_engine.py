@@ -63,7 +63,7 @@ CITY_TZ = [  # keyword in company/city text -> time zone
     ("iit", "Asia/Kolkata"), ("iisc", "Asia/Kolkata"),
     ("london", "Europe/London"), ("berlin", "Europe/Berlin"), ("paris", "Europe/Paris"), ("amsterdam", "Europe/Amsterdam"),
     ("seattle", "America/Los_Angeles"), ("las vegas", "America/Los_Angeles"), ("stanford", "America/Los_Angeles"), ("washington.edu", "America/Los_Angeles"),
-    ("utexas", "America/Chicago"),("san francisco", "America/Los_Angeles"), ("los angeles", "America/Los_Angeles"),
+    ("utexas", "America/Chicago"), ("vanderbilt", "America/Chicago"), ("nashville", "America/Chicago"),("san francisco", "America/Los_Angeles"), ("los angeles", "America/Los_Angeles"),
     ("denver", "America/Denver"), ("boulder", "America/Denver"),
     ("chicago", "America/Chicago"), ("austin", "America/Chicago"), ("illinois", "America/Chicago"),
     ("uiuc", "America/Chicago"), ("northwestern", "America/Chicago"), ("indiana", "America/Chicago"),
@@ -223,7 +223,8 @@ def build_followup(seq: dict, step_text: str, sender: str, sender_name: str):
     switched = bool(seq.get("person_email")) and not seq.get("person_thread_id")
     if seq.get("first_email") and not seq["sent_steps"]:
         # brand-new first email to a founder: starts its own thread
-        msg = core.build_message(sender, sender_name, to, seq["subject"], step_text, None)
+        att = HERE / seq["attach"] if seq.get("attach") and (HERE / seq["attach"]).exists() else None
+        msg = core.build_message(sender, sender_name, to, seq["subject"], step_text, att)
         msg["Message-ID"] = make_msgid(domain=sender.split("@")[1])
         return msg, to, seq["subject"], False
     if switched and seq.get("bounced_original"):
