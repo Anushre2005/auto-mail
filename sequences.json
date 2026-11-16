@@ -3428,6 +3428,102 @@
       "sent_steps": [],
       "status": "active",
       "attach": "Anushree_Revankar_Resume.pdf"
+    },
+    {
+      "id": "scheduled#biotech_emails.md#18",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Prof. Debnath Pal",
+      "first_name": "Prof. Pal",
+      "to": "dpal@iisc.ac.in",
+      "subject": "Internship request: computational biology and drug discovery",
+      "first_sent": null,
+      "tz": "Asia/Kolkata",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "steps": [
+        "Dear Prof. Pal,\n\nYour group's work on predicting what genes and proteins do, and how proteins bind to drugs and to each other, is exactly where computing meets biology, and that's where I want to work.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.\n\nI'd love to intern in your lab, remotely or in person, and help with data processing, building prediction models or writing tools.\n\nI've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
+        "Dear Prof. Pal,\n\nI'm following up on my email about a research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
+        "Dear Prof. Pal,\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "attach": "Anushree_Revankar_Resume.pdf"
+    },
+    {
+      "id": "scheduled#biotech_emails.md#19",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Prof. Amit Sethi",
+      "first_name": "Prof. Sethi",
+      "to": "asethi@iitb.ac.in",
+      "subject": "Internship request: deep learning for pathology images",
+      "first_sent": null,
+      "tz": "Asia/Kolkata",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "steps": [
+        "Dear Prof. Sethi,\n\nYour lab's work using deep learning to analyse cancer tissue images is one of the clearest examples I've seen of AI helping doctors directly.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.\n\nSince I'm in Mumbai, I could work in your lab in person, or remotely if that's easier. I'd be glad to help with data preparation, training models or evaluating them.\n\nI've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
+        "Dear Prof. Sethi,\n\nI'm following up on my email about a research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
+        "Dear Prof. Sethi,\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "attach": "Anushree_Revankar_Resume.pdf"
+    },
+    {
+      "id": "scheduled#biotech_emails.md#20",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Prof. Rohit Singh",
+      "first_name": "Prof. Singh",
+      "to": "rohit.singh@duke.edu",
+      "subject": "Remote research internship: machine learning for drug discovery",
+      "first_sent": null,
+      "tz": "America/New_York",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "steps": [
+        "Dear Prof. Singh,\n\nYour lab's idea of combining single-cell data with large language models to understand disease and find new drug targets is exciting, and it's close to the language-model work I already do.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.\n\nI'd love to contribute to your lab remotely, starting with any small task, like preparing data or running baseline models.\n\nI've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
+        "Dear Prof. Singh,\n\nI'm following up on my email about a research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
+        "Dear Prof. Singh,\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "attach": "Anushree_Revankar_Resume.pdf"
+    },
+    {
+      "id": "scheduled#biotech_emails.md#21",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Prof. Pranam Chatterjee",
+      "first_name": "Prof. Chatterjee",
+      "to": "pranam.chatterjee@duke.edu",
+      "subject": "Remote research internship: AI for protein design",
+      "first_sent": null,
+      "tz": "America/New_York",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "steps": [
+        "Dear Prof. Chatterjee,\n\nYour lab's work using AI to design new proteins that can act as treatments, like programmable therapeutics, is one of the most exciting things I've read about.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.\n\nI'd love to contribute to your lab remotely, starting with any small task, like running models, preparing data or building tools.\n\nI've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
+        "Dear Prof. Chatterjee,\n\nI'm following up on my email about a research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
+        "Dear Prof. Chatterjee,\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "attach": "Anushree_Revankar_Resume.pdf"
     }
   ]
 }
