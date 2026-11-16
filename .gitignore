@@ -9,3 +9,10 @@
 !/sent_log.csv
 !/followup_engine.log
 !/Anushree_Revankar_Resume.pdf
+# the web app (hosted on Streamlit Cloud)
+!/app.py
+!/scheduler.py
+!/founder_data.py
+!/people_finder.py
+!/requirements.txt
+!/drafts/
