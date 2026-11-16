@@ -159,9 +159,15 @@ class Gmail:
         return email.message_from_bytes(data[0][1])
 
     def find_message_id(self, to: str, subject: str) -> str | None:
-        for uid in reversed(self._search("[Gmail]/Sent Mail", f"to:{to}")):
+        """Message-ID of the original email (not a follow-up), so follow-ups can reply in the same thread.
+        Long subjects are folded over two lines in the header, so whitespace is normalised before comparing."""
+        def norm(x: str) -> str:
+            x = str(email.header.make_header(email.header.decode_header(x or "")))
+            return " ".join(x.split()).lower()
+        want = norm(subject)
+        for uid in self._search("[Gmail]/Sent Mail", f"to:{to}"):  # oldest first: the original email
             h = self._headers(uid)
-            if (h.get("Subject") or "").strip().lower() == subject.strip().lower():
+            if norm(h.get("Subject")) == want:
                 return h.get("Message-ID")
         return None
 
@@ -288,6 +294,16 @@ def personalize(text: str, seq: dict) -> str:
     return text.replace("{first}", first).replace("{company}", seq["company"])
 
 
+def has_thread(seq: dict) -> bool:
+    """True if the next email can go out correctly: either it starts a conversation (a first email, or the first
+    email to a newly found founder) or we know the original email it must reply to."""
+    if seq.get("first_email") and not seq["sent_steps"]:
+        return True
+    if seq.get("person_email") and not seq.get("person_thread_id"):
+        return True
+    return bool(seq.get("person_thread_id") if seq.get("person_email") else seq.get("message_id"))
+
+
 def record_sent(seq: dict, msg, to: str, subject: str, switched: bool, how: str) -> None:
     """Mark the next step of a sequence as sent (shared by the autopilot and the app's Send now button)."""
     now_local = datetime.now(ZoneInfo(seq["tz"]))
@@ -333,6 +349,8 @@ def send_now(data: dict, seq: dict, text: str | None = None) -> str:
             seq["message_id"] = gm.find_message_id(seq["to"], seq["subject"])
     finally:
         gm.close()
+    if not has_thread(seq):
+        return "ERROR: couldn't find the original email in your Sent folder, so this follow-up wasn't sent (it must go as a reply)."
     if text is not None:
         seq["steps"][k] = text
     body = personalize(seq["steps"][k], seq)
@@ -409,6 +427,10 @@ def run(dry_run: bool = False, force_window: bool = False) -> None:
             if not seq.get("message_id") and not seq.get("person_email") and not seq.get("first_email"):
                 seq["message_id"] = gm.find_message_id(seq["to"], seq["subject"])
             k = len(seq["sent_steps"])
+            if not has_thread(seq):
+                log(f"{seq['company']}: original email not found in Sent, so the follow-up is held back "
+                    "(follow-ups only ever go as a reply in the same thread).")
+                continue
             text = personalize(seq["steps"][k], seq)
             msg, to, subject, switched = build_followup(seq, text, sender, sender_name)
             if dry_run:
