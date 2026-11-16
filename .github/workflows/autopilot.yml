@@ -1,12 +1,12 @@
 name: Email autopilot
 
-# Every 30 minutes on weekdays, at the times when it's morning for someone on the list.
-# The engine only emails people whose own clock says 8-10 AM (India: 8-11 AM), so extra runs are harmless.
+# Every 15 minutes on weekdays during people's mornings. Odd minutes (7, 22, 37, 52) because GitHub often
+# delays or skips runs scheduled exactly on the hour/half-hour. The engine only emails people whose own
+# clock says 8-10 AM (India: 8-11 AM), so extra runs are harmless.
 on:
   schedule:
-    - cron: "0,30 2-5 * * 1-5"    # India mornings   (8:00-11:00 AM IST)
-    - cron: "0,30 7-9 * * 1-5"    # Europe mornings
-    - cron: "0,30 12-18 * * 1-5"  # US mornings, East to West coast
+    - cron: "7,22,37,52 2-5 * * 1-5"    # India mornings (7:37 AM - 11:22 AM IST)
+    - cron: "7,22,37,52 12-18 * * 1-5"  # US mornings, East to West coast
   workflow_dispatch:
     inputs:
       mode:
