@@ -413,3 +413,271 @@ Warm regards,
 Anushree Revankar
 github.com/Anushre2005 | linkedin.com/in/anushree-revankar
 ```
+
+---
+
+# More targets, added 16 Nov 2026
+
+---
+
+## 18. Prof. Debnath Pal: IISc Bangalore, Computational and Data Sciences (India)
+
+**To:** dpal@iisc.ac.in
+
+**Subject:** Internship request: computational biology and drug discovery
+
+```text
+Dear Prof. Pal,
+
+Your group's work on predicting what genes and proteins do, and how proteins bind to drugs and to each other, is exactly where computing meets biology, and that's where I want to work.
+
+I'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.
+
+I'd love to intern in your lab, remotely or in person, and help with data processing, building prediction models or writing tools.
+
+I've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.
+
+Warm regards,
+Anushree Revankar
+github.com/Anushre2005 | linkedin.com/in/anushree-revankar
+```
+
+---
+
+## 19. Prof. Amit Sethi: IIT Bombay, Electrical Engineering, AI for medical images (India, Mumbai)
+
+**To:** asethi@iitb.ac.in
+
+**Subject:** Internship request: deep learning for pathology images
+
+```text
+Dear Prof. Sethi,
+
+Your lab's work using deep learning to analyse cancer tissue images is one of the clearest examples I've seen of AI helping doctors directly.
+
+I'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.
+
+Since I'm in Mumbai, I could work in your lab in person, or remotely if that's easier. I'd be glad to help with data preparation, training models or evaluating them.
+
+I've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.
+
+Warm regards,
+Anushree Revankar
+github.com/Anushre2005 | linkedin.com/in/anushree-revankar
+```
+
+---
+
+## 20. Prof. Rohit Singh: Duke University, Biostatistics & Bioinformatics (USA)
+
+**To:** rohit.singh@duke.edu
+
+**Subject:** Remote research internship: machine learning for drug discovery
+
+```text
+Dear Prof. Singh,
+
+Your lab's idea of combining single-cell data with large language models to understand disease and find new drug targets is exciting, and it's close to the language-model work I already do.
+
+I'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.
+
+I'd love to contribute to your lab remotely, starting with any small task, like preparing data or running baseline models.
+
+I've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.
+
+Warm regards,
+Anushree Revankar
+github.com/Anushre2005 | linkedin.com/in/anushree-revankar
+```
+
+---
+
+## 21. Prof. Pranam Chatterjee: Duke University, Biomedical Engineering (USA)
+
+**To:** pranam.chatterjee@duke.edu
+
+**Subject:** Remote research internship: AI for protein design
+
+```text
+Dear Prof. Chatterjee,
+
+Your lab's work using AI to design new proteins that can act as treatments, like programmable therapeutics, is one of the most exciting things I've read about.
+
+I'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.
+
+I'd love to contribute to your lab remotely, starting with any small task, like running models, preparing data or building tools.
+
+I've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.
+
+Warm regards,
+Anushree Revankar
+github.com/Anushre2005 | linkedin.com/in/anushree-revankar
+```
+
+---
+
+## 22. Haystack Analytics: Dr. Anirvan Chatterjee, co-founder & CEO (Mumbai)
+
+**To:** (none yet: find via Hunter)
+
+**Subject:** Internship: genomics and machine learning at Haystack
+
+```text
+Dear Anirvan,
+
+Haystack's work making genome sequencing practical for TB treatment in India, like your TB One launch with ICMR, is real impact, and it's happening right here in Mumbai.
+
+I'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.
+
+I'd love to intern with your team, in person in Mumbai or remotely, on data analysis, software or machine learning.
+
+I've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.
+
+Warm regards,
+Anushree Revankar
+github.com/Anushre2005 | linkedin.com/in/anushree-revankar
+```
+
+---
+
+## 23. Bugworks: Anand Anandkumar, co-founder & CEO (Bengaluru)
+
+**To:** (none yet: find via Hunter)
+
+**Subject:** Internship: data and computing for antibiotic discovery
+
+```text
+Dear Anand,
+
+Bugworks' work on new antibiotics against drug-resistant infections is one of the most important problems in medicine, and it's inspiring to see it done from India.
+
+I'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.
+
+I'd be glad to intern with your team, remotely or in Bengaluru, on data, modelling or internal tools.
+
+I've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.
+
+Warm regards,
+Anushree Revankar
+github.com/Anushre2005 | linkedin.com/in/anushree-revankar
+```
+
+---
+
+## 24. immunitoAI: Aridni Shah, co-founder & CEO (Bengaluru)
+
+**To:** (none yet: find via Hunter)
+
+**Subject:** Internship: AI for antibody design at immunitoAI
+
+```text
+Dear Aridni,
+
+immunitoAI's approach of designing antibodies with AI, starting from the target's structure instead of using animals, is a great example of where AI can change biology.
+
+I'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.
+
+I'd love to intern with your team, remotely or in Bengaluru, on data, model evaluation or tools.
+
+I've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.
+
+Warm regards,
+Anushree Revankar
+github.com/Anushre2005 | linkedin.com/in/anushree-revankar
+```
+
+---
+
+## 25. Medvolt AI: Dr. Madhura Vipra, co-founder & CEO (Pune)
+
+**To:** (none yet: find via Hunter)
+
+**Subject:** Internship: AI for drug discovery at Medvolt
+
+```text
+Dear Dr. Vipra,
+
+Medvolt's goal of making drug development faster and cheaper with AI caught my attention, and it's exciting that it's being built close to home in Pune.
+
+I'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.
+
+I'd be glad to intern with your team, remotely or in Pune, on data, machine learning or internal tools.
+
+I've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.
+
+Warm regards,
+Anushree Revankar
+github.com/Anushre2005 | linkedin.com/in/anushree-revankar
+```
+
+---
+
+## 26. Vgenomics: Dr. Rahila Sardar, founder (New Delhi)
+
+**To:** (none yet: find via Hunter)
+
+**Subject:** Internship: AI for rare genetic disease diagnosis
+
+```text
+Dear Dr. Sardar,
+
+Vgenomics' work using AI to help diagnose rare genetic diseases matters a lot, because those families often wait years for an answer.
+
+I'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.
+
+I'd love to intern with your team, remotely or in person, on data, machine learning or software.
+
+I've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.
+
+Warm regards,
+Anushree Revankar
+github.com/Anushre2005 | linkedin.com/in/anushree-revankar
+```
+
+---
+
+## 27. OCSR.ai: Aarshit Mittal, co-founder
+
+**To:** (none yet: find via Hunter)
+
+**Subject:** Internship: AI drug design
+
+```text
+Dear Aarshit,
+
+I read about OCSR.ai's work with ICT Mumbai on designing new anti-inflammatory drug candidates entirely with AI. Seeing that happen in Mumbai made me want to get involved.
+
+I'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.
+
+I'd love to intern with your team, remotely or in Mumbai, on data, modelling or tools.
+
+I've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.
+
+Warm regards,
+Anushree Revankar
+github.com/Anushre2005 | linkedin.com/in/anushree-revankar
+```
+
+---
+
+## 28. Inductive Bio: Josh Haimson, co-founder & CEO (New York)
+
+**To:** (none yet: find via Hunter)
+
+**Subject:** Remote internship: machine learning for drug properties
+
+```text
+Dear Josh,
+
+Inductive's work predicting how a drug will behave in the body before it's even made, and winning the Polaris ADMET challenge, shows how much good data and ML can do in drug discovery.
+
+I'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.
+
+I'd be glad to intern remotely, starting with any small task.
+
+I've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.
+
+Warm regards,
+Anushree Revankar
+github.com/Anushre2005 | linkedin.com/in/anushree-revankar
+```
