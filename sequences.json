@@ -1151,19 +1151,25 @@
       "domain": "cohesiveapp.com",
       "to": "kevin@cohesiveapp.com",
       "subject": "Idea for Cohesive: lead-qualification evals",
-      "first_sent": null,
+      "first_sent": "2026-11-17",
       "tz": "America/New_York",
       "generic_inbox": false,
       "suggested_person": "Kevin Zhang",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179490003389.282.18044704639695929562@gmail.com>",
       "steps": [
         "Hi Kevin,\n\nAn agentic CRM for blue-collar businesses makes a lot of sense. Those owners spend their days on job sites, not in a CRM.\n\nI'm Anushree, a computer engineering student in Mumbai (honours in Data Science & AI) who builds AI tools for real users. I've done freelance projects, and during my internship at HTL I built PreQue AI, a Claude-powered app that automates pre-qualification forms, with semantic search over a vector store and a feedback loop that learns from corrections.\n\nWhile reading about Cohesive, one idea came to mind: a lead-qualification flow with evals for one trade, like HVAC. It's the kind of thing I could prototype in a few days.\n\nI'd love to hear what you're working on and whether a small, fixed-scope project could be useful to you. Would you be open to a 15-minute call in the next couple of weeks?\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar\n\nP.S. I also wrote to your team inbox on 9 November and wanted to reach you directly as well.",
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-17",
+          "to": "kevin@cohesiveapp.com",
+          "sent_at_ist": "2026-11-17T12:50:34+05:30"
+        }
+      ],
       "status": "active"
     },
     {
