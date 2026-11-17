@@ -81,3 +81,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-17T13:09:30,manual first email,scheduled#biotech_emails.md#7,Prof. Sanjeeva Srivastava,sanjeeva@iitb.ac.in,Internship request: machine learning for proteomics data,sent,
 2026-11-17T13:10:22,manual follow-up 2,READY_TO_SEND.md#1,Quantum Rise,julian.berman@quantumrise.com,Re: Freelance AI engineer for Quantum Rise's agentic projects,sent,
 2026-11-17T13:11:41,manual follow-up 2,READY_TO_SEND.md#3,Thankly,harsh@thankly.ai,Re: Freelance help on RL environments and graders,sent,
+2026-11-17T13:12:27,manual follow-up 1,READY_TO_SEND.md#5,Radar,tim@radar.com,Re: Freelance AI developer for Radar's agents and MCP tools,sent,
