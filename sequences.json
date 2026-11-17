@@ -3310,18 +3310,24 @@
       "first_name": "Prof. Raman",
       "to": "kraman@iitm.ac.in",
       "subject": "Internship request: computational systems biology",
-      "first_sent": null,
+      "first_sent": "2026-11-17",
       "tz": "Asia/Kolkata",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179490082678.282.1392288894987462232@gmail.com>",
       "steps": [
         "Dear Prof. Raman,\n\nYour lab's work on modelling metabolic networks and microbial communities caught my attention because it sits right where data science meets biology, which is where I want to work.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.\n\nI'd love to intern in your lab, remotely or in person. I'm comfortable with Python and machine learning and happy to start with any small, well-defined task.\n\nI've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
         "Dear Prof. Raman,\n\nI'm following up on my email about a research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear Prof. Raman,\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-17",
+          "to": "kraman@iitm.ac.in",
+          "sent_at_ist": "2026-11-17T13:04:30+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "attach": "Anushree_Revankar_Resume.pdf"
