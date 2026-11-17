@@ -761,7 +761,13 @@
         "Hi {first},\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-17",
+          "to": "andreas@passu.ai",
+          "sent_at_ist": "2026-11-17T13:16:09+05:30"
+        }
+      ],
       "status": "active"
     },
     {
