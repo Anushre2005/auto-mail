@@ -77,3 +77,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-17T13:04:30,manual first email,scheduled#biotech_emails.md#3,Prof. Karthik Raman,kraman@iitm.ac.in,Internship request: computational systems biology,sent,
 2026-11-17T13:05:57,manual first email,scheduled#biotech_emails.md#4,Prof. Himanshu Sinha,sinha@iitm.ac.in,Internship request: genomics data analysis,sent,
 2026-11-17T13:07:17,manual first email,scheduled#biotech_emails.md#5,Prof. Nagasuma Chandra,nchandra@iisc.ac.in,Internship request: computational systems biology,sent,
+2026-11-17T13:08:32,manual first email,scheduled#biotech_emails.md#6,Dr. Tavpritesh Sethi,tavpriteshsethi@iiitd.ac.in,Internship request: AI for healthcare,sent,
