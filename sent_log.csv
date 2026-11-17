@@ -86,3 +86,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-17T13:14:48,manual follow-up 1,READY_TO_SEND.md#10,Bezel,kashyap@trybezel.com,Re: Freelance AI help for Bezel,sent,
 2026-11-17T13:16:09,manual follow-up 1,READY_TO_SEND.md#19,Passu,andreas@passu.ai,Re: Freelance AI developer: happy to help Passu build,sent,
 2026-11-17T13:17:44,manual follow-up 2,professor_emails.md#2,Huimin Zhao,zhao5@illinois.edu,Re: Remote research internship: ML for enzyme engineering,sent,
+2026-11-17T13:19:00,manual follow-up 2,professor_emails.md#3,Mohammed El-Kebir,melkebir@illinois.edu,Re: Remote research internship: computational cancer and infection genomics,sent,
