@@ -167,7 +167,8 @@ if "flash" in st.session_state:
     m = st.session_state.pop("flash")
     (st.error if m.startswith("ERROR") else st.success)(m.replace("ERROR: ", ""))
 
-tab_send, tab_people, tab_settings = st.tabs(["✉️ Send emails", "👥 People", "⚙️ Settings"])
+tab_send, tab_track, tab_people, tab_settings = st.tabs(
+    ["✉️ Send emails", "📋 Sent & to send", "👥 People", "⚙️ Settings"])
 
 # ---------------- Send emails ----------------
 with tab_send:
@@ -311,6 +312,78 @@ with tab_send:
                 st.error(f"Test failed: {e}")
         if to and not core.EMAIL_RE.match(to.strip()):
             st.caption("⚠️ That email address doesn't look right.")
+
+# ---------------- Sent & to send ----------------
+def which_email(source: str) -> str:
+    src = (source or "").lower()
+    if "follow-up" in src:
+        return "Follow-up " + src.rsplit("follow-up", 1)[1].strip()
+    return "First email"
+
+
+def when_label(dt: datetime) -> str:
+    d = (dt.date() - datetime.now().date()).days
+    day = {0: "Today", -1: "Yesterday", 1: "Tomorrow"}.get(d, dt.strftime("%a %d %b"))
+    return f"{day}, {dt.strftime('%I:%M %p').lstrip('0')}"
+
+
+with tab_track:
+    sent_rows = [r for r in log_rows if r.get("status") in ("sent", "failed")]
+    upcoming = []
+    for s in seqs:
+        if s["status"] != "active":
+            continue
+        k, total = len(s["sent_steps"]), len(s["steps"])
+        nxt = fe.next_send_ist(s, sts)
+        gap = s.get("interval_days", sts["interval_days"])
+        for j, step in enumerate(range(k, total)):
+            if sts["paused"]:
+                plan = "Autopilot off: press Send now"
+            elif nxt is None:
+                plan = "Waiting"
+            elif j == 0:
+                plan = when_label(nxt)
+            else:
+                plan = f"Around {(nxt + pd.Timedelta(days=gap * j)).strftime('%a %d %b')}, if no reply"
+            upcoming.append({"sort": (nxt.timestamp() if nxt else 9e12) + j * 86400 * gap,
+                             "When (India time)": plan, "Name": f"{icon(s)} {s['company']}",
+                             "Email": fe.current_recipient(s), "Which email": step_name(s, step).capitalize()})
+    sent_set = core.already_sent()
+    for f in DRAFT_FILES:
+        if not (DRAFT_DIR / f).exists():
+            continue
+        for d in core.parse_drafts(DRAFT_DIR / f):
+            if (d["to"] and not fe.is_generic(d["to"]) and core.sent_key(d["to"], d["subject"]) not in sent_set
+                    and not scheduler.is_scheduled(data, d["to"], d["subject"])):
+                upcoming.append({"sort": 9.9e12, "When (India time)": "Not scheduled: send it from ✉️ Send emails",
+                                 "Name": f"🆕 {d['company'][:60]}", "Email": d["to"], "Which email": "First email"})
+    upcoming.sort(key=lambda x: x["sort"])
+
+    c1, c2, c3 = st.columns(3)
+    c1.metric("✅ Sent so far", sum(1 for r in sent_rows if r["status"] == "sent"))
+    c2.metric("⏳ Still to send", len(upcoming))
+    c3.metric("💬 Replies", len(replied))
+    view = st.radio("Show", ["⏳ Still to send", "✅ Already sent"], horizontal=True, label_visibility="collapsed")
+    find = st.text_input("Search by name or email", placeholder="e.g. Ferguson or uchicago",
+                         label_visibility="collapsed").strip().lower()
+
+    if view == "✅ Already sent":
+        table = [{"When (India time)": when_label(datetime.fromisoformat(r["timestamp"])),
+                  "Name": r["company"], "Email": r["to"], "Which email": which_email(r["source"]),
+                  "Subject": r["subject"], "Result": "✅ Sent" if r["status"] == "sent" else "❌ Failed"}
+                 for r in sorted(sent_rows, key=lambda r: r["timestamp"], reverse=True)]
+        tip = "Newest first. Follow-ups are sent as replies in the same Gmail thread as the first email."
+    else:
+        table = [{k: v for k, v in u.items() if k != "sort"} for u in upcoming]
+        tip = ("Follow-ups stop by themselves as soon as someone replies. "
+               "Want to send one earlier? Pick it in ✉️ Send emails and press Send now.")
+    if find:
+        table = [t for t in table if find in (t["Name"] + " " + t["Email"]).lower()]
+    if table:
+        st.dataframe(pd.DataFrame(table), hide_index=True, use_container_width=True, height=480)
+        st.caption(tip)
+    else:
+        st.caption("Nothing here.")
 
 # ---------------- People ----------------
 with tab_people:
