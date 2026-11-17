@@ -366,10 +366,13 @@ def send_now(data: dict, seq: dict, text: str | None = None) -> str:
     return f"Sent to {to}."
 
 
-def run(dry_run: bool = False, force_window: bool = False) -> None:
+def run(dry_run: bool = False, force_window: bool = False, manual: bool = False) -> None:
+    """manual=True is the app's "Send all due emails now" button: it ignores the morning time slots,
+    the weekend rule, the per-run limit and the pause switch (daily limits still apply)."""
+    force_window = force_window or manual
     data = load()
     st = data["settings"]
-    if st.get("paused") and not dry_run:  # a check-only run still reads replies while paused
+    if st.get("paused") and not (dry_run or manual):  # a check-only run still reads replies while paused
         log("Paused: nothing sent. Unpause in the app's Auto follow-ups tab.")
         return
     env = read_env()
@@ -388,9 +391,12 @@ def run(dry_run: bool = False, force_window: bool = False) -> None:
     firsts_now = 0
     today_ist = datetime.now(IST).date().isoformat()
     new_today = sum(1 for r in core.load_log() if r.get("status") == "sent"
-                    and r.get("source") == "auto first email" and r["timestamp"].startswith(today_ist))
+                    and r.get("source", "").endswith(" first email") and r["timestamp"].startswith(today_ist))
+    # emails you scheduled yourself (e.g. the biotech drafts) go before the automatic founder backlog,
+    # so the daily limit on new first emails never pushes them back
+    order = sorted(data["sequences"], key=lambda s: 0 if s.get("kind") == "scheduled" else 1)
     try:
-        for seq in data["sequences"]:
+        for seq in order:
             if seq["status"] != "active":
                 continue
             # 0) only ever write to people, never to support/hello/careers-style shared inboxes
@@ -414,7 +420,7 @@ def run(dry_run: bool = False, force_window: bool = False) -> None:
             in_window = now_local.weekday() < 5 and (h1, m1) <= (now_local.hour, now_local.minute) < (h2, m2)
             if now_local.date() < due or not (in_window or force_window):
                 continue
-            if sent_now >= st["max_per_run"]:
+            if not manual and sent_now >= st["max_per_run"]:
                 log("Per-run limit reached; the rest go next run.")
                 break
             if not dry_run and core.sent_today_count() >= st["max_per_day"]:
@@ -451,7 +457,7 @@ def run(dry_run: bool = False, force_window: bool = False) -> None:
             except Exception:
                 smtp = core.connect(sender, pw)
                 smtp.send_message(msg)
-            record_sent(seq, msg, to, subject, switched, "auto")
+            record_sent(seq, msg, to, subject, switched, "manual" if manual else "auto")
             firsts_now += is_first
             sent_now += 1
             save(data)

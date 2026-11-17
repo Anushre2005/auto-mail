@@ -108,6 +108,45 @@ def flash(msg: str) -> None:
     st.session_state.flash = msg
 
 
+def due_now_list(seqs: list, sts: dict) -> list:
+    """Everyone whose next email is due today or earlier (in their own time zone), whatever the hour."""
+    out = []
+    for s in seqs:
+        if s["status"] != "active" or fe.is_generic(fe.current_recipient(s) or ""):
+            continue
+        day = fe.due_date(s, sts["interval_days"])
+        if day is not None and datetime.now(ZoneInfo(s["tz"])).date() >= day:
+            out.append(s)
+    return out
+
+
+def send_all_due_button(key: str) -> None:
+    due = due_now_list(seqs, sts)
+    firsts = sum(1 for s in due if s.get("first_email") and not s["sent_steps"])
+    room_all = max(0, sts["max_per_day"] - sent_today)
+    if not due:
+        st.caption("Nothing in the queue is due today.")
+        return
+    mins = max(1, round(len(due) * 65 / 60))
+    if st.button(f"📤 Send all {len(due)} due emails now (any time of day)", type="primary", key=key,
+                 disabled=not creds_ok, use_container_width=True,
+                 help="Sends everyone in the queue whose email is due today, right now, ignoring their morning "
+                      "time slot. It waits about a minute between emails so Gmail doesn't flag you."):
+        before = len(core.load_log())
+        with st.spinner(f"Sending {len(due)} emails, about {mins} minutes. Keep this page open…"):
+            fe.run(manual=True)
+        n = sum(1 for r in core.load_log()[before:] if r.get("status") == "sent")
+        left = len(due_now_list(fe.load()["sequences"], sts))
+        flash(f"✅ {n} emails sent." + (f" {left} were held back by your daily limits (change them in ⚙️ "
+                                        "Settings) and go next time." if left else ""))
+        st.rerun()
+    note = f"{len(due)} due ({firsts} first emails, {len(due) - firsts} follow-ups) · takes about {mins} min."
+    if len(due) > room_all or firsts > sts["max_new_per_day"]:
+        note += (f" ⚠️ Your daily limits ({sts['max_new_per_day']} new first emails, {sts['max_per_day']} emails "
+                 "in total) will hold some back. Raise them in ⚙️ Settings to send all today.")
+    st.caption(note)
+
+
 st.set_page_config(page_title="Cold Email Sender", page_icon="✉️", layout="wide")
 
 if CLOUD and time.time() - st.session_state.get("last_sync", 0) > 60:  # get the cloud's latest sends
@@ -176,6 +215,8 @@ with tab_send:
                     horizontal=True, label_visibility="collapsed")
 
     if mode == "Send a prepared email":
+        send_all_due_button("send_all_top")
+        st.divider()
         # 1) everyone whose next email is ready (follow-ups, founders' first emails, scheduled drafts)
         items = []
         for s in seqs:
@@ -478,14 +519,8 @@ with tab_settings:
         with st.spinner("Reading your Gmail…"):
             fe.run(dry_run=True)
         st.rerun()
-    if c2.button("📤 Send everything that's due now", disabled=sts["paused"] or not creds_ok,
-                 help="Only sends emails that are due and only inside the person's morning, like the autopilot."):
-        before = len(core.load_log())
-        with st.spinner("Sending due emails (it waits about a minute between emails)…"):
-            fe.run()
-        n = sum(1 for r in core.load_log()[before:] if r.get("status") == "sent")
-        flash(f"{n} emails sent." if n else "Nothing was due inside anyone's morning right now.")
-        st.rerun()
+    with c2:
+        send_all_due_button("send_all_settings")
     l1, l2, l3 = st.columns(3)
     max_new = l1.number_input("New first emails a day", 1, 30, int(sts["max_new_per_day"]))
     max_day = l2.number_input("All emails a day", 1, 60, int(sts["max_per_day"]))
