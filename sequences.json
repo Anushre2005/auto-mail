@@ -1148,9 +1148,14 @@
           "date": "2026-11-13",
           "to": "melkebir@illinois.edu",
           "sent_at_ist": "2026-11-13T20:32:21+05:30"
+        },
+        {
+          "date": "2026-11-17",
+          "to": "melkebir@illinois.edu",
+          "sent_at_ist": "2026-11-17T13:19:00+05:30"
         }
       ],
-      "status": "active",
+      "status": "finished",
       "interval_days": 4
     },
     {
