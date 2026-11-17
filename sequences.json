@@ -1125,7 +1125,7 @@
       "generic_inbox": false,
       "suggested_person": "Pankaj Dhariwal",
       "person_email": "",
-      "message_id": "<179489997977.282.6877264423779027639@gmail.com>",
+      "message_id": "<179489998014.282.17927507466808064464@gmail.com>",
       "steps": [
         "Hi Pankaj,\n\nAn AI that investigates a P&C claim end to end, instead of only summarising documents, is a real step up from most insurance AI.\n\nI'm Anushree, a computer engineering student in Mumbai (honours in Data Science & AI) who builds AI tools for real users. I've done freelance projects, and during my internship at HTL I built PreQue AI, a Claude-powered app that automates pre-qualification forms, with semantic search over a vector store and a feedback loop that learns from corrections.\n\nWhile reading about Hesper AI, one idea came to mind: a prototype that pulls a claim timeline and red flags out of a sample claim file. It's the kind of thing I could prototype in a few days.\n\nI'd love to hear what you're working on and whether a small, fixed-scope project could be useful to you. Would you be open to a 15-minute call in the next couple of weeks?\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar\n\nP.S. I also wrote to your team inbox on 8 November and wanted to reach you directly as well.",
         "Hi {first},\n\nJust checking you saw my last email. I'd really like to help {company} with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
