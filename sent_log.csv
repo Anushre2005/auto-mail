@@ -64,3 +64,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-13T20:40:09,auto first email,founder#Atolio,Atolio,david@atolio.com,Idea for Atolio: permission-aware retrieval evals,sent,
 2026-11-17T12:49:27,manual first email,founder#Theo,Theo,miles@theo.site,Idea for Theo: automated SEO audits,sent,
 2026-11-17T12:49:40,manual first email,founder#Hesper AI,Hesper AI,pankaj@gethesperai.com,Idea for Hesper AI: claim-timeline extraction,sent,
+2026-11-17T12:50:34,manual first email,founder#Cohesive,Cohesive,kevin@cohesiveapp.com,Idea for Cohesive: lead-qualification evals,sent,
