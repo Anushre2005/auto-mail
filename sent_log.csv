@@ -68,3 +68,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-17T12:54:32,manual follow-up 1,scheduled#professor_emails.md#8,Prof. Andrew Ferguson,andrewferguson@uchicago.edu,Re: Remote research internship: ML for protein and molecular design,sent,
 2026-11-17T12:55:34,manual follow-up 1,scheduled#professor_emails.md#9,Prof. Diwakar Shukla,diwakar@illinois.edu,Re: Remote research internship: AI models of protein dynamics,sent,
 2026-11-17T12:56:48,manual follow-up 1,scheduled#professor_emails.md#10,Prof. Jun Song,songj@illinois.edu,Re: Remote research internship: ML and computational genomics,sent,
+2026-11-17T12:58:07,manual follow-up 1,scheduled#professor_emails.md#11,Prof. Jimeng Sun,jimeng@illinois.edu,Re: Remote research internship: LLMs for clinical trials (TrialMind / PyHealth),sent,
