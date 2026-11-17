@@ -1115,9 +1115,14 @@
           "date": "2026-11-13",
           "to": "zhao5@illinois.edu",
           "sent_at_ist": "2026-11-13T20:31:37+05:30"
+        },
+        {
+          "date": "2026-11-17",
+          "to": "zhao5@illinois.edu",
+          "sent_at_ist": "2026-11-17T13:17:44+05:30"
         }
       ],
-      "status": "active",
+      "status": "finished",
       "interval_days": 4
     },
     {
