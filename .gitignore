@@ -9,6 +9,7 @@
 !/sent_log.csv
 !/followup_engine.log
 !/Anushree_Revankar_Resume.pdf
+!/Revankar_TrialBench_summary.pdf
 # the web app (hosted on Streamlit Cloud)
 !/app.py
 !/scheduler.py

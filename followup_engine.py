@@ -224,12 +224,33 @@ class Gmail:
 
 
 # ---------------------------------------------------------------- core run
+def step_attach_name(seq: dict) -> str | None:
+    """File to attach to the next email. seq["step_attach"] maps a step number ("0", "1", ...) to a file in
+    this folder (works for follow-ups too); the older seq["attach"] covers a first email."""
+    k = len(seq["sent_steps"])
+    name = (seq.get("step_attach") or {}).get(str(k))
+    if not name and seq.get("first_email") and k == 0:
+        name = seq.get("attach")
+    return name or None
+
+
+def missing_attachment(seq: dict) -> str | None:
+    """Name of a step_attach file that isn't in this folder (that email is held back, never sent without it)."""
+    name = (seq.get("step_attach") or {}).get(str(len(seq["sent_steps"])))
+    return name if name and not (HERE / name).exists() else None
+
+
+def step_attachment(seq: dict) -> Path | None:
+    name = step_attach_name(seq)
+    return HERE / name if name and (HERE / name).exists() else None
+
+
 def build_followup(seq: dict, step_text: str, sender: str, sender_name: str):
     to = current_recipient(seq)
     switched = bool(seq.get("person_email")) and not seq.get("person_thread_id")
     if seq.get("first_email") and not seq["sent_steps"]:
-        # brand-new first email to a founder: starts its own thread
-        att = HERE / seq["attach"] if seq.get("attach") and (HERE / seq["attach"]).exists() else None
+        # brand-new first email: starts its own thread
+        att = step_attachment(seq)
         msg = core.build_message(sender, sender_name, to, seq["subject"], step_text, att)
         msg["Message-ID"] = make_msgid(domain=sender.split("@")[1])
         return msg, to, seq["subject"], False
@@ -250,7 +271,7 @@ def build_followup(seq: dict, step_text: str, sender: str, sender_name: str):
         msg = core.build_message(sender, sender_name, to, subject, body, None)
     else:
         subject = seq["subject"] if seq["subject"].lower().startswith("re:") else "Re: " + seq["subject"]
-        msg = core.build_message(sender, sender_name, to, subject, step_text, None)
+        msg = core.build_message(sender, sender_name, to, subject, step_text, step_attachment(seq))
         parent = seq.get("person_thread_id") if seq.get("person_email") else seq.get("message_id")
         if parent:
             msg["In-Reply-To"] = parent
@@ -349,6 +370,8 @@ def send_now(data: dict, seq: dict, text: str | None = None) -> str:
             seq["message_id"] = gm.find_message_id(seq["to"], seq["subject"])
     finally:
         gm.close()
+    if missing_attachment(seq):
+        return f"ERROR: the attachment {missing_attachment(seq)} is missing from the app folder."
     if not has_thread(seq):
         return "ERROR: couldn't find the original email in your Sent folder, so this follow-up wasn't sent (it must go as a reply)."
     if text is not None:
@@ -433,6 +456,9 @@ def run(dry_run: bool = False, force_window: bool = False, manual: bool = False)
             if not seq.get("message_id") and not seq.get("person_email") and not seq.get("first_email"):
                 seq["message_id"] = gm.find_message_id(seq["to"], seq["subject"])
             k = len(seq["sent_steps"])
+            if missing_attachment(seq):
+                log(f"{seq['company']}: attachment {missing_attachment(seq)} is missing, so this email is held back.")
+                continue
             if not has_thread(seq):
                 log(f"{seq['company']}: original email not found in Sent, so the follow-up is held back "
                     "(follow-ups only ever go as a reply in the same thread).")
