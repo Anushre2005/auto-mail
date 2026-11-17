@@ -62,3 +62,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-13T20:38:05,auto first email,founder#ContextQA,ContextQA,deep@contextqa.com,Idea for ContextQA: user-story-to-test generation,sent,
 2026-11-13T20:39:16,auto first email,founder#Northslope,Northslope,bward@northslope.com,Idea for Northslope: help on a client build,sent,
 2026-11-13T20:40:09,auto first email,founder#Atolio,Atolio,david@atolio.com,Idea for Atolio: permission-aware retrieval evals,sent,
+2026-11-17T12:49:27,manual first email,founder#Theo,Theo,miles@theo.site,Idea for Theo: automated SEO audits,sent,
