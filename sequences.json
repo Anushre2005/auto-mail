@@ -3280,18 +3280,24 @@
       "first_name": "Prof. Priyakumar",
       "to": "deva@iiit.ac.in",
       "subject": "Internship request: machine learning for drug design",
-      "first_sent": null,
+      "first_sent": "2026-11-17",
       "tz": "Asia/Kolkata",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179490074302.282.13296089167031961634@gmail.com>",
       "steps": [
         "Dear Prof. Priyakumar,\n\nYour group's work on computer-aided drug design is exactly the kind of research I want to join. Using machine learning to find better drug molecules faster is where I'd like to build my career.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.\n\nI'd be glad to intern with your group, remotely or in person, and to start with any small task, like preparing a dataset or testing a model.\n\nI've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
         "Dear Prof. Priyakumar,\n\nI'm following up on my email about a research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear Prof. Priyakumar,\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-17",
+          "to": "deva@iiit.ac.in",
+          "sent_at_ist": "2026-11-17T13:03:43+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "attach": "Anushree_Revankar_Resume.pdf"
