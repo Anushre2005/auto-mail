@@ -71,3 +71,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-17T12:58:07,manual follow-up 1,scheduled#professor_emails.md#11,Prof. Jimeng Sun,jimeng@illinois.edu,Re: Remote research internship: LLMs for clinical trials (TrialMind / PyHealth),sent,
 2026-11-17T12:59:35,manual follow-up 1,scheduled#professor_emails.md#13,Prof. Marinka Zitnik,marinka@hms.harvard.edu,Re: Remote research internship: agentic AI for biomedical discovery,sent,
 2026-11-17T13:00:29,manual follow-up 1,scheduled#professor_emails.md#14,Prof. Yuan Luo,yuan.luo@northwestern.edu,Re: Remote research internship: clinical NLP and multimodal ML,sent,
+2026-11-17T13:01:26,manual follow-up 1,scheduled#professor_emails.md#15,Prof. Ying Ding,ying.ding@ischool.utexas.edu,Re: Remote research internship: reliable LLMs and agentic AI in healthcare,sent,
