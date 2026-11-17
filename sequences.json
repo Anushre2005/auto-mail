@@ -3370,18 +3370,24 @@
       "first_name": "Prof. Chandra",
       "to": "nchandra@iisc.ac.in",
       "subject": "Internship request: computational systems biology",
-      "first_sent": null,
+      "first_sent": "2026-11-17",
       "tz": "Asia/Kolkata",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179490096109.282.15366237615368150040@gmail.com>",
       "steps": [
         "Dear Prof. Chandra,\n\nYour lab's work in systems biology and computational immunology is a big reason I became interested in using computing to understand disease.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.\n\nI'd love to intern in your lab, remotely or in person. I can help with data analysis, machine learning or building tools, and I'm happy to start with a small task.\n\nI've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
         "Dear Prof. Chandra,\n\nI'm following up on my email about a research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear Prof. Chandra,\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-17",
+          "to": "nchandra@iisc.ac.in",
+          "sent_at_ist": "2026-11-17T13:07:17+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "attach": "Anushree_Revankar_Resume.pdf"
