@@ -94,3 +94,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-18T08:17:27,manual first email,scheduled#batch3#career@threatmark.com,ThreatMark,career@threatmark.com,Remote machine learning role (HN Who's Hiring),sent,
 2026-11-18T08:18:14,manual first email,scheduled#batch3#hugh@assume-ai.com,AssumeAI,hugh@assume-ai.com,Contract AI engineer: agents and Claude-based systems,sent,
 2026-11-18T08:19:43,manual first email,scheduled#batch3#rita@raidsai.ai,RAIDS AI,rita@raidsai.ai,Remote AI engineer (intern or contract): AI monitoring,sent,
+2026-11-18T08:20:57,manual first email,scheduled#batch3#max@kaida.dev,Kaida,max@kaida.dev,Remote AI engineer: building with you on Kaida,sent,
