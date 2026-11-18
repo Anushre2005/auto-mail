@@ -1387,6 +1387,11 @@
           "date": "2026-11-12",
           "to": "noaman@antareslabs.ai",
           "sent_at_ist": "2026-11-12T21:15:25+05:30"
+        },
+        {
+          "date": "2026-11-17",
+          "to": "noaman@antareslabs.ai",
+          "sent_at_ist": "2026-11-18T08:22:14+05:30"
         }
       ],
       "status": "active"
@@ -4276,7 +4281,7 @@
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at Tahoma AI is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "active",
+      "status": "needs_person",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
     {
@@ -4348,7 +4353,7 @@
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at Sidekick Labs is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "active",
+      "status": "needs_person",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
     {
@@ -4396,7 +4401,7 @@
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at Biobase is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "active",
+      "status": "needs_person",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
     {
@@ -4444,7 +4449,7 @@
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at This Dot Labs is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "active",
+      "status": "needs_person",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
     {
