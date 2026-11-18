@@ -4053,19 +4053,25 @@
       "first_name": "Hugh",
       "to": "hugh@assume-ai.com",
       "subject": "Contract AI engineer: agents and Claude-based systems",
-      "first_sent": null,
+      "first_sent": "2026-11-18",
       "tz": "Europe/London",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179497005137.282.7109118557266609071@gmail.com>",
       "steps": [
         "Hi Hugh,\n\nI found your post in the Hacker News \"Who is hiring\" thread. Helping small businesses find where AI will really pay off, and then building the agents and software to deliver it, is the practical work I enjoy. I use Claude every day to build.\n\nI'm Anushree, a final-year computer engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my internship at HTL I built PreQue AI, a Claude-powered app that fills in pre-qualification forms. It uses search over a vector store and a feedback loop that learns from corrections. I also came 1st runner-up at the CreAItion 1.0 AI hackathon (2026).\n\nI know the post says the UK, so if that is a firm rule I understand. If a contract from Mumbai is possible, I'd be glad to do the short practical exercise you mention.\n\nI work remotely from Mumbai, and my working hours overlap well with Europe. I'm open to an internship, a contract, or a junior role. Would you be open to a 15-minute call? My resume is attached and my code is at github.com/Anushre2005.\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar",
         "Hi Hugh,\n\nJust checking you saw my last email. I'd really like to help AssumeAI with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi Hugh,\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi Hugh,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at AssumeAI is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-18",
+          "to": "hugh@assume-ai.com",
+          "sent_at_ist": "2026-11-18T08:18:14+05:30"
+        }
+      ],
       "status": "active",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
