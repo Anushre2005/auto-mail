@@ -89,3 +89,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-17T13:19:00,manual follow-up 2,professor_emails.md#3,Mohammed El-Kebir,melkebir@illinois.edu,Re: Remote research internship: computational cancer and infection genomics,sent,
 2026-11-18T08:12:22,manual first email,scheduled#biotech_emails.md#18,Prof. Debnath Pal,dpal@iisc.ac.in,Internship request: computational biology and drug discovery,sent,
 2026-11-18T08:13:40,manual first email,scheduled#biotech_emails.md#19,Prof. Amit Sethi,asethi@iitb.ac.in,Internship request: deep learning for pathology images,sent,
+2026-11-18T08:15:02,manual first email,scheduled#trialbench_paper#raetsch@inf.ethz.ch,Prof. Gunnar Rätsch,raetsch@inf.ethz.ch,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
