@@ -3585,18 +3585,24 @@
       "first_name": "Prof. Pal",
       "to": "dpal@iisc.ac.in",
       "subject": "Internship request: computational biology and drug discovery",
-      "first_sent": null,
+      "first_sent": "2026-11-18",
       "tz": "Asia/Kolkata",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179496974088.282.11610949181725104828@gmail.com>",
       "steps": [
         "Dear Prof. Pal,\n\nYour group's work on predicting what genes and proteins do, and how proteins bind to drugs and to each other, is exactly where computing meets biology, and that's where I want to work.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.\n\nI'd love to intern in your lab, remotely or in person, and help with data processing, building prediction models or writing tools.\n\nI've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
         "Dear Prof. Pal,\n\nI'm following up on my email about a research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear Prof. Pal,\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-18",
+          "to": "dpal@iisc.ac.in",
+          "sent_at_ist": "2026-11-18T08:12:22+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "attach": "Anushree_Revankar_Resume.pdf"
