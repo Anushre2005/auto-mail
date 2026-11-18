@@ -8,8 +8,8 @@
       30
     ],
     "max_per_run": 15,
-    "max_per_day": 25,
-    "max_new_per_day": 10,
+    "max_per_day": 60,
+    "max_new_per_day": 30,
     "paused": false
   },
   "sequences": [
