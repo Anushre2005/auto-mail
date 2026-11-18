@@ -96,3 +96,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-18T08:19:43,manual first email,scheduled#batch3#rita@raidsai.ai,RAIDS AI,rita@raidsai.ai,Remote AI engineer (intern or contract): AI monitoring,sent,
 2026-11-18T08:20:57,manual first email,scheduled#batch3#max@kaida.dev,Kaida,max@kaida.dev,Remote AI engineer: building with you on Kaida,sent,
 2026-11-18T08:22:14,manual follow-up 1,founder#Antares Labs,Antares Labs,noaman@antareslabs.ai,Re: Idea for Antares Labs: a lease-abstraction prototype,sent,
+2026-11-18T08:23:43,manual follow-up 1,founder#definity,definity,roy@definity.ai,Re: Idea for definity: a Spark failure-explainer agent,sent,
