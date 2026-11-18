@@ -9,7 +9,7 @@
     ],
     "max_per_run": 15,
     "max_per_day": 25,
-    "max_new_per_day": 11,
+    "max_new_per_day": 13,
     "paused": false
   },
   "sequences": [
