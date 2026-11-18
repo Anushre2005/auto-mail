@@ -2613,7 +2613,13 @@
         "Dear {first},\n\nI'm following up on my email about a remote research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear {first},\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-17",
+          "to": "sriesenfeld@uchicago.edu",
+          "sent_at_ist": "2026-11-18T08:39:34+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4
     },
