@@ -104,3 +104,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-18T08:30:12,manual follow-up 1,founder#Loman AI,Loman AI,christian@loman.ai,Re: Idea for Loman AI: a phone-agent eval set,sent,
 2026-11-18T08:31:00,manual follow-up 1,founder#RapidCanvas,RapidCanvas,rahul@rapidcanvas.ai,Re: Idea for RapidCanvas: help on a client build,sent,
 2026-11-18T08:31:56,manual follow-up 1,founder#Skribe.ai,Skribe.ai,tom@skribe.ai,Re: Idea for Skribe.ai: deposition search and summaries,sent,
+2026-11-18T08:33:13,manual follow-up 1,founder#ContextQA,ContextQA,deep@contextqa.com,Re: Idea for ContextQA: user-story-to-test generation,sent,
