@@ -4,12 +4,12 @@
     "send_window": [
       8,
       0,
-      17,
-      0
+      10,
+      30
     ],
-    "max_per_run": 4,
-    "max_per_day": 60,
-    "max_new_per_day": 30,
+    "max_per_run": 15,
+    "max_per_day": 25,
+    "max_new_per_day": 10,
     "paused": false
   },
   "sequences": [
@@ -3988,7 +3988,7 @@
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at Opsfleet is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "active",
+      "status": "needs_person",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
     {
@@ -4012,7 +4012,7 @@
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at Proofline is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "active",
+      "status": "needs_person",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
     {
@@ -4023,19 +4023,25 @@
       "first_name": "there",
       "to": "career@threatmark.com",
       "subject": "Remote machine learning role (HN Who's Hiring)",
-      "first_sent": null,
+      "first_sent": "2026-11-18",
       "tz": "Europe/Prague",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179496995718.282.16016772979236417117@gmail.com>",
       "steps": [
         "Hi there,\n\nI found your post in the Hacker News \"Who is hiring\" thread. Spotting fraud from how someone types and moves their mouse, in milliseconds, is a clever use of machine learning, and it protects real people's money.\n\nI'm Anushree, a final-year computer engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my internship at HTL I built PreQue AI, a Claude-powered app that fills in pre-qualification forms. It uses search over a vector store and a feedback loop that learns from corrections. I also came 1st runner-up at the CreAItion 1.0 AI hackathon (2026).\n\nI could start with a small model that flags unusual typing patterns on a public dataset, and show you the results.\n\nI work remotely from Mumbai, and my working hours overlap well with Europe. I'm open to an internship, a contract, or a junior role. Would you be open to a 15-minute call? My resume is attached and my code is at github.com/Anushre2005.\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar",
         "Hi there,\n\nJust checking you saw my last email. I'd really like to help ThreatMark with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi there,\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at ThreatMark is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-18",
+          "to": "career@threatmark.com",
+          "sent_at_ist": "2026-11-18T08:17:27+05:30"
+        }
+      ],
       "status": "active",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
