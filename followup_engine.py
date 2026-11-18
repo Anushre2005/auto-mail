@@ -38,7 +38,7 @@ GENERIC_LOCALPARTS = {"hello", "hi", "hey", "info", "contact", "support", "caree
 EXACT_MATCH_DOMAINS = ("gmail.com", "outlook.com", "yahoo.com", "hotmail.com", ".edu")
 DEFAULTS = {
     "interval_days": 2,          # days between steps
-    "send_window": [8, 0, 10, 0],  # default: 8:00-10:00 AM their time (see SEND_WINDOWS for exceptions)
+    "send_window": [8, 0, 17, 0],  # default: 8:00 AM-5:00 PM their time (see SEND_WINDOWS for exceptions)
     "max_per_run": 12,
     "max_per_day": 25,
     "max_new_per_day": 10,      # brand-new first emails per day (follow-ups not counted)
@@ -46,14 +46,24 @@ DEFAULTS = {
 }
 
 # When an email may go out, in the person's own time: from 8:00 AM until the deadline for their region.
-DEFAULT_WINDOW = (8, 0, 10, 0)          # USA, Europe and everywhere else: before 10 AM
+DEFAULT_WINDOW = (8, 0, 17, 0)          # USA, Europe and everywhere else: 8 AM-5 PM, each email at its own random time
 SEND_WINDOWS = {
-    "Asia/Kolkata": (8, 0, 11, 0),      # India: before 11 AM
+    "Asia/Kolkata": (8, 0, 17, 0),      # India: 8 AM-5 PM
 }
 
 
 def window_for(tz: str) -> tuple:
     return SEND_WINDOWS.get(tz, DEFAULT_WINDOW)
+
+
+def slot_time(seq: dict, now_local: datetime) -> datetime:
+    """A random moment inside today's window for this email (same answer on every run today, new tomorrow).
+    Emails are spread over the whole day at uneven gaps, instead of all going out at 8 AM sharp."""
+    h1, m1, h2, m2 = window_for(seq["tz"])
+    start = now_local.replace(hour=h1, minute=m1, second=0, microsecond=0)
+    end = now_local.replace(hour=h2, minute=m2, second=0, microsecond=0)
+    frac = random.Random(f"{seq['id']}|{len(seq['sent_steps'])}|{now_local.date()}").random()
+    return start + (end - start - timedelta(minutes=30)) * frac
 
 
 CITY_TZ = [  # keyword in company/city text -> time zone
@@ -443,6 +453,8 @@ def run(dry_run: bool = False, force_window: bool = False, manual: bool = False)
             in_window = now_local.weekday() < 5 and (h1, m1) <= (now_local.hour, now_local.minute) < (h2, m2)
             if now_local.date() < due or not (in_window or force_window):
                 continue
+            if not force_window and now_local < slot_time(seq, now_local):
+                continue  # not this email's turn yet today
             if not manual and sent_now >= st["max_per_run"]:
                 log("Per-run limit reached; the rest go next run.")
                 break
