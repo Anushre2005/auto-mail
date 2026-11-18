@@ -157,18 +157,24 @@
       "first_name": "Prof. Lee",
       "to": "suinlee@cs.washington.edu",
       "subject": "Remote research internship: explainable AI for biomedicine",
-      "first_sent": null,
+      "first_sent": "2026-11-18",
       "tz": "America/Los_Angeles",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179503352020.2194.10749723497012863305@gmail.com>",
       "steps": [
         "Dear Prof. Lee,\n\nSHAP has been part of nearly every model I've built. I used it to explain a credit-risk model so that each prediction could be justified to the people relying on it, so it's a real pleasure to write to the lab behind it. Your current direction, explainable agentic AI for scientific discovery and auditing clinical AI for safety, is where I'd most like to grow.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my HTL internship I build LLM tools end to end, including PreQue AI, a Claude-powered app with semantic search and a feedback loop that learns from corrections. I work in Python with scikit-learn, XGBoost, SHAP and Hugging Face Transformers.\n\nI'd love to contribute to your lab remotely, whether that's implementing and benchmarking methods, running interpretability analyses, or building tooling. I'm happy to start with a small, well-defined task.\n\nWould you or a member of your lab be open to a short conversation at your convenience?\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
         "Dear {first},\n\nI'm following up on my email about a remote research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear {first},\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-18",
+          "to": "suinlee@cs.washington.edu",
+          "sent_at_ist": "2026-11-19T01:55:21+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4
     },
@@ -291,18 +297,24 @@
       "first_name": "Prof. Kundaje",
       "to": "akundaje@stanford.edu",
       "subject": "Remote research internship: interpretable deep learning for regulatory genomics",
-      "first_sent": null,
+      "first_sent": "2026-11-18",
       "tz": "America/Los_Angeles",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179503352276.2194.7712668860414120562@gmail.com>",
       "steps": [
         "Dear Prof. Kundaje,\n\nYour lab's approach of training deep learning models on regulatory DNA and then interpreting them to recover the sequence rules they learn is a beautiful example of interpretability producing real biology. Interpretable models are a big part of my own work, so it resonates strongly.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my HTL internship I build ML and LLM tools end to end, and I've built explainable models with SHAP. I work with Python, scikit-learn, XGBoost and Hugging Face Transformers.\n\nI'd love to contribute to your lab remotely, whether on data pipelines, model training and benchmarking, or interpretation tooling. I'm happy to start with a small, well-defined task.\n\nWould you or a member of your lab be open to a short conversation at your convenience?\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
         "Dear {first},\n\nI'm following up on my email about a remote research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear {first},\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-18",
+          "to": "akundaje@stanford.edu",
+          "sent_at_ist": "2026-11-19T01:56:43+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4
     },
@@ -3615,18 +3627,24 @@
       "first_name": "Prof. Brown",
       "to": "benjamin.p.brown@vanderbilt.edu",
       "subject": "Remote research internship: deep learning for drug discovery",
-      "first_sent": null,
+      "first_sent": "2026-11-18",
       "tz": "America/Chicago",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179503360671.2194.1656908475415862386@gmail.com>",
       "steps": [
         "Dear Prof. Brown,\n\nI read about your PNAS paper on deep learning models for protein-ligand binding that still work on new targets. Making models work beyond the data they were trained on is a problem I care about.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.\n\nI'd love to contribute to your lab remotely, starting with any small task.\n\nI've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
         "Dear Prof. Brown,\n\nI'm following up on my email about a research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear Prof. Brown,\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-18",
+          "to": "benjamin.p.brown@vanderbilt.edu",
+          "sent_at_ist": "2026-11-19T01:57:38+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "attach": "Anushree_Revankar_Resume.pdf"
@@ -3639,19 +3657,25 @@
       "first_name": "Bharath",
       "to": "bharath@deepforestsci.com",
       "subject": "Contributing to DeepChem: student interested in an internship",
-      "first_sent": null,
+      "first_sent": "2026-11-18",
       "tz": "America/New_York",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179503365848.2194.15653654837532111399@gmail.com>",
       "steps": [
         "Dear Bharath,\n\nDeepChem is one of the best open-source projects for machine learning in chemistry and biology, and I'd love to contribute to it.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.\n\nI saw your earlier posts about internships for adding models to DeepChem. If there's a model or task on the wishlist I could take on, I'd be glad to start.\n\nI've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
         "Hi Bharath,\n\nJust checking you saw my last email. I'd really like to help Deep Forest Sciences with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi Bharath,\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi Bharath,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at Deep Forest Sciences is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-18",
+          "to": "bharath@deepforestsci.com",
+          "sent_at_ist": "2026-11-19T01:58:30+05:30"
+        }
+      ],
       "status": "active",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
@@ -3723,18 +3747,24 @@
       "first_name": "Prof. Singh",
       "to": "rohit.singh@duke.edu",
       "subject": "Remote research internship: machine learning for drug discovery",
-      "first_sent": null,
+      "first_sent": "2026-11-18",
       "tz": "America/New_York",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179503371170.2194.8581910104107542885@gmail.com>",
       "steps": [
         "Dear Prof. Singh,\n\nYour lab's idea of combining single-cell data with large language models to understand disease and find new drug targets is exciting, and it's close to the language-model work I already do.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.\n\nI'd love to contribute to your lab remotely, starting with any small task, like preparing data or running baseline models.\n\nI've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
         "Dear Prof. Singh,\n\nI'm following up on my email about a research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear Prof. Singh,\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-18",
+          "to": "rohit.singh@duke.edu",
+          "sent_at_ist": "2026-11-19T01:59:16+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "attach": "Anushree_Revankar_Resume.pdf"
@@ -3747,18 +3777,24 @@
       "first_name": "Prof. Chatterjee",
       "to": "pranam.chatterjee@duke.edu",
       "subject": "Remote research internship: AI for protein design",
-      "first_sent": null,
+      "first_sent": "2026-11-18",
       "tz": "America/New_York",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179503375662.2194.10576796123654994678@gmail.com>",
       "steps": [
         "Dear Prof. Chatterjee,\n\nYour lab's work using AI to design new proteins that can act as treatments, like programmable therapeutics, is one of the most exciting things I've read about.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). To be honest, I don't have much experience in biology yet. My experience so far is mostly in AI: I build machine learning tools in Python at my internship at HTL. I'm also working on a research paper on predicting whether clinical trials succeed, and it has made me really interested in this field. I want to explore it further.\n\nI'd love to contribute to your lab remotely, starting with any small task, like running models, preparing data or building tools.\n\nI've attached my resume in case it's useful. If you're open to it, even a short chat to start with would be great. I'm happy to work around your schedule.\n\nWarm regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
         "Dear Prof. Chatterjee,\n\nI'm following up on my email about a research internship in your lab. I'm happy to start with any small task, like cleaning a dataset or reproducing a result from one of your papers.\n\nThank you for your time,\nAnushree Revankar",
         "Dear Prof. Chatterjee,\n\nOne last short note. If a remote internship isn't possible right now, could you point me to a student or postdoc in your lab I could reach out to? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-18",
+          "to": "pranam.chatterjee@duke.edu",
+          "sent_at_ist": "2026-11-19T02:00:42+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "attach": "Anushree_Revankar_Resume.pdf"
@@ -3798,12 +3834,12 @@
       "first_name": "Prof. Weng",
       "to": "cw2384@columbia.edu",
       "subject": "Research collaboration: a label error in the TrialBench clinical-trial benchmark",
-      "first_sent": null,
+      "first_sent": "2026-11-18",
       "tz": "America/New_York",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179503384244.2194.3625496900773608223@gmail.com>",
       "steps": [
         "Dear Prof. Weng,\n\nYour work on clinical trial eligibility criteria and making trial data computable is very close to what I have been studying. I'd value your view on a problem I found in a widely used clinical-trial benchmark.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). I've written a paper on predicting clinical-trial approval with the TrialBench benchmark. Every model I built, from random forests to a multimodal network with ClinicalBERT and ChemBERTa, got stuck at about 0.57 AUROC. When I checked the data, I found that the popular Hugging Face copy of TrialBench matches labels to trials by row order, so the labels are scrambled: only 51.5% match the official ones. With the correct labels, a simple LightGBM model reaches 0.773 AUROC. I also found that almost half of the \"failed\" trials were stopped for recruitment or business reasons, not because the drug failed.\n\nThe paper and code are complete. I'm looking for a professor to guide me in finishing it and choosing where to publish, and I'd be glad to have you as a co-author. A one-page summary is attached.\n\nWould you be open to a short call, or may I send you the full draft?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
         "Dear {first},\n\nI'm following up on my note about the TrialBench label error. I'd be happy to send the full paper and code, or to join a short call at any time that suits you.\n\nThank you,\nAnushree Revankar",
@@ -3812,7 +3848,13 @@
       "step_attach": {
         "0": "Revankar_TrialBench_summary.pdf"
       },
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-18",
+          "to": "cw2384@columbia.edu",
+          "sent_at_ist": "2026-11-19T02:01:32+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "university": "Columbia"
@@ -3825,12 +3867,12 @@
       "first_name": "Prof. Wang",
       "to": "few2001@med.cornell.edu",
       "subject": "Research collaboration: a label error in the TrialBench clinical-trial benchmark",
-      "first_sent": null,
+      "first_sent": "2026-11-18",
       "tz": "America/New_York",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179503389227.2194.17826152183812274666@gmail.com>",
       "steps": [
         "Dear Prof. Wang,\n\nI read about your team's recent work on AI for clinical trial design. I'd value your view on a problem I found in a widely used clinical-trial benchmark.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). I've written a paper on predicting clinical-trial approval with the TrialBench benchmark. Every model I built, from random forests to a multimodal network with ClinicalBERT and ChemBERTa, got stuck at about 0.57 AUROC. When I checked the data, I found that the popular Hugging Face copy of TrialBench matches labels to trials by row order, so the labels are scrambled: only 51.5% match the official ones. With the correct labels, a simple LightGBM model reaches 0.773 AUROC. I also found that almost half of the \"failed\" trials were stopped for recruitment or business reasons, not because the drug failed.\n\nThe paper and code are complete. I'm looking for a professor to guide me in finishing it and choosing where to publish, and I'd be glad to have you as a co-author. A one-page summary is attached.\n\nWould you be open to a short call, or may I send you the full draft?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
         "Dear {first},\n\nI'm following up on my note about the TrialBench label error. I'd be happy to send the full paper and code, or to join a short call at any time that suits you.\n\nThank you,\nAnushree Revankar",
@@ -3839,7 +3881,13 @@
       "step_attach": {
         "0": "Revankar_TrialBench_summary.pdf"
       },
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-18",
+          "to": "few2001@med.cornell.edu",
+          "sent_at_ist": "2026-11-19T02:02:41+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "university": "Weill Cornell"
@@ -3852,12 +3900,12 @@
       "first_name": "Prof. Long",
       "to": "qlong@pennmedicine.upenn.edu",
       "subject": "Research collaboration: a label error in the TrialBench clinical-trial benchmark",
-      "first_sent": null,
+      "first_sent": "2026-11-18",
       "tz": "America/New_York",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179503396101.2194.8442554604240429209@gmail.com>",
       "steps": [
         "Dear Prof. Long,\n\nYour work on statistical and machine learning methods for precision medicine, including clinical trials and missing data, is very close to what I have been studying. I'd value your view on a problem I found in a widely used clinical-trial benchmark.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). I've written a paper on predicting clinical-trial approval with the TrialBench benchmark. Every model I built, from random forests to a multimodal network with ClinicalBERT and ChemBERTa, got stuck at about 0.57 AUROC. When I checked the data, I found that the popular Hugging Face copy of TrialBench matches labels to trials by row order, so the labels are scrambled: only 51.5% match the official ones. With the correct labels, a simple LightGBM model reaches 0.773 AUROC. I also found that almost half of the \"failed\" trials were stopped for recruitment or business reasons, not because the drug failed.\n\nThe paper and code are complete. I'm looking for a professor to guide me in finishing it and choosing where to publish, and I'd be glad to have you as a co-author. A one-page summary is attached.\n\nWould you be open to a short call, or may I send you the full draft?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
         "Dear {first},\n\nI'm following up on my note about the TrialBench label error. I'd be happy to send the full paper and code, or to join a short call at any time that suits you.\n\nThank you,\nAnushree Revankar",
@@ -3866,7 +3914,13 @@
       "step_attach": {
         "0": "Revankar_TrialBench_summary.pdf"
       },
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-18",
+          "to": "qlong@pennmedicine.upenn.edu",
+          "sent_at_ist": "2026-11-19T02:03:35+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "university": "Penn"
@@ -3879,12 +3933,12 @@
       "first_name": "Prof. Ranganath",
       "to": "rajeshr@cs.nyu.edu",
       "subject": "Research collaboration: a label error in the TrialBench clinical-trial benchmark",
-      "first_sent": null,
+      "first_sent": "2026-11-18",
       "tz": "America/New_York",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179503401579.2194.17216804803577676909@gmail.com>",
       "steps": [
         "Dear Prof. Ranganath,\n\nYour work on machine learning for healthcare and causal inference is very close to what I have been studying. I'd value your view on a problem I found in a widely used clinical-trial benchmark.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). I've written a paper on predicting clinical-trial approval with the TrialBench benchmark. Every model I built, from random forests to a multimodal network with ClinicalBERT and ChemBERTa, got stuck at about 0.57 AUROC. When I checked the data, I found that the popular Hugging Face copy of TrialBench matches labels to trials by row order, so the labels are scrambled: only 51.5% match the official ones. With the correct labels, a simple LightGBM model reaches 0.773 AUROC. I also found that almost half of the \"failed\" trials were stopped for recruitment or business reasons, not because the drug failed.\n\nThe paper and code are complete. I'm looking for a professor to guide me in finishing it and choosing where to publish, and I'd be glad to have you as a co-author. A one-page summary is attached.\n\nWould you be open to a short call, or may I send you the full draft?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
         "Dear {first},\n\nI'm following up on my note about the TrialBench label error. I'd be happy to send the full paper and code, or to join a short call at any time that suits you.\n\nThank you,\nAnushree Revankar",
@@ -3893,7 +3947,13 @@
       "step_attach": {
         "0": "Revankar_TrialBench_summary.pdf"
       },
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-18",
+          "to": "rajeshr@cs.nyu.edu",
+          "sent_at_ist": "2026-11-19T02:04:56+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "university": "NYU"
