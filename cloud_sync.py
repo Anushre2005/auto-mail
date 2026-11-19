@@ -144,8 +144,15 @@ def merge_sequences(base: dict | None, mine: dict, theirs: dict) -> dict:
     t = {s["id"]: s for s in theirs["sequences"]}
     order = list(m) + [i for i in t if i not in m]
     seqs = [x for i in order if (x := _pick(b.get(i), m.get(i), t.get(i))) is not None]
-    # settings (pause switch, limits) are only changed in the app, so the laptop's copy wins
-    settings = theirs["settings"] if IN_CLOUD else mine["settings"]
+    # settings (pause switch, limits): whichever side actually changed them wins. A copy that still holds the old
+    # values (an app tab or the hosted app left open) must never overwrite a newer change.
+    bs, ms, ts = (base or {}).get("settings"), mine["settings"], theirs["settings"]
+    if bs is not None and ms == bs:
+        settings = ts
+    elif bs is not None and ts == bs:
+        settings = ms
+    else:
+        settings = ts if IN_CLOUD else ms
     return {**mine, "settings": settings, "sequences": seqs}
 
 

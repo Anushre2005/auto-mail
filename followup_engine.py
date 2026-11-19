@@ -43,6 +43,7 @@ DEFAULTS = {
     "max_per_day": 25,
     "max_new_per_day": 10,      # brand-new first emails per day (follow-ups not counted)
     "paused": False,
+    "allow_shared_inboxes": [],  # shared addresses (hiring@, careers@...) you chose to email on purpose
 }
 
 # When an email may go out, in the person's own time: from 8:00 AM until the deadline for their region.
@@ -111,7 +112,12 @@ def guess_tz(text: str) -> str:
     return "America/New_York"
 
 
+_ALLOWED_SHARED: set = set()
+
+
 def is_generic(addr: str) -> bool:
+    if addr.lower() in _ALLOWED_SHARED:
+        return False
     return addr.split("@")[0].lower() in GENERIC_LOCALPARTS
 
 
@@ -121,6 +127,8 @@ def load() -> dict:
     else:
         data = {"settings": {}, "sequences": []}
     data["settings"] = {**DEFAULTS, **data.get("settings", {})}
+    _ALLOWED_SHARED.clear()
+    _ALLOWED_SHARED.update(a.lower() for a in data["settings"].get("allow_shared_inboxes", []))
     return data
 
 
