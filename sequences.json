@@ -4,13 +4,24 @@
     "send_window": [
       8,
       0,
-      10,
-      30
+      17,
+      0
     ],
-    "max_per_run": 15,
-    "max_per_day": 25,
-    "max_new_per_day": 11,
-    "paused": false
+    "max_per_run": 4,
+    "max_per_day": 40,
+    "max_new_per_day": 30,
+    "paused": false,
+    "allow_shared_inboxes": [
+      "hiring@opsfleet.com",
+      "careers@proofline.sh",
+      "hello@interloom.com",
+      "hiring@owkin.com",
+      "hello@lindustx.com",
+      "careers@tahoma.io",
+      "hiring@sidekicklabs.com",
+      "jobs@biobase.ai",
+      "jobs@thisdot.co"
+    ]
   },
   "sequences": [
     {
@@ -4126,7 +4137,7 @@
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at Opsfleet is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_person",
+      "status": "active",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
     {
@@ -4150,7 +4161,7 @@
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at Proofline is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_person",
+      "status": "active",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
     {
@@ -4264,7 +4275,7 @@
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at Interloom is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_person",
+      "status": "active",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
     {
@@ -4288,7 +4299,7 @@
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at Owkin is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_person",
+      "status": "active",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
     {
@@ -4312,7 +4323,7 @@
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at Lindus Health is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_person",
+      "status": "active",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
     {
@@ -4414,7 +4425,7 @@
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at Tahoma AI is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_person",
+      "status": "active",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
     {
@@ -4486,7 +4497,7 @@
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at Sidekick Labs is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_person",
+      "status": "active",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
     {
@@ -4534,7 +4545,7 @@
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at Biobase is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_person",
+      "status": "active",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
     {
@@ -4582,7 +4593,7 @@
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at This Dot Labs is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_person",
+      "status": "active",
       "attach": "Anushree_Revankar_Resume.pdf"
     },
     {
