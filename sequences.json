@@ -4828,12 +4828,12 @@
       "first_name": "Prof. Cornelius",
       "to": "v.cornelius@imperial.ac.uk",
       "subject": "Research collaboration: a label error in the TrialBench clinical-trial benchmark",
-      "first_sent": null,
+      "first_sent": "2026-11-19",
       "tz": "Europe/London",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179505799275.285.5751107589231365542@gmail.com>",
       "step_attach": {
         "0": "Revankar_TrialBench_summary.pdf"
       },
@@ -4842,7 +4842,13 @@
         "Dear {first},\n\nI'm following up on my note about the TrialBench label error. I'd be happy to send the full paper and code, or to join a short call at any time that suits you.\n\nThank you,\nAnushree Revankar",
         "Dear {first},\n\nOne last short note. If you don't have time to take this on, could you suggest a colleague or student working on clinical-trial or health data whom I could contact? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-19",
+          "to": "v.cornelius@imperial.ac.uk",
+          "sent_at_ist": "2026-11-19T08:44:37+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "university": "Imperial College London",
