@@ -131,3 +131,7 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-19T08:47:52,manual first email,scheduled#trialbench_paper#ami.banerjee@ucl.ac.uk,Prof. Amitava Banerjee,ami.banerjee@ucl.ac.uk,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
 2026-11-19T15:42:36,auto first email,scheduled#owkin#valentine.perrin@owkin.com,Valentine Perrin (Owkin),valentine.perrin@owkin.com,Clinical-trial paper and a remote internship: a question about your subgroup work,sent,
 2026-11-19T15:43:25,auto first email,scheduled#owkin#felix.balazard@owkin.com,Félix Balazard (Owkin),felix.balazard@owkin.com,Clinical-trial paper and a remote internship: a question about your trial-analysis work,sent,
+2026-11-20T01:58:20,auto first email,scheduled#biotech_emails.md#13,Prof. Yunan Luo,yunan@gatech.edu,Remote research internship: machine learning for proteins,sent,
+2026-11-20T01:59:32,auto first email,scheduled#trialbench_paper#mghassem@mit.edu,Prof. Marzyeh Ghassemi,mghassem@mit.edu,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
+2026-11-20T02:00:24,auto first email,scheduled#trialbench_paper#wiensj@umich.edu,Prof. Jenna Wiens,wiensj@umich.edu,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
+2026-11-20T02:01:39,auto first email,scheduled#trialbench_paper#amalaa@berkeley.edu,Prof. Ahmed Alaa,amalaa@berkeley.edu,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
