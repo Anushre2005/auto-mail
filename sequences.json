@@ -56,7 +56,8 @@
         }
       ],
       "status": "active",
-      "interval_days": 4
+      "interval_days": 4,
+      "category": "research"
     },
     {
       "id": "scheduled#professor_emails.md#9",
@@ -90,7 +91,8 @@
         }
       ],
       "status": "active",
-      "interval_days": 4
+      "interval_days": 4,
+      "category": "research"
     },
     {
       "id": "scheduled#professor_emails.md#10",
@@ -124,7 +126,8 @@
         }
       ],
       "status": "active",
-      "interval_days": 4
+      "interval_days": 4,
+      "category": "research"
     },
     {
       "id": "scheduled#professor_emails.md#11",
@@ -158,7 +161,8 @@
         }
       ],
       "status": "active",
-      "interval_days": 4
+      "interval_days": 4,
+      "category": "research"
     },
     {
       "id": "scheduled#professor_emails.md#12",
@@ -187,7 +191,8 @@
         }
       ],
       "status": "active",
-      "interval_days": 4
+      "interval_days": 4,
+      "category": "research"
     },
     {
       "id": "scheduled#professor_emails.md#13",
@@ -224,7 +229,8 @@
       "interval_days": 4,
       "step_attach": {
         "2": "Revankar_TrialBench_summary.pdf"
-      }
+      },
+      "category": "paper"
     },
     {
       "id": "scheduled#professor_emails.md#14",
@@ -261,7 +267,8 @@
       "interval_days": 4,
       "step_attach": {
         "2": "Revankar_TrialBench_summary.pdf"
-      }
+      },
+      "category": "paper"
     },
     {
       "id": "scheduled#professor_emails.md#15",
@@ -298,7 +305,8 @@
       "interval_days": 4,
       "step_attach": {
         "2": "Revankar_TrialBench_summary.pdf"
-      }
+      },
+      "category": "paper"
     },
     {
       "id": "scheduled#professor_emails.md#16",
@@ -327,7 +335,8 @@
         }
       ],
       "status": "active",
-      "interval_days": 4
+      "interval_days": 4,
+      "category": "research"
     },
     {
       "id": "READY_TO_SEND.md#1",
@@ -360,7 +369,8 @@
           "sent_at_ist": "2026-11-17T13:10:22+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#2",
@@ -382,7 +392,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_person"
+      "status": "needs_person",
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#3",
@@ -415,7 +426,8 @@
           "sent_at_ist": "2026-11-17T13:11:41+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#4",
@@ -437,7 +449,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_person"
+      "status": "needs_person",
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#5",
@@ -465,7 +478,8 @@
           "sent_at_ist": "2026-11-17T13:12:27+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#6",
@@ -487,7 +501,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_person"
+      "status": "needs_person",
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#7",
@@ -515,7 +530,8 @@
           "sent_at_ist": "2026-11-17T13:13:42+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#8",
@@ -538,7 +554,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#9",
@@ -562,7 +579,8 @@
       "sent_steps": [],
       "status": "moved",
       "person_thread_id": null,
-      "bounced_original": true
+      "bounced_original": true,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#10",
@@ -590,7 +608,8 @@
           "sent_at_ist": "2026-11-17T13:14:48+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#11",
@@ -612,7 +631,8 @@
         "Hi Virat,\n\nI'll close the loop here so I'm not cluttering your inbox. I've really enjoyed learning about what Financial Datasets is building. If you ever need an extra pair of hands on AI tools or agents, I'd love to hear from you, and if someone else on your team is the right person to talk to, a pointer would be much appreciated.\n\nWishing you and the team all the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "moved"
+      "status": "moved",
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#12",
@@ -635,7 +655,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#13",
@@ -658,7 +679,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#14",
@@ -681,7 +703,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#15",
@@ -704,7 +727,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#16",
@@ -727,7 +751,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#17",
@@ -750,7 +775,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#18",
@@ -772,7 +798,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_person"
+      "status": "needs_person",
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#19",
@@ -800,7 +827,8 @@
           "sent_at_ist": "2026-11-17T13:16:09+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#20",
@@ -824,7 +852,8 @@
       "sent_steps": [],
       "status": "moved",
       "person_thread_id": null,
-      "bounced_original": true
+      "bounced_original": true,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#21",
@@ -847,7 +876,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#22",
@@ -870,7 +900,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#23",
@@ -894,7 +925,8 @@
       "sent_steps": [],
       "status": "moved",
       "person_thread_id": null,
-      "bounced_original": true
+      "bounced_original": true,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#24",
@@ -917,7 +949,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#25",
@@ -940,7 +973,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#27",
@@ -963,7 +997,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#28",
@@ -986,7 +1021,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#29",
@@ -1009,7 +1045,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#30",
@@ -1031,7 +1068,8 @@
         "Hi Ethan and John,\n\nI'll close the loop here so I'm not cluttering your inbox. I've really enjoyed learning about what Actual AI is building. If you ever need an extra pair of hands on AI tools or agents, I'd love to hear from you, and if someone else on your team is the right person to talk to, a pointer would be much appreciated.\n\nWishing you and the team all the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "bounced"
+      "status": "bounced",
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#31",
@@ -1054,7 +1092,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#32",
@@ -1076,7 +1115,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_person"
+      "status": "needs_person",
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#33",
@@ -1099,7 +1139,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#34",
@@ -1122,7 +1163,8 @@
       ],
       "sent_steps": [],
       "status": "moved",
-      "person_thread_id": null
+      "person_thread_id": null,
+      "category": "company"
     },
     {
       "id": "professor_emails.md#2",
@@ -1155,7 +1197,8 @@
         }
       ],
       "status": "finished",
-      "interval_days": 4
+      "interval_days": 4,
+      "category": "research"
     },
     {
       "id": "professor_emails.md#3",
@@ -1188,7 +1231,8 @@
         }
       ],
       "status": "finished",
-      "interval_days": 4
+      "interval_days": 4,
+      "category": "research"
     },
     {
       "id": "founder#Theo",
@@ -1219,7 +1263,8 @@
           "sent_at_ist": "2026-11-17T12:49:27+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Hesper AI",
@@ -1250,7 +1295,8 @@
           "sent_at_ist": "2026-11-17T12:49:40+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Cohesive",
@@ -1281,7 +1327,8 @@
           "sent_at_ist": "2026-11-17T12:50:34+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Obin AI",
@@ -1306,7 +1353,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#ActionAI",
@@ -1331,7 +1379,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Financial Datasets",
@@ -1356,7 +1405,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Traversal",
@@ -1381,7 +1431,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Antares Labs",
@@ -1417,7 +1468,8 @@
           "sent_at_ist": "2026-11-18T08:22:14+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#definity",
@@ -1453,7 +1505,8 @@
           "sent_at_ist": "2026-11-18T08:23:43+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Stitch Studio",
@@ -1489,7 +1542,8 @@
           "sent_at_ist": "2026-11-18T08:24:41+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Tavern Research",
@@ -1525,7 +1579,8 @@
           "sent_at_ist": "2026-11-18T08:26:05+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#AviaryAI",
@@ -1561,7 +1616,8 @@
           "sent_at_ist": "2026-11-18T08:27:24+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Xenia",
@@ -1597,7 +1653,8 @@
           "sent_at_ist": "2026-11-18T08:28:52+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#VitVio",
@@ -1622,7 +1679,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Layer Health",
@@ -1647,7 +1705,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Loman AI",
@@ -1683,7 +1742,8 @@
           "sent_at_ist": "2026-11-18T08:30:12+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Hello Patient",
@@ -1708,7 +1768,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#RapidCanvas",
@@ -1744,7 +1805,8 @@
           "sent_at_ist": "2026-11-18T08:31:00+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Skribe.ai",
@@ -1780,7 +1842,8 @@
           "sent_at_ist": "2026-11-18T08:31:56+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#ContextQA",
@@ -1816,7 +1879,8 @@
           "sent_at_ist": "2026-11-18T08:33:13+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Actual AI",
@@ -1841,7 +1905,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Howie",
@@ -1866,7 +1931,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Yoodli",
@@ -1891,7 +1957,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Northslope",
@@ -1927,7 +1994,8 @@
           "sent_at_ist": "2026-11-18T08:34:25+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Bernard",
@@ -1952,7 +2020,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Elimentary",
@@ -1977,7 +2046,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Floracene",
@@ -2002,7 +2072,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#KelAI",
@@ -2027,7 +2098,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Leaping",
@@ -2052,7 +2124,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Pleom",
@@ -2077,7 +2150,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Auctor",
@@ -2102,7 +2176,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Prosper AI",
@@ -2127,7 +2202,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Assured",
@@ -2152,7 +2228,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Letter AI",
@@ -2177,7 +2254,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Fynite",
@@ -2202,7 +2280,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Perspectives Health",
@@ -2227,7 +2306,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Draftbit",
@@ -2252,7 +2332,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Teragonia",
@@ -2277,7 +2358,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Ekpa",
@@ -2302,7 +2384,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Synthpop",
@@ -2327,7 +2410,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Mia Labs",
@@ -2352,7 +2436,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Autonomize AI",
@@ -2377,7 +2462,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#CopilotKit",
@@ -2402,7 +2488,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Oumi",
@@ -2427,7 +2514,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Owl AI",
@@ -2452,7 +2540,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#LightTable",
@@ -2477,7 +2566,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Atolio",
@@ -2513,7 +2603,8 @@
           "sent_at_ist": "2026-11-18T08:35:51+05:30"
         }
       ],
-      "status": "active"
+      "status": "active",
+      "category": "company"
     },
     {
       "id": "founder#Liminal",
@@ -2538,7 +2629,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "READY_TO_SEND.md#26",
@@ -2560,7 +2652,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_person"
+      "status": "needs_person",
+      "category": "company"
     },
     {
       "id": "professor_emails.md#4",
@@ -2588,7 +2681,8 @@
         }
       ],
       "status": "active",
-      "interval_days": 4
+      "interval_days": 4,
+      "category": "research"
     },
     {
       "id": "professor_emails.md#6",
@@ -2616,7 +2710,8 @@
         }
       ],
       "status": "active",
-      "interval_days": 4
+      "interval_days": 4,
+      "category": "research"
     },
     {
       "id": "professor_emails.md#7",
@@ -2644,7 +2739,8 @@
         }
       ],
       "status": "active",
-      "interval_days": 4
+      "interval_days": 4,
+      "category": "research"
     },
     {
       "id": "founder#Arzana",
@@ -2669,7 +2765,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Cohesion",
@@ -2694,7 +2791,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Ekho Labs",
@@ -2719,7 +2817,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Kimpton",
@@ -2744,7 +2843,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Vespin",
@@ -2769,7 +2869,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Chamber",
@@ -2794,7 +2895,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Archal",
@@ -2819,7 +2921,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Arga Labs",
@@ -2844,7 +2947,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Corelayer",
@@ -2869,7 +2973,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#HyperProbe",
@@ -2894,7 +2999,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Glen",
@@ -2919,7 +3025,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Trope",
@@ -2944,7 +3051,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Zomma",
@@ -2969,7 +3077,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Rational",
@@ -2994,7 +3103,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Vestris",
@@ -3019,7 +3129,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Veltha",
@@ -3044,7 +3155,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Zolvo",
@@ -3069,7 +3181,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#RealPact",
@@ -3094,7 +3207,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Savant",
@@ -3119,7 +3233,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Mireye",
@@ -3144,7 +3259,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Speko",
@@ -3169,7 +3285,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Caretta",
@@ -3194,7 +3311,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Antinuous",
@@ -3219,7 +3337,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Assemble",
@@ -3244,7 +3363,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Minicor",
@@ -3269,7 +3389,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Sherpa",
@@ -3294,7 +3415,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Luca IQ",
@@ -3319,7 +3441,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Tsenta",
@@ -3344,7 +3467,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#Cloverleaf AI",
@@ -3369,7 +3493,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "founder#BuildQ",
@@ -3394,7 +3519,8 @@
         "Hi {first},\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at {company} is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
       "sent_steps": [],
-      "status": "needs_email"
+      "status": "needs_email",
+      "category": "company"
     },
     {
       "id": "scheduled#biotech_emails.md#1",
@@ -3424,7 +3550,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "research"
     },
     {
       "id": "scheduled#biotech_emails.md#2",
@@ -3454,7 +3581,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "research"
     },
     {
       "id": "scheduled#biotech_emails.md#3",
@@ -3484,7 +3612,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "research"
     },
     {
       "id": "scheduled#biotech_emails.md#4",
@@ -3514,7 +3643,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "research"
     },
     {
       "id": "scheduled#biotech_emails.md#5",
@@ -3544,7 +3674,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "research"
     },
     {
       "id": "scheduled#biotech_emails.md#6",
@@ -3574,7 +3705,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "research"
     },
     {
       "id": "scheduled#biotech_emails.md#7",
@@ -3604,7 +3736,8 @@
       ],
       "status": "bounced",
       "interval_days": 4,
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "research"
     },
     {
       "id": "scheduled#biotech_emails.md#13",
@@ -3628,7 +3761,8 @@
       "sent_steps": [],
       "status": "active",
       "interval_days": 4,
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "research"
     },
     {
       "id": "scheduled#biotech_emails.md#14",
@@ -3658,7 +3792,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "research"
     },
     {
       "id": "scheduled#biotech_emails.md#15",
@@ -3688,7 +3823,8 @@
         }
       ],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#biotech_emails.md#18",
@@ -3718,7 +3854,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "research"
     },
     {
       "id": "scheduled#biotech_emails.md#19",
@@ -3748,7 +3885,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "research"
     },
     {
       "id": "scheduled#biotech_emails.md#20",
@@ -3778,7 +3916,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "research"
     },
     {
       "id": "scheduled#biotech_emails.md#21",
@@ -3808,7 +3947,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "research"
     },
     {
       "id": "scheduled#trialbench_paper#mghassem@mit.edu",
@@ -3835,7 +3975,8 @@
       "sent_steps": [],
       "status": "active",
       "interval_days": 4,
-      "university": "MIT"
+      "university": "MIT",
+      "category": "paper"
     },
     {
       "id": "scheduled#trialbench_paper#cw2384@columbia.edu",
@@ -3868,7 +4009,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "university": "Columbia"
+      "university": "Columbia",
+      "category": "paper"
     },
     {
       "id": "scheduled#trialbench_paper#few2001@med.cornell.edu",
@@ -3901,7 +4043,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "university": "Weill Cornell"
+      "university": "Weill Cornell",
+      "category": "paper"
     },
     {
       "id": "scheduled#trialbench_paper#qlong@pennmedicine.upenn.edu",
@@ -3934,7 +4077,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "university": "Penn"
+      "university": "Penn",
+      "category": "paper"
     },
     {
       "id": "scheduled#trialbench_paper#rajeshr@cs.nyu.edu",
@@ -3967,7 +4111,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "university": "NYU"
+      "university": "NYU",
+      "category": "paper"
     },
     {
       "id": "scheduled#trialbench_paper#wiensj@umich.edu",
@@ -3994,7 +4139,8 @@
       "sent_steps": [],
       "status": "active",
       "interval_days": 4,
-      "university": "Michigan"
+      "university": "Michigan",
+      "category": "paper"
     },
     {
       "id": "scheduled#trialbench_paper#amalaa@berkeley.edu",
@@ -4021,7 +4167,8 @@
       "sent_steps": [],
       "status": "active",
       "interval_days": 4,
-      "university": "UC Berkeley"
+      "university": "UC Berkeley",
+      "category": "paper"
     },
     {
       "id": "scheduled#trialbench_paper#anna.goldenberg@sickkids.ca",
@@ -4048,7 +4195,8 @@
       "sent_steps": [],
       "status": "active",
       "interval_days": 4,
-      "university": "Toronto"
+      "university": "Toronto",
+      "category": "paper"
     },
     {
       "id": "scheduled#trialbench_paper#raetsch@inf.ethz.ch",
@@ -4081,7 +4229,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "university": "ETH Zurich"
+      "university": "ETH Zurich",
+      "category": "paper"
     },
     {
       "id": "scheduled#trialbench_paper#ian.simpson@ed.ac.uk",
@@ -4114,7 +4263,8 @@
       ],
       "status": "active",
       "interval_days": 4,
-      "university": "Edinburgh"
+      "university": "Edinburgh",
+      "category": "paper"
     },
     {
       "id": "scheduled#batch3#hiring@opsfleet.com",
@@ -4138,7 +4288,8 @@
       ],
       "sent_steps": [],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#careers@proofline.sh",
@@ -4162,7 +4313,8 @@
       ],
       "sent_steps": [],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#career@threatmark.com",
@@ -4192,7 +4344,8 @@
         }
       ],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#hugh@assume-ai.com",
@@ -4222,7 +4375,8 @@
         }
       ],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#rita@raidsai.ai",
@@ -4252,7 +4406,8 @@
         }
       ],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#hello@interloom.com",
@@ -4276,7 +4431,8 @@
       ],
       "sent_steps": [],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#hiring@owkin.com",
@@ -4300,7 +4456,8 @@
       ],
       "sent_steps": [],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#hello@lindustx.com",
@@ -4324,7 +4481,8 @@
       ],
       "sent_steps": [],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#max@kaida.dev",
@@ -4354,7 +4512,8 @@
         }
       ],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#recruiting@albert.com",
@@ -4378,7 +4537,8 @@
       ],
       "sent_steps": [],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#rajendra@sparcle.app",
@@ -4402,7 +4562,8 @@
       ],
       "sent_steps": [],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#careers@tahoma.io",
@@ -4426,7 +4587,8 @@
       ],
       "sent_steps": [],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#stefan@sundream.studio",
@@ -4450,7 +4612,8 @@
       ],
       "sent_steps": [],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#colton@opaxa.com",
@@ -4474,7 +4637,8 @@
       ],
       "sent_steps": [],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#hiring@sidekicklabs.com",
@@ -4498,7 +4662,8 @@
       ],
       "sent_steps": [],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#recruiting@starbridge.ai",
@@ -4522,7 +4687,8 @@
       ],
       "sent_steps": [],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#jobs@biobase.ai",
@@ -4546,7 +4712,8 @@
       ],
       "sent_steps": [],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#talent+hn@cwai.co",
@@ -4570,7 +4737,8 @@
       ],
       "sent_steps": [],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#jobs@thisdot.co",
@@ -4594,7 +4762,8 @@
       ],
       "sent_steps": [],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     },
     {
       "id": "scheduled#batch3#lisa@propellabs.ai",
@@ -4618,7 +4787,8 @@
       ],
       "sent_steps": [],
       "status": "active",
-      "attach": "Anushree_Revankar_Resume.pdf"
+      "attach": "Anushree_Revankar_Resume.pdf",
+      "category": "company"
     }
   ]
 }
