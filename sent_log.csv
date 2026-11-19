@@ -122,3 +122,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-19T02:04:56,auto first email,scheduled#trialbench_paper#rajeshr@cs.nyu.edu,Prof. Rajesh Ranganath,rajeshr@cs.nyu.edu,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
 2026-11-19T08:37:56,manual first email,scheduled#batch3#hiring@opsfleet.com,Opsfleet,hiring@opsfleet.com,Remote AI engineer (intern or contract): building LLM agents,sent,
 2026-11-19T08:39:24,manual first email,scheduled#batch3#careers@proofline.sh,Proofline,careers@proofline.sh,Remote AI engineer: helping with your cloud code reviewer,sent,
+2026-11-19T08:40:33,manual first email,scheduled#batch3#hello@interloom.com,Interloom,hello@interloom.com,Remote AI engineer (intern or contract): AI agents for operations,sent,
