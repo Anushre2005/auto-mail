@@ -5039,6 +5039,87 @@
       "interval_days": 4,
       "university": "UC Irvine",
       "category": "paper"
+    },
+    {
+      "id": "scheduled#owkin#valentine.perrin@owkin.com",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Valentine Perrin (Owkin)",
+      "first_name": "Valentine",
+      "to": "valentine.perrin@owkin.com",
+      "subject": "Clinical-trial paper and a remote internship: a question about your subgroup work",
+      "first_sent": null,
+      "tz": "Europe/Paris",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Revankar_TrialBench_summary.pdf"
+      },
+      "steps": [
+        "Hi Valentine,\n\nI came across your paper on subgroup analysis methods for time-to-event outcomes in randomized trials. Working out which patients a treatment really helps is a hard problem, and it made me want to ask your opinion on my own clinical-trial work.\n\nI'm Anushree, a final-year computer engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). I've written a paper on predicting clinical-trial approval with the TrialBench benchmark. I found that the popular Hugging Face copy of the data matches labels to trials by row order, so the labels are scrambled: only 51.5% match the official ones. With the correct labels, a simple LightGBM model reaches 0.773 AUROC. A one-page summary is attached.\n\nI'd really value your honest view on the paper, even a few lines. I'd also love to do a remote internship or a small project at Owkin on clinical-trial data, and I'm happy to start with any small task. Would you be open to a short call?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Hi Valentine,\n\nJust checking you saw my last email. I'd really like to learn from your team at Owkin, even through something small to start.\n\nWould you have 15 minutes for a quick call, or could you point me to the right person?\n\nThanks,\nAnushree",
+        "Hi Valentine,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need extra help on a small data or model task, I'd love to hear from you. And if someone else at Owkin is the better person to ask, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "category": "company"
+    },
+    {
+      "id": "scheduled#owkin#felix.balazard@owkin.com",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Félix Balazard (Owkin)",
+      "first_name": "Félix",
+      "to": "felix.balazard@owkin.com",
+      "subject": "Clinical-trial paper and a remote internship: a question about your trial-analysis work",
+      "first_sent": null,
+      "tz": "Europe/Paris",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Revankar_TrialBench_summary.pdf"
+      },
+      "steps": [
+        "Hi Félix,\n\nI came across your work at Owkin on trial analysis and external control arms, including FedECA. Trials that can't recruit enough control patients are a real problem, and it made me want to ask your opinion on my own clinical-trial work.\n\nI'm Anushree, a final-year computer engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). I've written a paper on predicting clinical-trial approval with the TrialBench benchmark. I found that the popular Hugging Face copy of the data matches labels to trials by row order, so the labels are scrambled: only 51.5% match the official ones. With the correct labels, a simple LightGBM model reaches 0.773 AUROC. A one-page summary is attached.\n\nI'd really value your honest view on the paper, even a few lines. I'd also love to do a remote internship or a small project at Owkin on clinical-trial data, and I'm happy to start with any small task. Would you be open to a short call?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Hi Félix,\n\nJust checking you saw my last email. I'd really like to learn from your team at Owkin, even through something small to start.\n\nWould you have 15 minutes for a quick call, or could you point me to the right person?\n\nThanks,\nAnushree",
+        "Hi Félix,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need extra help on a small data or model task, I'd love to hear from you. And if someone else at Owkin is the better person to ask, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "category": "company"
+    },
+    {
+      "id": "scheduled#owkin#thalyssa.baiocco-rodrigues@owkin.com",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Thalyssa Baiocco-Rodrigues (Owkin)",
+      "first_name": "Thalyssa",
+      "to": "thalyssa.baiocco-rodrigues@owkin.com",
+      "subject": "Remote internship question: your IMILIA paper on IBD slides",
+      "first_sent": null,
+      "tz": "Europe/Paris",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Anushree_Revankar_Resume.pdf"
+      },
+      "steps": [
+        "Hi Thalyssa,\n\nI came across your paper IMILIA, which uses interpretable machine learning on tissue slides to predict inflammation in IBD. A model that can show why it made a prediction is much easier for doctors to trust.\n\nI'm Anushree, a final-year computer engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my internship at HTL I built PreQue AI, a Claude-powered app that fills in pre-qualification forms, and I'm writing a research paper on predicting whether clinical trials succeed. To be honest, I'm new to pathology images, but I learn fast and I'd like to move into this field.\n\nI'd love to do a remote internship or a small project at Owkin, and I'm happy to start with any small task, like cleaning data or testing a model. My resume is attached. Would you be open to a short call?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Hi Thalyssa,\n\nJust checking you saw my last email. I'd really like to learn from your team at Owkin, even through something small to start.\n\nWould you have 15 minutes for a quick call, or could you point me to the right person?\n\nThanks,\nAnushree",
+        "Hi Thalyssa,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need extra help on a small data or model task, I'd love to hear from you. And if someone else at Owkin is the better person to ask, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "category": "company"
     }
   ]
 }
