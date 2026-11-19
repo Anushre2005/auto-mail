@@ -125,3 +125,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-19T08:40:33,manual first email,scheduled#batch3#hello@interloom.com,Interloom,hello@interloom.com,Remote AI engineer (intern or contract): AI agents for operations,sent,
 2026-11-19T08:41:51,manual first email,scheduled#batch3#hiring@owkin.com,Owkin,hiring@owkin.com,Remote AI/ML internship: AI for medicine,sent,
 2026-11-19T08:43:03,manual first email,scheduled#batch3#hello@lindustx.com,Lindus Health,hello@lindustx.com,Remote AI/ML internship: clinical trials,sent,
+2026-11-19T08:44:37,manual first email,scheduled#trialbench_paper#v.cornelius@imperial.ac.uk,Prof. Victoria Cornelius,v.cornelius@imperial.ac.uk,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
