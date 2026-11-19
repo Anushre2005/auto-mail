@@ -4491,19 +4491,25 @@
       "first_name": "there",
       "to": "hello@lindustx.com",
       "subject": "Remote AI/ML internship: clinical trials",
-      "first_sent": null,
+      "first_sent": "2026-11-19",
       "tz": "Europe/London",
       "generic_inbox": true,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179505791529.285.9811160931345270655@gmail.com>",
       "steps": [
         "Hi there,\n\nRunning clinical trials with your own AI trial system, Citrus, is a smart way to make trials faster and cheaper. I'm also writing a research paper on predicting whether clinical trials succeed, which is why this field interests me so much.\n\nI'm Anushree, a final-year computer engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my internship at HTL I built PreQue AI, a Claude-powered app that fills in pre-qualification forms. It uses search over a vector store and a feedback loop that learns from corrections. I also came 1st runner-up at the CreAItion 1.0 AI hackathon (2026).\n\nI'd be glad to help with data work or a small model on trial data, starting with one small task.\n\nI work remotely from Mumbai, and my working hours overlap well with Europe. I'm open to an internship, a contract, or a junior role. Would you be open to a 15-minute call? My resume is attached and my code is at github.com/Anushre2005.\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar",
         "Hi there,\n\nJust checking you saw my last email. I'd really like to help Lindus Health with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi there,\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at Lindus Health is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-19",
+          "to": "hello@lindustx.com",
+          "sent_at_ist": "2026-11-19T08:43:03+05:30"
+        }
+      ],
       "status": "active",
       "attach": "Anushree_Revankar_Resume.pdf",
       "category": "company"
