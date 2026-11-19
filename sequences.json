@@ -4305,19 +4305,25 @@
       "first_name": "there",
       "to": "careers@proofline.sh",
       "subject": "Remote AI engineer: helping with your cloud code reviewer",
-      "first_sent": null,
+      "first_sent": "2026-11-19",
       "tz": "Europe/Berlin",
       "generic_inbox": true,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179505767984.285.2720398983881327059@gmail.com>",
       "steps": [
         "Hi there,\n\nI found your post in the Hacker News \"Who is hiring\" thread. Checking code changes against Terraform and the live cloud setup, not just the code, is how you catch the failures that really take services down.\n\nI'm Anushree, a final-year computer engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my internship at HTL I built PreQue AI, a Claude-powered app that fills in pre-qualification forms. It uses search over a vector store and a feedback loop that learns from corrections. I also came 1st runner-up at the CreAItion 1.0 AI hackathon (2026).\n\nI'd be glad to start by sending a small pull request to one of your open-source tools, or by building a helper that turns a failed deployment log into a plain explanation.\n\nI work remotely from Mumbai, and my working hours overlap well with Europe. I'm open to an internship, a contract, or a junior role. Would you be open to a 15-minute call? My resume is attached and my code is at github.com/Anushre2005.\n\nBest,\nAnushree Revankar\ngithub.com/Anushre2005 · linkedin.com/in/anushree-revankar",
         "Hi there,\n\nJust checking you saw my last email. I'd really like to help Proofline with AI work, even on something small to start.\n\nWould you have 15 minutes for a quick call this week or next?\n\nThanks,\nAnushree",
         "Hi there,\n\nI know you're busy, so I'll keep this short. I'm happy to start with one small task, so you can see how I work before deciding anything. Some of my projects are here: github.com/Anushre2005\n\nThanks,\nAnushree",
         "Hi there,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need help building AI tools, I'd love to hear from you. And if someone else at Proofline is the better person to talk to, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-19",
+          "to": "careers@proofline.sh",
+          "sent_at_ist": "2026-11-19T08:39:24+05:30"
+        }
+      ],
       "status": "active",
       "attach": "Anushree_Revankar_Resume.pdf",
       "category": "company"
