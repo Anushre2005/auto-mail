@@ -3610,7 +3610,7 @@
           "sent_at_ist": "2026-11-17T13:04:30+05:30"
         }
       ],
-      "status": "active",
+      "status": "replied",
       "interval_days": 4,
       "attach": "Anushree_Revankar_Resume.pdf",
       "category": "research"
@@ -3641,7 +3641,7 @@
           "sent_at_ist": "2026-11-17T13:05:57+05:30"
         }
       ],
-      "status": "active",
+      "status": "replied",
       "interval_days": 4,
       "attach": "Anushree_Revankar_Resume.pdf",
       "category": "research"
@@ -5048,12 +5048,12 @@
       "first_name": "Valentine",
       "to": "valentine.perrin@owkin.com",
       "subject": "Clinical-trial paper and a remote internship: a question about your subgroup work",
-      "first_sent": null,
+      "first_sent": "2026-11-19",
       "tz": "Europe/Paris",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179508315503.2200.11404942036557843668@gmail.com>",
       "step_attach": {
         "0": "Revankar_TrialBench_summary.pdf"
       },
@@ -5062,7 +5062,13 @@
         "Hi Valentine,\n\nJust checking you saw my last email. I'd really like to learn from your team at Owkin, even through something small to start.\n\nWould you have 15 minutes for a quick call, or could you point me to the right person?\n\nThanks,\nAnushree",
         "Hi Valentine,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need extra help on a small data or model task, I'd love to hear from you. And if someone else at Owkin is the better person to ask, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-19",
+          "to": "valentine.perrin@owkin.com",
+          "sent_at_ist": "2026-11-19T15:42:36+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "category": "company"
@@ -5075,12 +5081,12 @@
       "first_name": "Félix",
       "to": "felix.balazard@owkin.com",
       "subject": "Clinical-trial paper and a remote internship: a question about your trial-analysis work",
-      "first_sent": null,
+      "first_sent": "2026-11-19",
       "tz": "Europe/Paris",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179508315611.2200.11967038556658692592@gmail.com>",
       "step_attach": {
         "0": "Revankar_TrialBench_summary.pdf"
       },
@@ -5089,7 +5095,13 @@
         "Hi Félix,\n\nJust checking you saw my last email. I'd really like to learn from your team at Owkin, even through something small to start.\n\nWould you have 15 minutes for a quick call, or could you point me to the right person?\n\nThanks,\nAnushree",
         "Hi Félix,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need extra help on a small data or model task, I'd love to hear from you. And if someone else at Owkin is the better person to ask, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-19",
+          "to": "felix.balazard@owkin.com",
+          "sent_at_ist": "2026-11-19T15:43:25+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "category": "company"

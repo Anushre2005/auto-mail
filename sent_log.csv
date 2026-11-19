@@ -129,3 +129,5 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-19T08:45:49,manual first email,scheduled#trialbench_paper#d.rizopoulos@erasmusmc.nl,Prof. Dimitris Rizopoulos,d.rizopoulos@erasmusmc.nl,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
 2026-11-19T08:47:00,manual first email,scheduled#trialbench_paper#s.denaxas@ucl.ac.uk,Prof. Spiros Denaxas,s.denaxas@ucl.ac.uk,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
 2026-11-19T08:47:52,manual first email,scheduled#trialbench_paper#ami.banerjee@ucl.ac.uk,Prof. Amitava Banerjee,ami.banerjee@ucl.ac.uk,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
+2026-11-19T15:42:36,auto first email,scheduled#owkin#valentine.perrin@owkin.com,Valentine Perrin (Owkin),valentine.perrin@owkin.com,Clinical-trial paper and a remote internship: a question about your subgroup work,sent,
+2026-11-19T15:43:25,auto first email,scheduled#owkin#felix.balazard@owkin.com,Félix Balazard (Owkin),felix.balazard@owkin.com,Clinical-trial paper and a remote internship: a question about your trial-analysis work,sent,
