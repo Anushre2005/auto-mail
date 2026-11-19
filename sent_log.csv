@@ -128,3 +128,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-19T08:44:37,manual first email,scheduled#trialbench_paper#v.cornelius@imperial.ac.uk,Prof. Victoria Cornelius,v.cornelius@imperial.ac.uk,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
 2026-11-19T08:45:49,manual first email,scheduled#trialbench_paper#d.rizopoulos@erasmusmc.nl,Prof. Dimitris Rizopoulos,d.rizopoulos@erasmusmc.nl,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
 2026-11-19T08:47:00,manual first email,scheduled#trialbench_paper#s.denaxas@ucl.ac.uk,Prof. Spiros Denaxas,s.denaxas@ucl.ac.uk,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
+2026-11-19T08:47:52,manual first email,scheduled#trialbench_paper#ami.banerjee@ucl.ac.uk,Prof. Amitava Banerjee,ami.banerjee@ucl.ac.uk,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
