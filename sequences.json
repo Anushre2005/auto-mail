@@ -4789,6 +4789,202 @@
       "status": "active",
       "attach": "Anushree_Revankar_Resume.pdf",
       "category": "company"
+    },
+    {
+      "id": "scheduled#trialbench_paper#v.cornelius@imperial.ac.uk",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Prof. Victoria Cornelius",
+      "first_name": "Prof. Cornelius",
+      "to": "v.cornelius@imperial.ac.uk",
+      "subject": "Research collaboration: a label error in the TrialBench clinical-trial benchmark",
+      "first_sent": null,
+      "tz": "Europe/London",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Revankar_TrialBench_summary.pdf"
+      },
+      "steps": [
+        "Dear Prof. Cornelius,\n\nYour work on clinical-trial design, including using causal machine learning to find which patients a treatment helps, shows how much the quality of trial data matters. I'd value your view on a problem I found in a widely used clinical-trial benchmark.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). I've written a paper on predicting clinical-trial approval with the TrialBench benchmark. Every model I built, from random forests to a multimodal network with ClinicalBERT and ChemBERTa, got stuck at about 0.57 AUROC. When I checked the data, I found that the popular Hugging Face copy of TrialBench matches labels to trials by row order, so the labels are scrambled: only 51.5% match the official ones. With the correct labels, a simple LightGBM model reaches 0.773 AUROC. I also found that almost half of the \"failed\" trials were stopped for recruitment or business reasons, not because the drug failed.\n\nThe paper and code are complete. I'm looking for a professor to guide me in finishing it and choosing where to publish, and I'd be glad to have you as a co-author. A one-page summary is attached.\n\nWould you be open to a short call, or may I send you the full draft?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Dear {first},\n\nI'm following up on my note about the TrialBench label error. I'd be happy to send the full paper and code, or to join a short call at any time that suits you.\n\nThank you,\nAnushree Revankar",
+        "Dear {first},\n\nOne last short note. If you don't have time to take this on, could you suggest a colleague or student working on clinical-trial or health data whom I could contact? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "university": "Imperial College London",
+      "category": "paper"
+    },
+    {
+      "id": "scheduled#trialbench_paper#tcai@hsph.harvard.edu",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Prof. Tianxi Cai",
+      "first_name": "Prof. Cai",
+      "to": "tcai@hsph.harvard.edu",
+      "subject": "Research collaboration: a label error in the TrialBench clinical-trial benchmark",
+      "first_sent": null,
+      "tz": "America/New_York",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Revankar_TrialBench_summary.pdf"
+      },
+      "steps": [
+        "Dear Prof. Cai,\n\nYour group's statistical and machine learning methods for clinical trials and real-world evidence show how much the data behind a trial model matters. I'd value your view on a problem I found in a widely used clinical-trial benchmark.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). I've written a paper on predicting clinical-trial approval with the TrialBench benchmark. Every model I built, from random forests to a multimodal network with ClinicalBERT and ChemBERTa, got stuck at about 0.57 AUROC. When I checked the data, I found that the popular Hugging Face copy of TrialBench matches labels to trials by row order, so the labels are scrambled: only 51.5% match the official ones. With the correct labels, a simple LightGBM model reaches 0.773 AUROC. I also found that almost half of the \"failed\" trials were stopped for recruitment or business reasons, not because the drug failed.\n\nThe paper and code are complete. I'm looking for a professor to guide me in finishing it and choosing where to publish, and I'd be glad to have you as a co-author. A one-page summary is attached.\n\nWould you be open to a short call, or may I send you the full draft?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Dear {first},\n\nI'm following up on my note about the TrialBench label error. I'd be happy to send the full paper and code, or to join a short call at any time that suits you.\n\nThank you,\nAnushree Revankar",
+        "Dear {first},\n\nOne last short note. If you don't have time to take this on, could you suggest a colleague or student working on clinical-trial or health data whom I could contact? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "university": "Harvard (Chan School / HMS)",
+      "category": "paper"
+    },
+    {
+      "id": "scheduled#trialbench_paper#pmueller@math.utexas.edu",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Prof. Peter Müller",
+      "first_name": "Prof. Müller",
+      "to": "pmueller@math.utexas.edu",
+      "subject": "Research collaboration: a label error in the TrialBench clinical-trial benchmark",
+      "first_sent": null,
+      "tz": "America/Chicago",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Revankar_TrialBench_summary.pdf"
+      },
+      "steps": [
+        "Dear Prof. Müller,\n\nYour work on Bayesian methods in biostatistics makes you the kind of person who would care about how reliable the labels in a clinical-trial data set are. I'd value your view on a problem I found in a widely used benchmark.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). I've written a paper on predicting clinical-trial approval with the TrialBench benchmark. Every model I built, from random forests to a multimodal network with ClinicalBERT and ChemBERTa, got stuck at about 0.57 AUROC. When I checked the data, I found that the popular Hugging Face copy of TrialBench matches labels to trials by row order, so the labels are scrambled: only 51.5% match the official ones. With the correct labels, a simple LightGBM model reaches 0.773 AUROC. I also found that almost half of the \"failed\" trials were stopped for recruitment or business reasons, not because the drug failed.\n\nThe paper and code are complete. I'm looking for a professor to guide me in finishing it and choosing where to publish, and I'd be glad to have you as a co-author. A one-page summary is attached.\n\nWould you be open to a short call, or may I send you the full draft?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Dear {first},\n\nI'm following up on my note about the TrialBench label error. I'd be happy to send the full paper and code, or to join a short call at any time that suits you.\n\nThank you,\nAnushree Revankar",
+        "Dear {first},\n\nOne last short note. If you don't have time to take this on, could you suggest a colleague or student working on clinical-trial or health data whom I could contact? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "university": "UT Austin",
+      "category": "paper"
+    },
+    {
+      "id": "scheduled#trialbench_paper#d.rizopoulos@erasmusmc.nl",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Prof. Dimitris Rizopoulos",
+      "first_name": "Prof. Rizopoulos",
+      "to": "d.rizopoulos@erasmusmc.nl",
+      "subject": "Research collaboration: a label error in the TrialBench clinical-trial benchmark",
+      "first_sent": null,
+      "tz": "Europe/Amsterdam",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Revankar_TrialBench_summary.pdf"
+      },
+      "steps": [
+        "Dear Prof. Rizopoulos,\n\nYour work on joint models for biomarkers and patient outcomes in precision medicine shows how much the data behind a clinical model matters. I'd value your view on a problem I found in a widely used clinical-trial benchmark.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). I've written a paper on predicting clinical-trial approval with the TrialBench benchmark. Every model I built, from random forests to a multimodal network with ClinicalBERT and ChemBERTa, got stuck at about 0.57 AUROC. When I checked the data, I found that the popular Hugging Face copy of TrialBench matches labels to trials by row order, so the labels are scrambled: only 51.5% match the official ones. With the correct labels, a simple LightGBM model reaches 0.773 AUROC. I also found that almost half of the \"failed\" trials were stopped for recruitment or business reasons, not because the drug failed.\n\nThe paper and code are complete. I'm looking for a professor to guide me in finishing it and choosing where to publish, and I'd be glad to have you as a co-author. A one-page summary is attached.\n\nWould you be open to a short call, or may I send you the full draft?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Dear {first},\n\nI'm following up on my note about the TrialBench label error. I'd be happy to send the full paper and code, or to join a short call at any time that suits you.\n\nThank you,\nAnushree Revankar",
+        "Dear {first},\n\nOne last short note. If you don't have time to take this on, could you suggest a colleague or student working on clinical-trial or health data whom I could contact? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "university": "Erasmus University Rotterdam (Erasmus MC)",
+      "category": "paper"
+    },
+    {
+      "id": "scheduled#trialbench_paper#s.denaxas@ucl.ac.uk",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Prof. Spiros Denaxas",
+      "first_name": "Prof. Denaxas",
+      "to": "s.denaxas@ucl.ac.uk",
+      "subject": "Research collaboration: a label error in the TrialBench clinical-trial benchmark",
+      "first_sent": null,
+      "tz": "Europe/London",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Revankar_TrialBench_summary.pdf"
+      },
+      "steps": [
+        "Dear Prof. Denaxas,\n\nYour work in biomedical informatics and health data science shows how much the data behind a clinical model matters. I'd value your view on a problem I found in a widely used clinical-trial benchmark.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). I've written a paper on predicting clinical-trial approval with the TrialBench benchmark. Every model I built, from random forests to a multimodal network with ClinicalBERT and ChemBERTa, got stuck at about 0.57 AUROC. When I checked the data, I found that the popular Hugging Face copy of TrialBench matches labels to trials by row order, so the labels are scrambled: only 51.5% match the official ones. With the correct labels, a simple LightGBM model reaches 0.773 AUROC. I also found that almost half of the \"failed\" trials were stopped for recruitment or business reasons, not because the drug failed.\n\nThe paper and code are complete. I'm looking for a professor to guide me in finishing it and choosing where to publish, and I'd be glad to have you as a co-author. A one-page summary is attached.\n\nWould you be open to a short call, or may I send you the full draft?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Dear {first},\n\nI'm following up on my note about the TrialBench label error. I'd be happy to send the full paper and code, or to join a short call at any time that suits you.\n\nThank you,\nAnushree Revankar",
+        "Dear {first},\n\nOne last short note. If you don't have time to take this on, could you suggest a colleague or student working on clinical-trial or health data whom I could contact? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "university": "UCL",
+      "category": "paper"
+    },
+    {
+      "id": "scheduled#trialbench_paper#ami.banerjee@ucl.ac.uk",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Prof. Amitava Banerjee",
+      "first_name": "Prof. Banerjee",
+      "to": "ami.banerjee@ucl.ac.uk",
+      "subject": "Research collaboration: a label error in the TrialBench clinical-trial benchmark",
+      "first_sent": null,
+      "tz": "Europe/London",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Revankar_TrialBench_summary.pdf"
+      },
+      "steps": [
+        "Dear Prof. Banerjee,\n\nYour work in clinical data science shows how much the data behind a clinical model matters. I'd value your view on a problem I found in a widely used clinical-trial benchmark.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). I've written a paper on predicting clinical-trial approval with the TrialBench benchmark. Every model I built, from random forests to a multimodal network with ClinicalBERT and ChemBERTa, got stuck at about 0.57 AUROC. When I checked the data, I found that the popular Hugging Face copy of TrialBench matches labels to trials by row order, so the labels are scrambled: only 51.5% match the official ones. With the correct labels, a simple LightGBM model reaches 0.773 AUROC. I also found that almost half of the \"failed\" trials were stopped for recruitment or business reasons, not because the drug failed.\n\nThe paper and code are complete. I'm looking for a professor to guide me in finishing it and choosing where to publish, and I'd be glad to have you as a co-author. A one-page summary is attached.\n\nWould you be open to a short call, or may I send you the full draft?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Dear {first},\n\nI'm following up on my note about the TrialBench label error. I'd be happy to send the full paper and code, or to join a short call at any time that suits you.\n\nThank you,\nAnushree Revankar",
+        "Dear {first},\n\nOne last short note. If you don't have time to take this on, could you suggest a colleague or student working on clinical-trial or health data whom I could contact? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "university": "UCL",
+      "category": "paper"
+    },
+    {
+      "id": "scheduled#trialbench_paper#pfbaldi@uci.edu",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Prof. Pierre Baldi",
+      "first_name": "Prof. Baldi",
+      "to": "pfbaldi@uci.edu",
+      "subject": "Research collaboration: a label error in the TrialBench clinical-trial benchmark",
+      "first_sent": null,
+      "tz": "America/Los_Angeles",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Revankar_TrialBench_summary.pdf"
+      },
+      "steps": [
+        "Dear Prof. Baldi,\n\nYour group's work applying machine learning to biology and chemistry shows how much the data behind a model matters. I'd value your view on a problem I found in a widely used clinical-trial benchmark.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). I've written a paper on predicting clinical-trial approval with the TrialBench benchmark. Every model I built, from random forests to a multimodal network with ClinicalBERT and ChemBERTa, got stuck at about 0.57 AUROC. When I checked the data, I found that the popular Hugging Face copy of TrialBench matches labels to trials by row order, so the labels are scrambled: only 51.5% match the official ones. With the correct labels, a simple LightGBM model reaches 0.773 AUROC. I also found that almost half of the \"failed\" trials were stopped for recruitment or business reasons, not because the drug failed.\n\nThe paper and code are complete. I'm looking for a professor to guide me in finishing it and choosing where to publish, and I'd be glad to have you as a co-author. A one-page summary is attached.\n\nWould you be open to a short call, or may I send you the full draft?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Dear {first},\n\nI'm following up on my note about the TrialBench label error. I'd be happy to send the full paper and code, or to join a short call at any time that suits you.\n\nThank you,\nAnushree Revankar",
+        "Dear {first},\n\nOne last short note. If you don't have time to take this on, could you suggest a colleague or student working on clinical-trial or health data whom I could contact? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "university": "UC Irvine",
+      "category": "paper"
     }
   ]
 }
