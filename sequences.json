@@ -5396,6 +5396,34 @@
       "interval_days": 4,
       "university": "IIT Patna",
       "category": "paper"
+    },
+    {
+      "id": "scheduled#research#prithagupta.nsit@gmail.com",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Dr. Pritha Gupta",
+      "first_name": "Dr. Gupta",
+      "to": "prithagupta.nsit@gmail.com",
+      "subject": "Remote research help on LLM security and privacy: a student from Mumbai",
+      "first_sent": null,
+      "tz": "Europe/Berlin",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Anushree_Revankar_Resume.pdf"
+      },
+      "steps": [
+        "Dear Dr. Gupta,\n\nI came across your work on attacks on large language models and on defenses that protect privacy, such as prompt injection, membership inference and canary detection. Real LLM apps need exactly this kind of testing, and I'd like to learn to do it properly.\n\nI'm Anushree, a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my internship at HTL I built PreQue AI, a Claude-powered app that fills in pre-qualification forms, with search over a vector store and a feedback loop that learns from corrections. Building it made me want to understand how LLM apps can be attacked and protected. I also came 1st runner-up at the CreAItion 1.0 AI hackathon (2026).\n\nTo be honest, I'm new to security research. I'd be glad to help with a small task under your guidance, remotely: for example reproducing an attack or a defense from one of your papers, or running tests on a public LLM app. If you are no longer taking students, could you point me to a colleague who might? My resume is attached.\n\nWould you be open to a short call or an email exchange?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Dear Dr. Gupta,\n\nI'm following up on my note about helping with your LLM security and privacy research. I'm happy to start with any small task, like reproducing a result from one of your papers.\n\nThank you,\nAnushree Revankar",
+        "Dear Dr. Gupta,\n\nOne last short note. If you can't take this on, could you point me to a student or colleague working on LLM security whom I could contact? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "university": "Ruhr University Bochum",
+      "category": "research"
     }
   ]
 }
