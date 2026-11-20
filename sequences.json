@@ -367,9 +367,14 @@
           "date": "2026-11-17",
           "to": "julian.berman@quantumrise.com",
           "sent_at_ist": "2026-11-17T13:10:22+05:30"
+        },
+        {
+          "date": "2026-11-19",
+          "to": "julian.berman@quantumrise.com",
+          "sent_at_ist": "2026-11-20T07:31:06+05:30"
         }
       ],
-      "status": "active",
+      "status": "finished",
       "category": "company"
     },
     {
