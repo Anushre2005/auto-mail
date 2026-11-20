@@ -170,3 +170,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-20T10:38:50,manual first email,scheduled#trialbench_paper#anna.goldenberg@sickkids.ca,Prof. Anna Goldenberg,anna.goldenberg@sickkids.ca,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
 2026-11-20T10:39:48,manual first email,scheduled#batch3#recruiting@albert.com,ALBERT,recruiting@albert.com,Remote AI engineer: I've shipped an LLM app,sent,
 2026-11-20T10:41:18,manual first email,scheduled#batch3#stefan@sundream.studio,Sundream Studio,stefan@sundream.studio,Remote software engineer: AI video tools,sent,
+2026-11-20T10:42:44,manual first email,scheduled#batch3#hiring@sidekicklabs.com,Sidekick Labs,hiring@sidekicklabs.com,Remote AI engineer (intern or contract): AI security,sent,
