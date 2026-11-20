@@ -140,3 +140,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-20T07:26:59,manual follow-up 1,scheduled#batch3#rita@raidsai.ai,RAIDS AI,rita@raidsai.ai,Re: Remote AI engineer (intern or contract): AI monitoring,sent,
 2026-11-20T07:28:06,manual follow-up 1,scheduled#batch3#max@kaida.dev,Kaida,max@kaida.dev,Re: Remote AI engineer: building with you on Kaida,sent,
 2026-11-20T07:29:42,manual first email,scheduled#owkin#thalyssa.baiocco-rodrigues@owkin.com,Thalyssa Baiocco-Rodrigues (Owkin),thalyssa.baiocco-rodrigues@owkin.com,Remote internship question: your IMILIA paper on IBD slides,sent,
+2026-11-20T07:31:06,manual follow-up 3,READY_TO_SEND.md#1,Quantum Rise,julian.berman@quantumrise.com,Re: Freelance AI engineer for Quantum Rise's agentic projects,sent,
