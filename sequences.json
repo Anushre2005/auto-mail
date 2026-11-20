@@ -5217,6 +5217,87 @@
       "status": "active",
       "interval_days": 4,
       "category": "company"
+    },
+    {
+      "id": "scheduled#similar#b.bakkar@instadeep.com",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Burak Bakkar (InstaDeep)",
+      "first_name": "Burak",
+      "to": "b.bakkar@instadeep.com",
+      "subject": "Clinical-trial prediction: a question about your new paper, and a remote internship",
+      "first_sent": null,
+      "tz": "Europe/London",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Revankar_TrialBench_summary.pdf"
+      },
+      "steps": [
+        "Hi Burak,\n\nI came across your recent paper on predicting clinical-trial outcomes with BioBERT and BioMistral. It is very close to my own work on the TrialBench benchmark, and I would value your view on a data problem I found.\n\nI'm Anushree, a final-year computer engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). I've written a paper on predicting clinical-trial approval with the TrialBench benchmark. I found that the popular Hugging Face copy of the data matches labels to trials by row order, so the labels are scrambled: only 51.5% match the official ones. With the correct labels, a simple LightGBM model reaches 0.773 AUROC. A one-page summary is attached.\n\nI'd really value your honest view on the paper, even a few lines. I'd also love to do a remote internship or a small project at InstaDeep on clinical-trial data, and I'm happy to start with any small task. Would you be open to a short call?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Hi Burak,\n\nJust checking you saw my last email. I'd really like to learn from your team at InstaDeep, even through something small to start.\n\nWould you have 15 minutes for a quick call, or could you point me to the right person?\n\nThanks,\nAnushree",
+        "Hi Burak,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need extra help on a small data or model task, I'd love to hear from you. And if someone else at InstaDeep is the better person to ask, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "category": "company"
+    },
+    {
+      "id": "scheduled#similar#rosemarie.krupar@aignostics.com",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Rosemarie Krupar (Aignostics)",
+      "first_name": "Rosemarie",
+      "to": "rosemarie.krupar@aignostics.com",
+      "subject": "Remote internship question: your paper on lung cancer tissue and AI",
+      "first_sent": null,
+      "tz": "Europe/Berlin",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Anushree_Revankar_Resume.pdf"
+      },
+      "steps": [
+        "Hi Rosemarie,\n\nI came across your recent paper using AI to study lymphoid structures and the tumour microenvironment in lung squamous cell cancer. Showing doctors what is going on in a tissue slide, in a way they can check, is what makes this kind of AI useful.\n\nI'm Anushree, a final-year computer engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my internship at HTL I built PreQue AI, a Claude-powered app that fills in pre-qualification forms, and I'm writing a research paper on predicting whether clinical trials succeed. To be honest, I'm new to pathology and tissue images, but I learn fast and I'd like to move into this field.\n\nI'd love to do a remote internship or a small project at Aignostics, and I'm happy to start with any small task, like cleaning data or testing a model. My resume is attached. If you're not the right person, could you point me to someone on the AI team? Would you be open to a short call?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Hi Rosemarie,\n\nJust checking you saw my last email. I'd really like to learn from your team at Aignostics, even through something small to start.\n\nWould you have 15 minutes for a quick call, or could you point me to the right person?\n\nThanks,\nAnushree",
+        "Hi Rosemarie,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need extra help on a small data or model task, I'd love to hear from you. And if someone else at Aignostics is the better person to ask, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "category": "company"
+    },
+    {
+      "id": "scheduled#similar#yannis.papanikolaou@healx.io",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Yannis Papanikolaou (Healx)",
+      "first_name": "Yannis",
+      "to": "yannis.papanikolaou@healx.io",
+      "subject": "Remote internship question: your paper on matching drugs to diseases",
+      "first_sent": null,
+      "tz": "Europe/London",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Anushree_Revankar_Resume.pdf"
+      },
+      "steps": [
+        "Hi Yannis,\n\nI came across your paper on matching drugs to diseases with deep learning and gene-expression data. Finding new uses for existing medicines, especially for rare diseases, is exactly the kind of AI work I want to do.\n\nI'm Anushree, a final-year computer engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my internship at HTL I built PreQue AI, a Claude-powered app that fills in pre-qualification forms, and I'm writing a research paper on predicting whether clinical trials succeed. To be honest, I'm new to drug discovery, but I learn fast and I'd like to move into this field.\n\nI'd love to do a remote internship or a small project at Healx, and I'm happy to start with any small task, like cleaning data or testing a model. My resume is attached. If you're not the right person, could you point me to someone on the AI team? Would you be open to a short call?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Hi Yannis,\n\nJust checking you saw my last email. I'd really like to learn from your team at Healx, even through something small to start.\n\nWould you have 15 minutes for a quick call, or could you point me to the right person?\n\nThanks,\nAnushree",
+        "Hi Yannis,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need extra help on a small data or model task, I'd love to hear from you. And if someone else at Healx is the better person to ask, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "category": "company"
     }
   ]
 }
