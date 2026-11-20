@@ -4312,12 +4312,12 @@
       "first_name": "Prof. Goldenberg",
       "to": "anna.goldenberg@sickkids.ca",
       "subject": "Research collaboration: a label error in the TrialBench clinical-trial benchmark",
-      "first_sent": null,
+      "first_sent": "2026-11-20",
       "tz": "America/Toronto",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179515127284.285.5360300483346921730@gmail.com>",
       "steps": [
         "Dear Prof. Goldenberg,\n\nYour work on machine learning methods for clinical use is very close to what I have been studying. I'd value your view on a problem I found in a widely used clinical-trial benchmark.\n\nI'm a final-year Computer Engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). I've written a paper on predicting clinical-trial approval with the TrialBench benchmark. Every model I built, from random forests to a multimodal network with ClinicalBERT and ChemBERTa, got stuck at about 0.57 AUROC. When I checked the data, I found that the popular Hugging Face copy of TrialBench matches labels to trials by row order, so the labels are scrambled: only 51.5% match the official ones. With the correct labels, a simple LightGBM model reaches 0.773 AUROC. I also found that almost half of the \"failed\" trials were stopped for recruitment or business reasons, not because the drug failed.\n\nThe paper and code are complete. I'm looking for a professor to guide me in finishing it and choosing where to publish, and I'd be glad to have you as a co-author. A one-page summary is attached.\n\nWould you be open to a short call, or may I send you the full draft?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
         "Dear {first},\n\nI'm following up on my note about the TrialBench label error. I'd be happy to send the full paper and code, or to join a short call at any time that suits you.\n\nThank you,\nAnushree Revankar",
@@ -4326,7 +4326,13 @@
       "step_attach": {
         "0": "Revankar_TrialBench_summary.pdf"
       },
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-20",
+          "to": "anna.goldenberg@sickkids.ca",
+          "sent_at_ist": "2026-11-20T10:38:50+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "university": "Toronto",
