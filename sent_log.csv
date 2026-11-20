@@ -136,3 +136,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-20T02:00:24,auto first email,scheduled#trialbench_paper#wiensj@umich.edu,Prof. Jenna Wiens,wiensj@umich.edu,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
 2026-11-20T02:01:39,auto first email,scheduled#trialbench_paper#amalaa@berkeley.edu,Prof. Ahmed Alaa,amalaa@berkeley.edu,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
 2026-11-20T07:23:57,manual follow-up 1,scheduled#batch3#career@threatmark.com,ThreatMark,career@threatmark.com,Re: Remote machine learning role (HN Who's Hiring),sent,
+2026-11-20T07:25:29,manual follow-up 1,scheduled#batch3#hugh@assume-ai.com,AssumeAI,hugh@assume-ai.com,Re: Contract AI engineer: agents and Claude-based systems,sent,
