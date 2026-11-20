@@ -5146,7 +5146,7 @@
           "sent_at_ist": "2026-11-19T15:43:25+05:30"
         }
       ],
-      "status": "active",
+      "status": "bounced",
       "interval_days": 4,
       "category": "company"
     },
@@ -5158,12 +5158,12 @@
       "first_name": "Thalyssa",
       "to": "thalyssa.baiocco-rodrigues@owkin.com",
       "subject": "Remote internship question: your IMILIA paper on IBD slides",
-      "first_sent": null,
+      "first_sent": "2026-11-20",
       "tz": "Europe/Paris",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179513992674.285.560239445565556956@gmail.com>",
       "step_attach": {
         "0": "Anushree_Revankar_Resume.pdf"
       },
@@ -5172,7 +5172,13 @@
         "Hi Thalyssa,\n\nJust checking you saw my last email. I'd really like to learn from your team at Owkin, even through something small to start.\n\nWould you have 15 minutes for a quick call, or could you point me to the right person?\n\nThanks,\nAnushree",
         "Hi Thalyssa,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need extra help on a small data or model task, I'd love to hear from you. And if someone else at Owkin is the better person to ask, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-20",
+          "to": "thalyssa.baiocco-rodrigues@owkin.com",
+          "sent_at_ist": "2026-11-20T07:29:42+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "category": "company"
