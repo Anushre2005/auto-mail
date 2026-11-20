@@ -161,3 +161,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-20T07:51:41,manual follow-up 2,founder#ContextQA,ContextQA,deep@contextqa.com,Re: Idea for ContextQA: user-story-to-test generation,sent,
 2026-11-20T07:52:36,manual follow-up 2,founder#Northslope,Northslope,bward@northslope.com,Re: Idea for Northslope: help on a client build,sent,
 2026-11-20T07:54:01,manual follow-up 2,founder#Atolio,Atolio,david@atolio.com,Re: Idea for Atolio: permission-aware retrieval evals,sent,
+2026-11-20T08:09:52,manual first email,scheduled#similar#b.bakkar@instadeep.com,Burak Bakkar (InstaDeep),b.bakkar@instadeep.com,"Clinical-trial prediction: a question about your new paper, and a remote internship",sent,
