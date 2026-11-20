@@ -1815,6 +1815,11 @@
           "date": "2026-11-17",
           "to": "christian@loman.ai",
           "sent_at_ist": "2026-11-18T08:30:12+05:30"
+        },
+        {
+          "date": "2026-11-19",
+          "to": "christian@loman.ai",
+          "sent_at_ist": "2026-11-20T07:47:54+05:30"
         }
       ],
       "status": "active",
