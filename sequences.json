@@ -5454,6 +5454,60 @@
       "interval_days": 4,
       "university": "Ruhr University Bochum",
       "category": "research"
+    },
+    {
+      "id": "scheduled#batch5#han.xiao@jina.ai",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Han Xiao (Jina AI)",
+      "first_name": "Han",
+      "to": "han.xiao@jina.ai",
+      "subject": "Remote internship or small project: embeddings and search (a student from Mumbai)",
+      "first_sent": null,
+      "tz": "Europe/Berlin",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Anushree_Revankar_Resume.pdf"
+      },
+      "steps": [
+        "Hi Han,\n\nI came across your recent papers on shrinking embeddings and on recovering text from embeddings. Search quality and embedding safety are things I ran into myself when I built a document-search feature, and Jina's models are what I would reach for.\n\nI'm Anushree, a final-year computer engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my internship at HTL I built PreQue AI, a Claude-powered app that fills in pre-qualification forms, with search over a vector store and a feedback loop that learns from corrections. I also came 1st runner-up at the CreAItion 1.0 AI hackathon (2026).\n\nI'd love to do a remote internship or a small project with Jina, and I'm happy to start with any small task, like testing retrieval quality on a new data set or checking how well compressed embeddings hold up. My resume is attached. If you're not the right person, could you point me to someone on the research team?\n\nWould you be open to a short call or an email exchange?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Hi Han,\n\nJust checking you saw my last email. I'd really like to learn from your team at Jina AI, even through something small to start.\n\nWould you have 15 minutes for a quick call, or could you point me to the right person?\n\nThanks,\nAnushree",
+        "Hi Han,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need extra help on a small task, I'd love to hear from you. And if someone else at Jina AI is the better person to ask, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "category": "company"
+    },
+    {
+      "id": "scheduled#batch5#hippolyte.pilchen@kyutai.org",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Hippolyte Pilchen (Kyutai)",
+      "first_name": "Hippolyte",
+      "to": "hippolyte.pilchen@kyutai.org",
+      "subject": "Remote research help: your work on LLM pre-training and text compression",
+      "first_sent": null,
+      "tz": "Europe/Paris",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Anushree_Revankar_Resume.pdf"
+      },
+      "steps": [
+        "Hi Hippolyte,\n\nI came across your recent papers on how the dates of training data affect LLM pre-training and on ARC-Encoder, which compresses text for language models. Both ask careful questions about what really helps a model, and I would like to learn how to do that kind of research.\n\nI'm Anushree, a final-year computer engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my internship at HTL I built PreQue AI, a Claude-powered app that fills in pre-qualification forms, with search over a vector store and a feedback loop that learns from corrections. I also came 1st runner-up at the CreAItion 1.0 AI hackathon (2026).\n\nTo be honest, I'm new to pre-training research. I'd be glad to help remotely with a small task, like reproducing a result, running evaluations or cleaning data. If Kyutai takes interns, I'd also love to hear how to apply. My resume is attached. Would you be open to a short call or an email exchange?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Hi Hippolyte,\n\nJust checking you saw my last email. I'd really like to learn from your team at Kyutai, even through something small to start.\n\nWould you have 15 minutes for a quick call, or could you point me to the right person?\n\nThanks,\nAnushree",
+        "Hi Hippolyte,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need extra help on a small task, I'd love to hear from you. And if someone else at Kyutai is the better person to ask, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "category": "research"
     }
   ]
 }
