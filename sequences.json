@@ -5395,12 +5395,12 @@
       "first_name": "Ms. Gupta",
       "to": "shivani_2221cs18@iitp.ac.in",
       "subject": "Clinical-trial prediction: a possible collaboration (a label error in TrialBench)",
-      "first_sent": null,
+      "first_sent": "2026-11-20",
       "tz": "Asia/Kolkata",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179514253490.285.8011949188250169249@gmail.com>",
       "step_attach": {
         "0": "Revankar_TrialBench_summary.pdf"
       },
@@ -5409,7 +5409,13 @@
         "Dear Ms. Gupta,\n\nI'm following up on my note about the TrialBench label error. I'd be happy to send the full paper and code, or to talk at any time that suits you.\n\nThank you,\nAnushree Revankar",
         "Dear Ms. Gupta,\n\nOne last short note. If you don't have time for this, could you suggest a colleague or student working on clinical prediction whom I could contact? I'd really appreciate it.\n\nThank you,\nAnushree Revankar"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-20",
+          "to": "shivani_2221cs18@iitp.ac.in",
+          "sent_at_ist": "2026-11-20T08:13:09+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "university": "IIT Patna",
