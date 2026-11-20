@@ -5508,6 +5508,87 @@
       "status": "active",
       "interval_days": 4,
       "category": "research"
+    },
+    {
+      "id": "scheduled#batch6#martin.genzel@merantix-momentum.com",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Martin Genzel (Merantix Momentum)",
+      "first_name": "Martin",
+      "to": "martin.genzel@merantix-momentum.com",
+      "subject": "Remote internship or small project: efficient AI models (a student from Mumbai)",
+      "first_sent": null,
+      "tz": "Europe/Berlin",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Anushree_Revankar_Resume.pdf"
+      },
+      "steps": [
+        "Hi Martin,\n\nI came across your recent paper on shrinking large models with entropy coding (Float8@2bits). Making big models small and cheap enough to really use is a problem I care about, and the data-free angle is clever.\n\nI'm Anushree, a final-year computer engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my internship at HTL I built PreQue AI, a Claude-powered app that fills in pre-qualification forms, with search over a vector store and a feedback loop that learns from corrections. I also came 1st runner-up at the CreAItion 1.0 AI hackathon (2026).\n\nTo be honest, I'm new to model compression. I'd love to do a remote internship or a small project with Merantix Momentum, and I'm happy to start with any small task, like running benchmarks or testing a compressed model on a new data set. My resume is attached. If you're not the right person, could you point me to someone on the team?\n\nWould you be open to a short call or an email exchange?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Hi Martin,\n\nJust checking you saw my last email. I'd really like to learn from your team at Merantix Momentum, even through something small to start.\n\nWould you have 15 minutes for a quick call, or could you point me to the right person?\n\nThanks,\nAnushree",
+        "Hi Martin,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need extra help on a small task, I'd love to hear from you. And if someone else at Merantix Momentum is the better person to ask, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "category": "company"
+    },
+    {
+      "id": "scheduled#batch6#marcely.zanon-boito@naverlabs.com",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Marcely Zanon Boito (NAVER LABS Europe)",
+      "first_name": "Marcely",
+      "to": "marcely.zanon-boito@naverlabs.com",
+      "subject": "Remote research help: speech and language models (a student from Mumbai)",
+      "first_sent": null,
+      "tz": "Europe/Paris",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Anushree_Revankar_Resume.pdf"
+      },
+      "steps": [
+        "Hi Marcely,\n\nI came across your team's recent submission to the 2026 instruction-following track. Getting speech and language models to follow instructions reliably is a hard problem, and I would like to learn how research teams test it.\n\nI'm Anushree, a final-year computer engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my internship at HTL I built PreQue AI, a Claude-powered app that fills in pre-qualification forms, with search over a vector store and a feedback loop that learns from corrections. I also came 1st runner-up at the CreAItion 1.0 AI hackathon (2026).\n\nTo be honest, I'm new to speech research. I'd be glad to help remotely with a small task, like running evaluations, cleaning data or reproducing a result. If NAVER LABS Europe takes interns, I'd also love to hear how to apply. My resume is attached. Would you be open to a short call or an email exchange?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Hi Marcely,\n\nJust checking you saw my last email. I'd really like to learn from your team at NAVER LABS Europe, even through something small to start.\n\nWould you have 15 minutes for a quick call, or could you point me to the right person?\n\nThanks,\nAnushree",
+        "Hi Marcely,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need extra help on a small task, I'd love to hear from you. And if someone else at NAVER LABS Europe is the better person to ask, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "category": "research"
+    },
+    {
+      "id": "scheduled#batch6#shaina.raza@vectorinstitute.ai",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Shaina Raza (Vector Institute)",
+      "first_name": "Shaina",
+      "to": "shaina.raza@vectorinstitute.ai",
+      "subject": "Remote research help: benchmarks and data quality (a student from Mumbai)",
+      "first_sent": null,
+      "tz": "America/Toronto",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Anushree_Revankar_Resume.pdf"
+      },
+      "steps": [
+        "Hi Shaina,\n\nI came across your benchmark VLDBench, on judging multimodal disinformation. A benchmark is only as good as its labels, and that is something I learned the hard way: I found that a popular clinical-trial benchmark had its labels scrambled.\n\nI'm Anushree, a final-year computer engineering student in Mumbai (honours in Data Science & AI, CGPA 9.1). At my internship at HTL I built PreQue AI, a Claude-powered app that fills in pre-qualification forms, with search over a vector store and a feedback loop that learns from corrections. I also came 1st runner-up at the CreAItion 1.0 AI hackathon (2026).\n\nI'd love to help remotely on a small task under your guidance, like checking data quality, running evaluations or testing a model, and I'd be happy to share my clinical-trial benchmark findings if they would be useful. My resume is attached. Would you be open to a short call or an email exchange?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar | anushree.revankar102@gmail.com",
+        "Hi Shaina,\n\nJust checking you saw my last email. I'd really like to learn from your team at Vector Institute, even through something small to start.\n\nWould you have 15 minutes for a quick call, or could you point me to the right person?\n\nThanks,\nAnushree",
+        "Hi Shaina,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need extra help on a small task, I'd love to hear from you. And if someone else at Vector Institute is the better person to ask, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 4,
+      "category": "research"
     }
   ]
 }
