@@ -165,3 +165,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-20T08:11:02,manual first email,scheduled#similar#rosemarie.krupar@aignostics.com,Rosemarie Krupar (Aignostics),rosemarie.krupar@aignostics.com,Remote internship question: your paper on lung cancer tissue and AI,sent,
 2026-11-20T08:12:11,manual first email,scheduled#similar#yannis.papanikolaou@healx.io,Yannis Papanikolaou (Healx),yannis.papanikolaou@healx.io,Remote internship question: your paper on matching drugs to diseases,sent,
 2026-11-20T08:13:09,manual first email,scheduled#trialbench_paper#shivani_2221cs18@iitp.ac.in,Ms. Shivani Gupta (IIT Patna),shivani_2221cs18@iitp.ac.in,Clinical-trial prediction: a possible collaboration (a label error in TrialBench),sent,
+2026-11-20T08:14:39,manual first email,scheduled#research#prithagupta.nsit@gmail.com,Dr. Pritha Gupta,prithagupta.nsit@gmail.com,Remote research help on LLM security and privacy: a student from Mumbai,sent,
