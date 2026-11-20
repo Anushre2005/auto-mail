@@ -168,3 +168,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-20T08:14:39,manual first email,scheduled#research#prithagupta.nsit@gmail.com,Dr. Pritha Gupta,prithagupta.nsit@gmail.com,Remote research help on LLM security and privacy: a student from Mumbai,sent,
 2026-11-20T10:37:45,manual follow-up 1,scheduled#biotech_emails.md#15,Deep Forest Sciences,bharath@deepforestsci.com,Re: Contributing to DeepChem: student interested in an internship,sent,
 2026-11-20T10:38:50,manual first email,scheduled#trialbench_paper#anna.goldenberg@sickkids.ca,Prof. Anna Goldenberg,anna.goldenberg@sickkids.ca,Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
+2026-11-20T10:39:48,manual first email,scheduled#batch3#recruiting@albert.com,ALBERT,recruiting@albert.com,Remote AI engineer: I've shipped an LLM app,sent,
