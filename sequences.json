@@ -5296,12 +5296,12 @@
       "first_name": "Burak",
       "to": "b.bakkar@instadeep.com",
       "subject": "Clinical-trial prediction: a question about your new paper, and a remote internship",
-      "first_sent": null,
+      "first_sent": "2026-11-20",
       "tz": "Europe/London",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179514239151.285.5992389572490049637@gmail.com>",
       "step_attach": {
         "0": "Revankar_TrialBench_summary.pdf"
       },
@@ -5310,7 +5310,13 @@
         "Hi Burak,\n\nJust checking you saw my last email. I'd really like to learn from your team at InstaDeep, even through something small to start.\n\nWould you have 15 minutes for a quick call, or could you point me to the right person?\n\nThanks,\nAnushree",
         "Hi Burak,\n\nThis is my last note, as I don't want to fill your inbox. If you ever need extra help on a small data or model task, I'd love to hear from you. And if someone else at InstaDeep is the better person to ask, I'd be grateful if you could point me to them.\n\nAll the best,\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-20",
+          "to": "b.bakkar@instadeep.com",
+          "sent_at_ist": "2026-11-20T08:09:52+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 4,
       "category": "company"
