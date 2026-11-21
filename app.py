@@ -114,8 +114,7 @@ def due_now_list(seqs: list, sts: dict) -> list:
     for s in seqs:
         if s["status"] != "active" or fe.is_generic(fe.current_recipient(s) or ""):
             continue
-        day = fe.due_date(s, sts["interval_days"])
-        if day is not None and datetime.now(ZoneInfo(s["tz"])).date() >= day:
+        if fe.manual_due(s, sts["interval_days"], datetime.now(ZoneInfo(s["tz"])).date()):
             out.append(s)
     return out
 

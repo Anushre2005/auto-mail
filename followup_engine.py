@@ -156,6 +156,18 @@ def due_date(seq: dict, interval: int) -> date | None:
     return next_weekday(date.fromisoformat(last) + timedelta(days=gap))
 
 
+def weekend_manual_ok(seq: dict, due: date) -> bool:
+    """Manual "Send now" override: on a Saturday or Sunday (where you are), brand-new first emails whose due date was
+    only pushed to Monday by the weekend rule may be sent by hand. Follow-ups and the autopilot still wait for Monday."""
+    first = bool(seq.get("first_email")) and not seq["sent_steps"]
+    return first and date.today().weekday() >= 5 and due == next_weekday(date.today())
+
+
+def manual_due(seq: dict, interval: int, local_today: date) -> bool:
+    day = due_date(seq, interval)
+    return day is not None and (local_today >= day or weekend_manual_ok(seq, day))
+
+
 def current_recipient(seq: dict) -> str:
     return seq.get("person_email") or seq["to"]
 
@@ -459,7 +471,8 @@ def run(dry_run: bool = False, force_window: bool = False, manual: bool = False)
             now_local = datetime.now(ZoneInfo(seq["tz"]))
             h1, m1, h2, m2 = window_for(seq["tz"])
             in_window = now_local.weekday() < 5 and (h1, m1) <= (now_local.hour, now_local.minute) < (h2, m2)
-            if now_local.date() < due or not (in_window or force_window):
+            is_due = now_local.date() >= due or (manual and weekend_manual_ok(seq, due))
+            if not is_due or not (in_window or force_window):
                 continue
             if not force_window and now_local < slot_time(seq, now_local):
                 continue  # not this email's turn yet today
