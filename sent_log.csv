@@ -198,3 +198,7 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-21T09:13:26,manual first email,founder#Yoodli,Yoodli,v.puri@yoodli.ai,Idea for Yoodli: a roleplay grader,sent,
 2026-11-21T09:14:32,manual first email,founder#Auctor,Auctor,william@getauctor.com,Idea for Auctor: an SOW-to-deliverables agent,sent,
 2026-11-21T09:15:21,manual first email,founder#Assured,Assured,varun@withassured.com,Idea for Assured: credentialing extraction,sent,
+2026-11-23T16:10:32,auto follow-up 1,scheduled#biotech_emails.md#5,Prof. Nagasuma Chandra,nchandra@iisc.ac.in,Re: Internship request: computational systems biology,sent,
+2026-11-23T16:11:49,auto follow-up 1,scheduled#biotech_emails.md#6,Dr. Tavpritesh Sethi,tavpriteshsethi@iiitd.ac.in,Re: Internship request: AI for healthcare,sent,
+2026-11-23T16:12:41,auto follow-up 1,scheduled#biotech_emails.md#18,Prof. Debnath Pal,dpal@iisc.ac.in,Re: Internship request: computational biology and drug discovery,sent,
+2026-11-23T16:13:59,auto follow-up 1,scheduled#biotech_emails.md#19,Prof. Amit Sethi,asethi@iitb.ac.in,Re: Internship request: deep learning for pathology images,sent,
