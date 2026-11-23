@@ -188,6 +188,11 @@
           "date": "2026-11-18",
           "to": "suinlee@cs.washington.edu",
           "sent_at_ist": "2026-11-19T01:55:21+05:30"
+        },
+        {
+          "date": "2026-11-23",
+          "to": "suinlee@cs.washington.edu",
+          "sent_at_ist": "2026-11-24T05:18:07+05:30"
         }
       ],
       "status": "active",
@@ -1468,7 +1473,7 @@
           "sent_at_ist": "2026-11-21T09:08:08+05:30"
         }
       ],
-      "status": "active",
+      "status": "bounced",
       "category": "company"
     },
     {
@@ -4381,6 +4386,11 @@
           "date": "2026-11-19",
           "to": "amalaa@berkeley.edu",
           "sent_at_ist": "2026-11-20T02:01:39+05:30"
+        },
+        {
+          "date": "2026-11-23",
+          "to": "amalaa@berkeley.edu",
+          "sent_at_ist": "2026-11-24T05:19:46+05:30"
         }
       ],
       "status": "active",
@@ -4845,6 +4855,11 @@
           "date": "2026-11-20",
           "to": "rajendra@sparcle.app",
           "sent_at_ist": "2026-11-21T08:47:04+05:30"
+        },
+        {
+          "date": "2026-11-23",
+          "to": "rajendra@sparcle.app",
+          "sent_at_ist": "2026-11-24T05:20:59+05:30"
         }
       ],
       "status": "active",
@@ -4938,6 +4953,11 @@
           "date": "2026-11-20",
           "to": "colton@opaxa.com",
           "sent_at_ist": "2026-11-21T08:49:39+05:30"
+        },
+        {
+          "date": "2026-11-23",
+          "to": "colton@opaxa.com",
+          "sent_at_ist": "2026-11-24T05:22:05+05:30"
         }
       ],
       "status": "active",

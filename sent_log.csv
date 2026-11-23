@@ -202,3 +202,7 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-23T16:11:49,auto follow-up 1,scheduled#biotech_emails.md#6,Dr. Tavpritesh Sethi,tavpriteshsethi@iiitd.ac.in,Re: Internship request: AI for healthcare,sent,
 2026-11-23T16:12:41,auto follow-up 1,scheduled#biotech_emails.md#18,Prof. Debnath Pal,dpal@iisc.ac.in,Re: Internship request: computational biology and drug discovery,sent,
 2026-11-23T16:13:59,auto follow-up 1,scheduled#biotech_emails.md#19,Prof. Amit Sethi,asethi@iitb.ac.in,Re: Internship request: deep learning for pathology images,sent,
+2026-11-24T05:18:07,auto follow-up 1,scheduled#professor_emails.md#12,Prof. Su-In Lee,suinlee@cs.washington.edu,Re: Remote research internship: explainable AI for biomedicine,sent,
+2026-11-24T05:19:46,auto follow-up 1,scheduled#trialbench_paper#amalaa@berkeley.edu,Prof. Ahmed Alaa,amalaa@berkeley.edu,Re: Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
+2026-11-24T05:20:59,auto follow-up 1,scheduled#batch3#rajendra@sparcle.app,Sparcle,rajendra@sparcle.app,Re: Remote AI engineer: Bolt and Aeira,sent,
+2026-11-24T05:22:05,auto follow-up 1,scheduled#batch3#colton@opaxa.com,Opaxa,colton@opaxa.com,Re: Remote engineer: AI that tells managers what to do today,sent,
