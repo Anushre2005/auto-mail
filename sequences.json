@@ -1673,12 +1673,17 @@
       "message_id": null,
       "steps": [
         "Hi Anara,\n\nI found your name on the I School's \"Ask a Student\" page while looking into Berkeley's MIMS programme, which I'm thinking about for my master's.\n\nI'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI). If you don't mind, I'd love to have a short chat to learn from your experience.\n\nWould you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
-        "Hi Anara,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree"
+        "Hi Anara,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Anara,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
       ],
       "sent_steps": [],
       "status": "active",
       "interval_days": 6,
-      "category": "student"
+      "category": "student",
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      }
     },
     {
       "id": "scheduled#students#arul@ischool.berkeley.edu",
@@ -1696,12 +1701,17 @@
       "message_id": null,
       "steps": [
         "Hi Arul,\n\nI found your name on the I School's \"Ask a Student\" page while looking into Berkeley's MIMS programme, which I'm thinking about for my master's.\n\nI'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI). If you don't mind, I'd love to have a short chat to learn from your experience.\n\nWould you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
-        "Hi Arul,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree"
+        "Hi Arul,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Arul,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
       ],
       "sent_steps": [],
       "status": "active",
       "interval_days": 6,
-      "category": "student"
+      "category": "student",
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      }
     },
     {
       "id": "scheduled#students#kdhingra@ischool.berkeley.edu",
@@ -1719,12 +1729,17 @@
       "message_id": null,
       "steps": [
         "Hi Karishma,\n\nI found your name on the I School's \"Ask a Student\" page while looking into Berkeley's MIMS programme, which I'm thinking about for my master's.\n\nI'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI). If you don't mind, I'd love to have a short chat to learn from your experience.\n\nWould you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
-        "Hi Karishma,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree"
+        "Hi Karishma,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Karishma,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
       ],
       "sent_steps": [],
       "status": "active",
       "interval_days": 6,
-      "category": "student"
+      "category": "student",
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      }
     },
     {
       "id": "scheduled#students#lance.santana@ischool.berkeley.edu",
@@ -1742,12 +1757,17 @@
       "message_id": null,
       "steps": [
         "Hi Lance,\n\nI found your name on the I School's \"Ask a Student\" page while looking into Berkeley's MIMS programme, which I'm thinking about for my master's.\n\nI'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI). If you don't mind, I'd love to have a short chat to learn from your experience.\n\nWould you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
-        "Hi Lance,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree"
+        "Hi Lance,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Lance,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
       ],
       "sent_steps": [],
       "status": "active",
       "interval_days": 6,
-      "category": "student"
+      "category": "student",
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      }
     },
     {
       "id": "scheduled#students#dmeghana@ischool.berkeley.edu",
@@ -1765,12 +1785,17 @@
       "message_id": null,
       "steps": [
         "Hi Meghana,\n\nI found your name on the I School's \"Ask a Student\" page while looking into Berkeley's MIMS programme, which I'm thinking about for my master's.\n\nI'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI). If you don't mind, I'd love to have a short chat to learn from your experience.\n\nWould you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
-        "Hi Meghana,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree"
+        "Hi Meghana,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Meghana,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
       ],
       "sent_steps": [],
       "status": "active",
       "interval_days": 6,
-      "category": "student"
+      "category": "student",
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      }
     },
     {
       "id": "scheduled#students#merryn@ischool.berkeley.edu",
@@ -1788,12 +1813,17 @@
       "message_id": null,
       "steps": [
         "Hi Merryn,\n\nI found your name on the I School's \"Ask a Student\" page while looking into Berkeley's MIMS programme, which I'm thinking about for my master's.\n\nI'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI). If you don't mind, I'd love to have a short chat to learn from your experience.\n\nWould you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
-        "Hi Merryn,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree"
+        "Hi Merryn,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Merryn,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
       ],
       "sent_steps": [],
       "status": "active",
       "interval_days": 6,
-      "category": "student"
+      "category": "student",
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      }
     },
     {
       "id": "scheduled#students#xienanzheng@ischool.berkeley.edu",
@@ -1811,12 +1841,17 @@
       "message_id": null,
       "steps": [
         "Hi Nanzheng,\n\nI found your name on the I School's \"Ask a Student\" page while looking into Berkeley's MIMS programme, which I'm thinking about for my master's.\n\nI'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI). If you don't mind, I'd love to have a short chat to learn from your experience.\n\nWould you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
-        "Hi Nanzheng,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree"
+        "Hi Nanzheng,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Nanzheng,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
       ],
       "sent_steps": [],
       "status": "active",
       "interval_days": 6,
-      "category": "student"
+      "category": "student",
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      }
     },
     {
       "id": "scheduled#students#rachel.freyman@ischool.berkeley.edu",
@@ -1834,12 +1869,17 @@
       "message_id": null,
       "steps": [
         "Hi Rachel,\n\nI found your name on the I School's \"Ask a Student\" page while looking into Berkeley's MIMS programme, which I'm thinking about for my master's.\n\nI'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI). If you don't mind, I'd love to have a short chat to learn from your experience.\n\nWould you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
-        "Hi Rachel,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree"
+        "Hi Rachel,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Rachel,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
       ],
       "sent_steps": [],
       "status": "active",
       "interval_days": 6,
-      "category": "student"
+      "category": "student",
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      }
     },
     {
       "id": "scheduled#students#sanjaliroy@ischool.berkeley.edu",
@@ -1857,12 +1897,17 @@
       "message_id": null,
       "steps": [
         "Hi Sanjali,\n\nI found your name on the I School's \"Ask a Student\" page while looking into Berkeley's MIMS programme, which I'm thinking about for my master's.\n\nI'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI). If you don't mind, I'd love to have a short chat to learn from your experience.\n\nWould you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
-        "Hi Sanjali,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree"
+        "Hi Sanjali,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Sanjali,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
       ],
       "sent_steps": [],
       "status": "active",
       "interval_days": 6,
-      "category": "student"
+      "category": "student",
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      }
     },
     {
       "id": "scheduled#students#willie.macharia@ischool.berkeley.edu",
@@ -1880,12 +1925,17 @@
       "message_id": null,
       "steps": [
         "Hi Willie,\n\nI found your name on the I School's \"Ask a Student\" page while looking into Berkeley's MIMS programme, which I'm thinking about for my master's.\n\nI'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI). If you don't mind, I'd love to have a short chat to learn from your experience.\n\nWould you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
-        "Hi Willie,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree"
+        "Hi Willie,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Willie,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
       ],
       "sent_steps": [],
       "status": "active",
       "interval_days": 6,
-      "category": "student"
+      "category": "student",
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      }
     },
     {
       "id": "scheduled#students#iuliiak@uci.edu",
@@ -1903,12 +1953,17 @@
       "message_id": null,
       "steps": [
         "Hi Julia,\n\nI found your name on UC Irvine's MS in Biotechnology Management ambassador page while looking into the programme, which I'm thinking about for my master's.\n\nI'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI). If you don't mind, I'd love to have a short chat to learn from your experience.\n\nWould you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
-        "Hi Julia,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree"
+        "Hi Julia,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Julia,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
       ],
       "sent_steps": [],
       "status": "active",
       "interval_days": 6,
-      "category": "student"
+      "category": "student",
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      }
     }
   ]
 }
