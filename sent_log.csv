@@ -206,3 +206,7 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-24T05:19:46,auto follow-up 1,scheduled#trialbench_paper#amalaa@berkeley.edu,Prof. Ahmed Alaa,amalaa@berkeley.edu,Re: Research collaboration: a label error in the TrialBench clinical-trial benchmark,sent,
 2026-11-24T05:20:59,auto follow-up 1,scheduled#batch3#rajendra@sparcle.app,Sparcle,rajendra@sparcle.app,Re: Remote AI engineer: Bolt and Aeira,sent,
 2026-11-24T05:22:05,auto follow-up 1,scheduled#batch3#colton@opaxa.com,Opaxa,colton@opaxa.com,Re: Remote engineer: AI that tells managers what to do today,sent,
+2026-11-25T03:49:35,auto first email,scheduled#students#arul@ischool.berkeley.edu,Arul Murugan (student),arul@ischool.berkeley.edu,A student from Mumbai interested in MIMS,sent,
+2026-11-25T03:50:52,auto first email,scheduled#students#lance.santana@ischool.berkeley.edu,Lance Santana (student),lance.santana@ischool.berkeley.edu,A student from Mumbai interested in MIMS,sent,
+2026-11-25T03:51:36,auto first email,scheduled#students#merryn@ischool.berkeley.edu,Merryn Daniel (student),merryn@ischool.berkeley.edu,A student from Mumbai interested in MIMS,sent,
+2026-11-25T03:52:49,auto first email,scheduled#students#rachel.freyman@ischool.berkeley.edu,Rachel Fein (student),rachel.freyman@ischool.berkeley.edu,A student from Mumbai interested in MIMS,sent,
