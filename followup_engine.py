@@ -155,7 +155,8 @@ def due_date(seq: dict, interval: int) -> date | None:
             day = max(day, next_weekday(date.fromisoformat(seq["not_before"])))
         return day
     last = seq["sent_steps"][-1]["date"] if seq["sent_steps"] else seq["first_sent"]
-    gap = seq.get("interval_days") or interval
+    # optional per-step gaps: {"1": 2, "2": 1} = 1st follow-up 2 days after the first email, 2nd one 1 day later
+    gap = (seq.get("step_gaps") or {}).get(str(n)) or seq.get("interval_days") or interval
     return next_weekday(date.fromisoformat(last) + timedelta(days=gap))
 
 
