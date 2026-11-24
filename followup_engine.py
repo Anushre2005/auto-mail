@@ -150,7 +150,10 @@ def due_date(seq: dict, interval: int) -> date | None:
     if n >= len(seq["steps"]):
         return None
     if (seq.get("first_email") and n == 0) or not (seq["sent_steps"] or seq.get("first_sent")):
-        return next_weekday(date.today())  # founder's first email: next weekday morning
+        day = next_weekday(date.today())  # founder's first email: next weekday morning
+        if seq.get("not_before"):  # optional "start on" date (ISO) for a queued first email
+            day = max(day, next_weekday(date.fromisoformat(seq["not_before"])))
+        return day
     last = seq["sent_steps"][-1]["date"] if seq["sent_steps"] else seq["first_sent"]
     gap = seq.get("interval_days") or interval
     return next_weekday(date.fromisoformat(last) + timedelta(days=gap))
