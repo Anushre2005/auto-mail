@@ -1988,6 +1988,62 @@
         "1": 2,
         "2": 1
       }
+    },
+    {
+      "id": "scheduled#students#adityack100@gmail.com",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Aditya Kulkarni (student)",
+      "first_name": "Aditya",
+      "to": "adityack100@gmail.com",
+      "subject": "A student from Mumbai interested in ETH Zurich",
+      "first_sent": null,
+      "tz": "Europe/Zurich",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "steps": [
+        "Hi Aditya,\n\nI found your name on LinkedIn while looking into ETH Zurich, which I'm thinking about for my master's.\n\nI'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI). If you don't mind, I'd love to have a short chat to learn from your experience.\n\nWould you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
+        "Hi Aditya,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Aditya,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 2,
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      },
+      "category": "student"
+    },
+    {
+      "id": "scheduled#students#afsanebabak@gmail.com",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Afsaneh Bababak (student)",
+      "first_name": "Afsaneh",
+      "to": "afsanebabak@gmail.com",
+      "subject": "A student from Mumbai interested in ETH Zurich",
+      "first_sent": null,
+      "tz": "Europe/Zurich",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "steps": [
+        "Hi Afsaneh,\n\nI found your name on LinkedIn while looking into ETH Zurich, which I'm thinking about for my master's.\n\nI'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI). If you don't mind, I'd love to have a short chat to learn from your experience.\n\nWould you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
+        "Hi Afsaneh,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Afsaneh,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 2,
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      },
+      "category": "student"
     }
   ]
 }
