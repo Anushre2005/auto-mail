@@ -220,3 +220,4 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-27T04:09:07,manual first email,scheduled#students#xienanzheng@ischool.berkeley.edu,Nanzheng Xie (student),xienanzheng@ischool.berkeley.edu,A student from Mumbai interested in MIMS,sent,
 2026-11-27T04:10:00,manual first email,scheduled#students#sanjaliroy@ischool.berkeley.edu,Sanjali Roy (student),sanjaliroy@ischool.berkeley.edu,A student from Mumbai interested in MIMS,sent,
 2026-11-27T04:10:51,manual first email,scheduled#students#willie.macharia@ischool.berkeley.edu,Willie Macharia (student),willie.macharia@ischool.berkeley.edu,A student from Mumbai interested in MIMS,sent,
+2026-11-27T04:16:36,manual first email,scheduled#students#iuliiak@uci.edu,Julia Kim (student),iuliiak@uci.edu,A student from Mumbai interested in the MS in Biotech Management,sent,
