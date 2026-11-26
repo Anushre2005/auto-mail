@@ -1991,18 +1991,24 @@
       "first_name": "Willie",
       "to": "willie.macharia@ischool.berkeley.edu",
       "subject": "A student from Mumbai interested in MIMS",
-      "first_sent": null,
+      "first_sent": "2026-11-26",
       "tz": "America/Los_Angeles",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179573284875.28872.13305663452557892239@gmail.com>",
       "steps": [
         "Hi Willie,\n\nI found your name on the I School's \"Ask a Student\" page while looking into Berkeley's MIMS programme, which I'm thinking about for my master's.\n\nI'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI). If you don't mind, I'd love to have a short chat to learn from your experience.\n\nWould you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
         "Hi Willie,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
         "Hi Willie,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-26",
+          "to": "willie.macharia@ischool.berkeley.edu",
+          "sent_at_ist": "2026-11-27T04:10:51+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 6,
       "category": "student",
