@@ -210,3 +210,7 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-25T03:50:52,auto first email,scheduled#students#lance.santana@ischool.berkeley.edu,Lance Santana (student),lance.santana@ischool.berkeley.edu,A student from Mumbai interested in MIMS,sent,
 2026-11-25T03:51:36,auto first email,scheduled#students#merryn@ischool.berkeley.edu,Merryn Daniel (student),merryn@ischool.berkeley.edu,A student from Mumbai interested in MIMS,sent,
 2026-11-25T03:52:49,auto first email,scheduled#students#rachel.freyman@ischool.berkeley.edu,Rachel Fein (student),rachel.freyman@ischool.berkeley.edu,A student from Mumbai interested in MIMS,sent,
+2026-11-27T02:55:06,auto first email,scheduled#students#anara@ischool.berkeley.edu,Anara Askhatsson (student),anara@ischool.berkeley.edu,A student from Mumbai interested in MIMS,sent,
+2026-11-27T02:56:03,auto follow-up 1,scheduled#students#arul@ischool.berkeley.edu,Arul Murugan (student),arul@ischool.berkeley.edu,Re: A student from Mumbai interested in MIMS,sent,
+2026-11-27T02:57:19,auto follow-up 1,scheduled#students#lance.santana@ischool.berkeley.edu,Lance Santana (student),lance.santana@ischool.berkeley.edu,Re: A student from Mumbai interested in MIMS,sent,
+2026-11-27T02:58:27,auto first email,scheduled#students#dmeghana@ischool.berkeley.edu,Meghana Denduluri (student),dmeghana@ischool.berkeley.edu,A student from Mumbai interested in MIMS,sent,
