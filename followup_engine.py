@@ -245,10 +245,37 @@ class Gmail:
                 continue
             if not self._is_automatic(uid, h):
                 return "replied"
+        # a reply from a DIFFERENT address (personal Gmail, own domain...) still lands in our Gmail thread
+        if seq.get("message_id") and self.thread_has_reply(seq["message_id"]):
+            return "replied"
         for a in addrs:
             if self._search("[Gmail]/All Mail", f"from:mailer-daemon \\\"{a}\\\" after:{since}"):
                 return "bounced"
         return None
+
+    def thread_has_reply(self, message_id: str) -> bool:
+        """True when anyone other than us wrote a non-automatic message in the Gmail thread of our first email.
+        Never raises: a failed lookup just means 'no reply found here'."""
+        try:
+            uids = self._search("[Gmail]/All Mail", f"rfc822msgid:{message_id.strip().strip('<>')}")
+            if not uids:
+                return False
+            typ, data = self.M.uid("FETCH", uids[0], "(X-GM-THRID)")
+            blob = b" ".join(x if isinstance(x, bytes) else b" ".join(y for y in x if isinstance(y, bytes))
+                             for x in (data or []) if x)
+            m = re.search(rb"X-GM-THRID (\d+)", blob)
+            if not m:
+                return False
+            typ, found = self.M.uid("SEARCH", "X-GM-THRID", m.group(1).decode())
+            for uid in (found[0].split() if typ == "OK" and found and found[0] else []):
+                h = self._headers(uid)
+                if parseaddr(h.get("From", ""))[1].lower() == self.user:
+                    continue
+                if not self._is_automatic(uid, h):
+                    return True
+        except Exception as e:
+            log(f"thread reply check skipped: {e}")
+        return False
 
     def close(self):
         try:
