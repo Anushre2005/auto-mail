@@ -2278,6 +2278,174 @@
         "2": 1
       },
       "category": "student"
+    },
+    {
+      "id": "scheduled#students7u#shubham9@stanford.edu",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Shubham Suvarna (student)",
+      "first_name": "Shubham",
+      "to": "shubham9@stanford.edu",
+      "subject": "A student from Mumbai interested in MS&E at Stanford",
+      "first_sent": null,
+      "tz": "America/Los_Angeles",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "steps": [
+        "Hi Shubham,\n\nI saw on LinkedIn that you went from Bharati Vidyapeeth College of Engineering in Navi Mumbai to MS&E at Stanford, which I'm thinking about for my master's. I'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI), so your path is really close to mine.\n\nIf you don't mind, I'd love to have a short chat to learn from your experience. Would you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
+        "Hi Shubham,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Shubham,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 2,
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      },
+      "category": "student"
+    },
+    {
+      "id": "scheduled#students7u#vinitachimalgi@gmail.com",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Vinita Chimalgi (student)",
+      "first_name": "Vinita",
+      "to": "vinitachimalgi@gmail.com",
+      "subject": "A student from Mumbai interested in MS&E at Stanford",
+      "first_sent": null,
+      "tz": "America/Los_Angeles",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "steps": [
+        "Hi Vinita,\n\nI saw on LinkedIn that you went from Pune University to MS&E at Stanford, which I'm thinking about for my master's. I'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI), so your path is really close to mine.\n\nIf you don't mind, I'd love to have a short chat to learn from your experience. Would you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
+        "Hi Vinita,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Vinita,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 2,
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      },
+      "category": "student"
+    },
+    {
+      "id": "scheduled#students7u#mehta.ashan@northeastern.edu",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Ashana Mehta (student)",
+      "first_name": "Ashana",
+      "to": "mehta.ashan@northeastern.edu",
+      "subject": "A student from Mumbai interested in the MS in Business Analytics at Northeastern",
+      "first_sent": null,
+      "tz": "America/New_York",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "steps": [
+        "Hi Ashana,\n\nI saw on LinkedIn that you went from Narsee Monjee College to the MS in Business Analytics at Northeastern, which I'm thinking about for my master's. I'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI), so your path is really close to mine.\n\nIf you don't mind, I'd love to have a short chat to learn from your experience. Would you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
+        "Hi Ashana,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Ashana,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 2,
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      },
+      "category": "student"
+    },
+    {
+      "id": "scheduled#students7u#vs3273@nyu.edu",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Varad Suryavanshi (student)",
+      "first_name": "Varad",
+      "to": "vs3273@nyu.edu",
+      "subject": "A student from Mumbai interested in the MS in Computer Science at NYU",
+      "first_sent": null,
+      "tz": "America/New_York",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "steps": [
+        "Hi Varad,\n\nI saw on LinkedIn that you went from DJ Sanghvi to the MS in Computer Science at NYU, which I'm thinking about for my master's. I'm a final-year Computer Engineering student at DJ Sanghvi too (Honours in Data Science & AI), so I'd really value advice from a DJ senior.\n\nIf you don't mind, I'd love to have a short chat to learn from your experience. Would you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
+        "Hi Varad,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Varad,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 2,
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      },
+      "category": "student"
+    },
+    {
+      "id": "scheduled#students7u#singhadit.505@gmail.com",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Aditya Singh (student)",
+      "first_name": "Aditya",
+      "to": "singhadit.505@gmail.com",
+      "subject": "A student from Mumbai interested in the MS in IT Project Management at NYU",
+      "first_sent": null,
+      "tz": "America/New_York",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "steps": [
+        "Hi Aditya,\n\nI saw on LinkedIn that you went from KC College to the MS in IT Project Management at NYU, which I'm thinking about for my master's. I'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI), so your path is really close to mine.\n\nIf you don't mind, I'd love to have a short chat to learn from your experience. Would you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
+        "Hi Aditya,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Aditya,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 2,
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      },
+      "category": "student"
+    },
+    {
+      "id": "scheduled#students7u#vikraantsharma123@gmail.com",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Vikraant Gopal Sharma (student)",
+      "first_name": "Vikraant",
+      "to": "vikraantsharma123@gmail.com",
+      "subject": "A student from Mumbai interested in the MS in Management of Technology at NYU",
+      "first_sent": null,
+      "tz": "America/New_York",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "steps": [
+        "Hi Vikraant,\n\nI saw on LinkedIn that you went from the University of Mumbai to the MS in Management of Technology at NYU, which I'm thinking about for my master's. I'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI), so your path is really close to mine.\n\nIf you don't mind, I'd love to have a short chat to learn from your experience. Would you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
+        "Hi Vikraant,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Vikraant,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 2,
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      },
+      "category": "student"
     }
   ]
 }
