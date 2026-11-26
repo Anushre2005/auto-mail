@@ -172,6 +172,14 @@ def manual_due(seq: dict, interval: int, local_today: date) -> bool:
     return day is not None and (local_today >= day or weekend_manual_ok(seq, day))
 
 
+def person_name(seq: dict) -> str:
+    """Full name of the person, e.g. 'Prof. Zhijing Jin (Jinesis AI Lab)' -> 'Zhijing Jin'. Company-only
+    entries (one word, or an organisation) give names the reply check simply won't match."""
+    name = re.sub(r"\(.*?\)", "", seq.get("company", "")).strip()
+    name = re.sub(r"^(Prof\.?|Professor|Dr\.?|Mr\.?|Ms\.?|Mrs\.?)\s+", "", name, flags=re.I).strip()
+    return " ".join(name.split())
+
+
 def current_recipient(seq: dict) -> str:
     return seq.get("person_email") or seq["to"]
 
@@ -248,10 +256,32 @@ class Gmail:
         # a reply from a DIFFERENT address (personal Gmail, own domain...) still lands in our Gmail thread
         if seq.get("message_id") and self.thread_has_reply(seq["message_id"]):
             return "replied"
+        # ...or in a brand-new thread from another address: match the sender's full name
+        if self.name_has_reply(person_name(seq), since):
+            return "replied"
         for a in addrs:
             if self._search("[Gmail]/All Mail", f"from:mailer-daemon \\\"{a}\\\" after:{since}"):
                 return "bounced"
         return None
+
+    def name_has_reply(self, name: str, since: str) -> bool:
+        """True when someone with this full name (2+ words) wrote to us after `since` (any address, any thread).
+        Never raises."""
+        if len(name.split()) < 2:
+            return False
+        try:
+            import unicodedata  # Gmail search over IMAP needs ASCII: "Rätsch" -> "Ratsch" (Gmail ignores accents)
+            safe = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode()
+            safe = safe.replace('"', "").replace("\\", "")
+            for uid in self._search("[Gmail]/All Mail", f'from:\\"{safe}\\" after:{since}'):
+                h = self._headers(uid)
+                if parseaddr(h.get("From", ""))[1].lower() == self.user:
+                    continue
+                if not self._is_automatic(uid, h):
+                    return True
+        except Exception as e:
+            log(f"name reply check skipped: {e}")
+        return False
 
     def thread_has_reply(self, message_id: str) -> bool:
         """True when anyone other than us wrote a non-automatic message in the Gmail thread of our first email.
