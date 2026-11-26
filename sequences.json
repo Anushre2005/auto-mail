@@ -2044,6 +2044,240 @@
         "2": 1
       },
       "category": "student"
+    },
+    {
+      "id": "scheduled#jinlab#zjin.admin@cs.toronto.edu",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Prof. Zhijing Jin (Jinesis AI Lab)",
+      "first_name": "Prof. Jin",
+      "to": "zjin.admin@cs.toronto.edu",
+      "subject": "Remote student researcher: LLM evaluation and multi-agent work (student from Mumbai)",
+      "first_sent": null,
+      "tz": "America/Toronto",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {
+        "0": "Anushree_Revankar_Resume.pdf"
+      },
+      "steps": [
+        "Dear Prof. Jin,\n\nI came across your lab's work on multi-agent LLMs, especially GovSim, and your openings page for remote student researchers, and I wanted to reach out.\n\nI'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI). A few things that may be relevant:\n\n- I found that a popular clinical-trial benchmark (TrialBench) had scrambled labels and wrote a paper auditing it, so I care a lot about whether LLM evaluations can be trusted.\n- At my internship at HTL I built PreQue AI, a Claude-powered app that fills in pre-qualification forms, with search over a vector store and a feedback loop that learns from corrections. I'm comfortable setting up and running LLMs on my own.\n- I came 1st runner-up at the CreAItion 1.0 AI hackathon (2026).\n\nI can commit 6+ months part-time, remotely, and I'd be glad to start with any small task, like running evaluations or reproducing a result. My resume is attached.\n\nWould you be open to considering me for a project?\n\nThank you for your time,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
+        "Hi Prof. Jin,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Prof. Jin,\n\nI know you're busy, so this is my last note. If you ever have time for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 2,
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      },
+      "category": "professor"
+    },
+    {
+      "id": "scheduled#jinlab#yjyang@cs.toronto.edu",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Yongjin Yang (Jinesis AI Lab)",
+      "first_name": "Yongjin",
+      "to": "yjyang@cs.toronto.edu",
+      "subject": "A student from Mumbai interested in the Jinesis AI Lab",
+      "first_sent": null,
+      "tz": "America/Toronto",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {},
+      "steps": [
+        "Hi Yongjin,\n\nI came across your work while reading about Prof. Zhijing Jin's Jinesis AI Lab. I'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI), and I'm hoping to join the lab as a remote student researcher.\n\nYour work on RL post-training and self-improving agents is something I'd love to learn more about.\n\nIf you don't mind, I'd love to have a short chat to learn from your experience, like how you started working with Prof. Jin and what the work is like day to day. Would you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
+        "Hi Yongjin,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Yongjin,\n\nI know you're busy, so this is my last note. If you ever have time for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 2,
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      },
+      "category": "student"
+    },
+    {
+      "id": "scheduled#jinlab#furkandanisman@gmail.com",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Furkan Danisman (Jinesis AI Lab)",
+      "first_name": "Furkan",
+      "to": "furkandanisman@gmail.com",
+      "subject": "A student from Mumbai interested in the Jinesis AI Lab",
+      "first_sent": null,
+      "tz": "America/Toronto",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {},
+      "steps": [
+        "Hi Furkan,\n\nI came across your work while reading about Prof. Zhijing Jin's Jinesis AI Lab. I'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI), and I'm hoping to join the lab as a remote student researcher.\n\nI'm interested in how statistics can make LLM results more reliable, which is close to what you work on.\n\nIf you don't mind, I'd love to have a short chat to learn from your experience, like how you started working with Prof. Jin and what the work is like day to day. Would you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
+        "Hi Furkan,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Furkan,\n\nI know you're busy, so this is my last note. If you ever have time for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 2,
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      },
+      "category": "student"
+    },
+    {
+      "id": "scheduled#jinlab#andrei.muresanu@uwaterloo.ca",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Andrei Muresanu (Jinesis AI Lab)",
+      "first_name": "Andrei",
+      "to": "andrei.muresanu@uwaterloo.ca",
+      "subject": "A student from Mumbai interested in the Jinesis AI Lab",
+      "first_sent": null,
+      "tz": "America/Toronto",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {},
+      "steps": [
+        "Hi Andrei,\n\nI came across your work while reading about Prof. Zhijing Jin's Jinesis AI Lab. I'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI), and I'm hoping to join the lab as a remote student researcher.\n\nYour focus on trustworthy ML and AI safety, and working across two labs, is something I'd love to hear about.\n\nIf you don't mind, I'd love to have a short chat to learn from your experience, like how you started working with Prof. Jin and what the work is like day to day. Would you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
+        "Hi Andrei,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Andrei,\n\nI know you're busy, so this is my last note. If you ever have time for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 2,
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      },
+      "category": "student"
+    },
+    {
+      "id": "scheduled#jinlab#jiaruil5@andrew.cmu.edu",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Jiarui Liu (Jinesis AI Lab)",
+      "first_name": "Jiarui",
+      "to": "jiaruil5@andrew.cmu.edu",
+      "subject": "A student from Mumbai interested in the Jinesis AI Lab",
+      "first_sent": null,
+      "tz": "America/New_York",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {},
+      "steps": [
+        "Hi Jiarui,\n\nI came across your work while reading about Prof. Zhijing Jin's Jinesis AI Lab. I'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI), and I'm hoping to join the lab as a remote student researcher.\n\nI saw you worked with Prof. Jin as a student researcher before your PhD at CMU, and I'd love to hear how that happened.\n\nIf you don't mind, I'd love to have a short chat to learn from your experience, like how you started working with Prof. Jin and what the work is like day to day. Would you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
+        "Hi Jiarui,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Jiarui,\n\nI know you're busy, so this is my last note. If you ever have time for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 2,
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      },
+      "category": "student"
+    },
+    {
+      "id": "scheduled#jinlab#aharrasse@ethz.ch",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Abir Harrasse (Jinesis AI Lab)",
+      "first_name": "Abir",
+      "to": "aharrasse@ethz.ch",
+      "subject": "A student from Mumbai interested in the Jinesis AI Lab",
+      "first_sent": null,
+      "tz": "Europe/Zurich",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {},
+      "steps": [
+        "Hi Abir,\n\nI came across your work while reading about Prof. Zhijing Jin's Jinesis AI Lab. I'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI), and I'm hoping to join the lab as a remote student researcher.\n\nYour work on mechanistic interpretability and LLM reasoning is something I'd like to understand better.\n\nIf you don't mind, I'd love to have a short chat to learn from your experience, like how you started working with Prof. Jin and what the work is like day to day. Would you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
+        "Hi Abir,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Abir,\n\nI know you're busy, so this is my last note. If you ever have time for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 2,
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      },
+      "category": "student"
+    },
+    {
+      "id": "scheduled#jinlab#changlingli.mpi@gmail.com",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Changling Li (Jinesis AI Lab)",
+      "first_name": "Changling",
+      "to": "changlingli.mpi@gmail.com",
+      "subject": "A student from Mumbai interested in the Jinesis AI Lab",
+      "first_sent": null,
+      "tz": "Europe/Zurich",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {},
+      "steps": [
+        "Hi Changling,\n\nI came across your work while reading about Prof. Zhijing Jin's Jinesis AI Lab. I'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI), and I'm hoping to join the lab as a remote student researcher.\n\nI saw you did your master's at ETH while working on AI safety with the lab, and are now starting a PhD at MPI-IS. I'd love to hear how that path worked out.\n\nIf you don't mind, I'd love to have a short chat to learn from your experience, like how you started working with Prof. Jin and what the work is like day to day. Would you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
+        "Hi Changling,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Changling,\n\nI know you're busy, so this is my last note. If you ever have time for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 2,
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      },
+      "category": "student"
+    },
+    {
+      "id": "scheduled#jinlab#sachar12@jh.edu",
+      "kind": "scheduled",
+      "first_email": true,
+      "company": "Sawal Acharya (Jinesis AI Lab)",
+      "first_name": "Sawal",
+      "to": "sachar12@jh.edu",
+      "subject": "A student from Mumbai interested in the Jinesis AI Lab",
+      "first_sent": null,
+      "tz": "America/New_York",
+      "generic_inbox": false,
+      "suggested_person": "",
+      "person_email": "",
+      "message_id": null,
+      "step_attach": {},
+      "steps": [
+        "Hi Sawal,\n\nI came across your work while reading about Prof. Zhijing Jin's Jinesis AI Lab. I'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI), and I'm hoping to join the lab as a remote student researcher.\n\nYour focus on checking how reliable AI systems are in healthcare is close to my own work: I found label errors in a clinical-trial benchmark.\n\nIf you don't mind, I'd love to have a short chat to learn from your experience, like how you started working with Prof. Jin and what the work is like day to day. Would you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
+        "Hi Sawal,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
+        "Hi Sawal,\n\nI know you're busy, so this is my last note. If you ever have time for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
+      ],
+      "sent_steps": [],
+      "status": "active",
+      "interval_days": 2,
+      "step_gaps": {
+        "1": 2,
+        "2": 1
+      },
+      "category": "student"
     }
   ]
 }
