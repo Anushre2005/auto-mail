@@ -2059,18 +2059,24 @@
       "first_name": "Aditya",
       "to": "adityack100@gmail.com",
       "subject": "A student from Mumbai interested in ETH Zurich",
-      "first_sent": null,
+      "first_sent": "2026-11-27",
       "tz": "Europe/Zurich",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179577641736.2189.13587251376347917314@gmail.com>",
       "steps": [
         "Hi Aditya,\n\nI found your name on LinkedIn while looking into ETH Zurich, which I'm thinking about for my master's.\n\nI'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI). If you don't mind, I'd love to have a short chat to learn from your experience.\n\nWould you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar",
         "Hi Aditya,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
         "Hi Aditya,\n\nI know you're busy, so this is my last note. If you ever have 15 minutes for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-27",
+          "to": "adityack100@gmail.com",
+          "sent_at_ist": "2026-11-27T16:16:58+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 2,
       "step_gaps": {
@@ -2262,19 +2268,25 @@
       "first_name": "Abir",
       "to": "aharrasse@ethz.ch",
       "subject": "A student from Mumbai interested in the Jinesis AI Lab",
-      "first_sent": null,
+      "first_sent": "2026-11-27",
       "tz": "Europe/Zurich",
       "generic_inbox": false,
       "suggested_person": "",
       "person_email": "",
-      "message_id": null,
+      "message_id": "<179577641826.2189.10722527503117772728@gmail.com>",
       "step_attach": {},
       "steps": [
         "Hi Abir,\n\nI came across your work while reading about Prof. Zhijing Jin's Jinesis AI Lab. I'm a final-year Computer Engineering student in Mumbai (Honours in Data Science & AI), and I'm hoping to join the lab as a remote student researcher.\n\nYour work on mechanistic interpretability and LLM reasoning is something I'd like to understand better.\n\nIf you don't mind, I'd love to have a short chat to learn from your experience, like how you started working with Prof. Jin and what the work is like day to day. Would you have 15 minutes sometime in the next few weeks? I'm happy to work around your schedule.\n\nThank you!\n\nBest regards,\nAnushree Revankar\ngithub.com/Anushre2005 | linkedin.com/in/anushree-revankar",
         "Hi Abir,\n\nJust bringing this back up in case it got buried. Even a short reply would mean a lot. Thanks!\n\nAnushree",
         "Hi Abir,\n\nI know you're busy, so this is my last note. If you ever have time for a quick chat, I'd be really grateful. Thanks again!\n\nAnushree"
       ],
-      "sent_steps": [],
+      "sent_steps": [
+        {
+          "date": "2026-11-27",
+          "to": "aharrasse@ethz.ch",
+          "sent_at_ist": "2026-11-27T16:17:57+05:30"
+        }
+      ],
       "status": "active",
       "interval_days": 2,
       "step_gaps": {

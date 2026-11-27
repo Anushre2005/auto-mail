@@ -221,3 +221,5 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-27T04:10:00,manual first email,scheduled#students#sanjaliroy@ischool.berkeley.edu,Sanjali Roy (student),sanjaliroy@ischool.berkeley.edu,A student from Mumbai interested in MIMS,sent,
 2026-11-27T04:10:51,manual first email,scheduled#students#willie.macharia@ischool.berkeley.edu,Willie Macharia (student),willie.macharia@ischool.berkeley.edu,A student from Mumbai interested in MIMS,sent,
 2026-11-27T04:16:36,manual first email,scheduled#students#iuliiak@uci.edu,Julia Kim (student),iuliiak@uci.edu,A student from Mumbai interested in the MS in Biotech Management,sent,
+2026-11-27T16:16:58,auto first email,scheduled#students#adityack100@gmail.com,Aditya Kulkarni (student),adityack100@gmail.com,A student from Mumbai interested in ETH Zurich,sent,
+2026-11-27T16:17:57,auto first email,scheduled#jinlab#aharrasse@ethz.ch,Abir Harrasse (Jinesis AI Lab),aharrasse@ethz.ch,A student from Mumbai interested in the Jinesis AI Lab,sent,
