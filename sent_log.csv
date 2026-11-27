@@ -223,3 +223,7 @@ timestamp,source,id,company,to,subject,status,error
 2026-11-27T04:16:36,manual first email,scheduled#students#iuliiak@uci.edu,Julia Kim (student),iuliiak@uci.edu,A student from Mumbai interested in the MS in Biotech Management,sent,
 2026-11-27T16:16:58,auto first email,scheduled#students#adityack100@gmail.com,Aditya Kulkarni (student),adityack100@gmail.com,A student from Mumbai interested in ETH Zurich,sent,
 2026-11-27T16:17:57,auto first email,scheduled#jinlab#aharrasse@ethz.ch,Abir Harrasse (Jinesis AI Lab),aharrasse@ethz.ch,A student from Mumbai interested in the Jinesis AI Lab,sent,
+2026-11-28T02:37:08,auto follow-up 2,scheduled#students#rachel.freyman@ischool.berkeley.edu,Rachel Fein (student),rachel.freyman@ischool.berkeley.edu,Re: A student from Mumbai interested in MIMS,sent,
+2026-11-28T02:38:27,auto first email,scheduled#jinlab#zjin.admin@cs.toronto.edu,Prof. Zhijing Jin (Jinesis AI Lab),zjin.admin@cs.toronto.edu,Remote student researcher: LLM evaluation and multi-agent work (student from Mumbai),sent,
+2026-11-28T02:39:42,auto first email,scheduled#jinlab#yjyang@cs.toronto.edu,Yongjin Yang (Jinesis AI Lab),yjyang@cs.toronto.edu,A student from Mumbai interested in the Jinesis AI Lab,sent,
+2026-11-28T02:41:08,auto first email,scheduled#jinlab#furkandanisman@gmail.com,Furkan Danisman (Jinesis AI Lab),furkandanisman@gmail.com,A student from Mumbai interested in the Jinesis AI Lab,sent,
